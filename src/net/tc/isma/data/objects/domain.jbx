@@ -1,0 +1,18 @@
+[PropertyInfo]
+collections,java.util.Map,false,false,collections,collections,true,<default>
+id,Long,false,false,id,id,true,<default>
+lastUpdate,String,false,false,lastUpdate,lastUpdate,true,<default>
+legacy,String,false,false,legacy,legacy,true,<default>
+nameAr,String,false,false,nameAr,nameAr,true,<default>
+nameEn,String,false,false,nameEn,nameEn,true,<default>
+nameEs,String,false,false,nameEs,nameEs,true,<default>
+nameFr,String,false,false,nameFr,nameFr,true,<default>
+nameZh,String,false,false,nameZh,nameZh,true,<default>
+nextUpdate,String,false,false,nextUpdate,nextUpdate,true,<default>
+notes,Map,false,false, , ,true,<default>
+internalName,String,false,false,internalName,internalName,true,<default>
+[IconNames]
+
+
+
+

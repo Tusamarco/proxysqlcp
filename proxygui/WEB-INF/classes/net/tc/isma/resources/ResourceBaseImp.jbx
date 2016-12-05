@@ -1,0 +1,13 @@
+[PropertyInfo]
+internalPhysicalReference,File,false,false, , ,false,<default>
+physicalType,int,false,false, , ,false,<default>
+resource,Object,false,false, , ,true,<default>
+resourceDate,Long,false,false, , ,false,<default>
+resourceType,int,false,false, , ,true,<default>
+resType,int,false,false, , ,false,<default>
+type,int,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

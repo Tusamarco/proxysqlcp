@@ -1,0 +1,20 @@
+[PropertyInfo]
+defs,IniFile,false,false, , ,false,<default>
+f,File,false,false, , ,false,<default>
+iniPath,String,false,false, , ,true,<default>
+inizialized,boolean,false,false, , ,true,<default>
+isInizialized,boolean,false,false, , ,false,<default>
+keys,Enumeration,false,false, , ,true,<default>
+lastModify,String,false,false, , ,true,<default>
+lifeCycle,int,false,false, , ,false,<default>
+locale,Locale,false,false, , ,true,<default>
+physicalType,int,false,false, , ,false,<default>
+resourceDate,Long,false,false, , ,false,<default>
+resourceType,int,false,false, , ,true,<default>
+resType,int,false,false, , ,false,<default>
+type,int,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

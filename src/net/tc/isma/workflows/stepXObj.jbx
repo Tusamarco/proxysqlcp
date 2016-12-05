@@ -1,0 +1,12 @@
+[PropertyInfo]
+application,String,false,false, , ,true,<default>
+idObj,long,false,false, , ,true,<default>
+idStep,long,false,false, , ,true,<default>
+idWf,long,false,false, , ,true,<default>
+module,String,false,false, , ,true,<default>
+id,long,false,false,id,id,true,<default>
+[IconNames]
+
+
+
+

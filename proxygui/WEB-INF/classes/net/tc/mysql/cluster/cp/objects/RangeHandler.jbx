@@ -1,0 +1,10 @@
+[PropertyInfo]
+eventStart,com.mysql.cluster.cp.objects.ListnerEvent,false,false, , ,true,<default>
+eventStop,com.mysql.cluster.cp.objects.ListnerEvent,false,false, , ,true,<default>
+systemTime,long,false,false, , ,true,<default>
+currentValue,Object,false,false,currentValue,currentValue,true,<default>
+[IconNames]
+
+
+
+

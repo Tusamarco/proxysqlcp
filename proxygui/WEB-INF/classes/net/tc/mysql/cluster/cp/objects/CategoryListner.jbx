@@ -1,0 +1,15 @@
+[PropertyInfo]
+active,boolean,false,false,active,active,true,<default>
+fullreferencename,String,false,false,fullreferencename,fullreferencename,true,<default>
+listners,java.util.Map,false,false,listners,listners,true,<default>
+logLevel,int,false,false,logLevel,logLevel,true,<default>
+manager,com.mysql.cluster.cp.objects.LogEventManager,false,false, , ,true,<default>
+name,String,false,false,name,name,true,<default>
+order,int,false,false,order,order,true,<default>
+poolingTime,int,false,false,poolingTime,poolingTime,true,<default>
+status,int,false,false,status,status,true,<default>
+[IconNames]
+
+
+
+

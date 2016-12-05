@@ -1,0 +1,644 @@
+.bodyText {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	background-color: #fcfff4;
+}
+
+
+td.proxy_cel_stats{
+	align-items: center;
+	vertical-align: text-top;
+	font-family: Courier,Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+td.proxy_info{
+	align-items: left;
+	vertical-align: text-top;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 9pt;
+	
+}
+
+.headMenu {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+tr.tbHeadMenu {
+/*	border: none; */
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	height: 30px;
+	color: #c0c0c0;
+	background-color: #000000;
+	font-size: 10pt;
+	font-weight: regular;
+}
+
+td.tbHeadMenu {
+	border: none;
+}
+
+.tbHead {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #000053;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.trMainSelection {
+	color: #000053;
+	font-size: 10pt;
+	text-align: left;
+}
+
+.tdMainSelection {
+	color: #000053;
+	font-size: 10pt;
+}
+
+.tbMainSelection1 {
+	background-color: #FFFFCC;
+}
+
+.tdMainSelection1 {
+	border-color: #000053;
+	border-style: solid;
+	border-width: 1px;
+	color: #000053;
+	font-size: 10pt;
+}
+
+.tbBodyTextLevel0 {
+	color: #000053;
+	font-size: 11pt;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.trBodyTextLevel0 {
+	background-color: #F5F5F5;
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+
+.tdBodyTextNameLevel0 {
+	color: #000053;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.tdBodyTextLevel0 {
+	color: #000053;
+	font-size: 10pt;
+}
+
+.tbBodyTextLevel1 {
+	color: #000053;
+	font-size: 11pt;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.trBodyTextLevel1 {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+
+.tdBodyTextNameLevel1 {
+	color: #000053;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.tdBodyTextLevel1 {
+	color: #000053;
+	font-size: 10pt;
+}
+
+.tbBodyTextLevel2 {
+	color: #000053;
+	font-size: 11pt;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.trBodyTextLevel2 {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+
+.tdBodyTextNameLevel2 {
+	color: #000053;
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.tdBodyTextLevel2 {
+	color: #000053;
+	font-size: 9pt;
+}
+
+body {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+
+tr.head, td.head {
+	color: #000053;
+	font-size: 10pt;
+	text-align: center;
+}
+
+tr.headr, td.headr {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	text-align: right;
+}
+
+a.head:ACTIVE, a.head:LINK,a.head:VISITED {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-variant: small-caps;
+	font-weight: bolder;
+	Text-Decoration: none;
+}
+
+a.head:FOCUS,a.head:HOVER {
+	background-color: #000053;
+	color: White;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-variant: small-caps;
+	font-weight: bolder;
+	Text-Decoration: none;
+}
+
+a.body:ACTIVE, a.body:LINK,a.body:VISITED {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	Text-Decoration: none;
+}
+
+a.body:FOCUS,a.body:HOVER {
+	background-color: #000053;
+	color: White;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	Text-Decoration: none;
+}
+
+div.bodyTitle {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+.bodyTitle {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 13pt;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.bodyH {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.bodyHl {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+.bodyTextLev0 {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+.tbBodyText {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+}
+
+.bodyTextSm {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+a.bodyTextSm:ACTIVE, a.bodyTextSm:LINK,a.bodyTextSm:VISITED {
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	Text-Decoration: none;
+}
+
+a.bodyTextSm:FOCUS,a.bodyTextSm:HOVER {
+	background-color: #000053;
+	color: White;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 9pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	Text-Decoration: none;
+}
+
+.bodyLineBlue {
+	background-color: #000053;
+	height: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+.bodyLineSenape {
+	background-color: #FFCC99;
+	height: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+.menuDefault {
+	background-color: #ECECFF;
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	height: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+.menuDefaultLev0 {
+	background-color: #ECECFF;
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	height: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+.menuReverse {
+	background-color: #000053;
+	color: #ECECFF;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	height: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+.bodyHeader {
+	background-color: #000053;
+	color: White;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bolder;
+	text-align: center;
+	vertical-align: top;
+}
+
+.faoname {
+	COLOR: #002244;
+	FONT-FAMILY: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	FONT-SIZE: 13px;
+	FONT-WEIGHT: bold;
+	text-align: right;
+}
+
+table.tableCollection {
+	height: 100%;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+.faoslogan {
+	COLOR: #aa4400;
+	FONT-FAMILY: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	FONT-SIZE: 11px;
+	FONT-STYLE: italic;
+	FONT-WEIGHT: bold;
+}
+
+.boxRequest {
+	font-family: Verdana;
+	font-size: 10pt;
+	height: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+}
+
+.tbLogin {
+	border-color: #000053;
+	border-style: outset;
+	border-width: 2px;
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+
+.tdLoginHead {
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.tdLoginBodyLabel {
+	font-size: 10px;
+	font-weight: bolder;
+}
+
+.tdLoginBodyText {
+	font-size: 10px;
+}
+
+.tbMainForm {
+	border-color: #000053;
+	border-style: solid;
+	border-width: 1px;
+	color: #000053;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+}
+
+.tdMainFormHeader {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bolder;
+}
+
+.tdMainFormText {
+	font-size: 9px;
+	font-style: normal;
+}
+
+.tdMainFormInput {
+	font-size: 9px;
+	font-style: normal;
+}
+
+.tdMainFormInputList {
+	font-size: 9px;
+	font-style: normal;
+}
+
+.formInput {
+	font-size: 10px;
+	font-style: normal;
+}
+
+.formInputList {
+	font-size: 10px;
+	font-style: normal;
+}
+
+.formInputButton {
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bolder;
+}
+
+.boxedcenter {
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+}
+
+.boxedleft {
+	border-style: solid;
+	border-width: thin;
+	float: left;
+}
+
+.boxedrigth {
+	border-style: solid;
+	border-width: thin;
+	float: right;
+}
+
+.tbDatasetPreview {
+	border-style: solid;
+	border-width: thin;
+	font-size: 8pt;
+}
+
+.trDatasetPreview {
+	border-color: Navy;
+	border-style: dotted;
+	border-width: thin;
+}
+
+.tbDatasetPreviewData {
+	font-size: 9px;
+}
+
+.tbDatasetPreviewHeader {
+	font-size: 9px;
+	font-weight: bold;
+}
+
+.chap {
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-width: 0.5px;
+	color: black;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.footer {
+	border-top-style: solid;
+	border-width: 0.5pt;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 9pt;
+}
+
+.parag {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	margin-top: 24pt;
+	text-decoration: underline;
+}
+
+.NCP_text {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	text-align: justify;
+}
+
+.ss_chap {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-top: 48pt;
+}
+
+.ss_parag {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	font-style: italic;
+	margin-bottom: 6pt;
+	margin-top: 12pt;
+
+}
+
+.tableau {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	margin-top: 6pt;
+	text-decoration: underline;
+}
+
+.NCP_title {
+	color: #808080;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
+.NCP_title1 {
+	color: black;
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Table_title {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Table_subtitle {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+.Table_text {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	text-align: left;
+}
+
+.Table_text_1 {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	text-align: center;
+}
+
+.Table_text_special {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+.Table_text_special_1 {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	font-style: italic;
+	text-align: left;
+}
+
+.Table_text_special_2 {
+	font-family: Arial Narrow;
+	font-size: 9pt;
+	font-style: italic;
+	text-align: right;
+}
+
+.Figure {
+	font-family: Verdana,Arial,Helvetica,Geneva,sans-serif;
+	font-size: 10pt;
+	list-style-type: disc;
+}

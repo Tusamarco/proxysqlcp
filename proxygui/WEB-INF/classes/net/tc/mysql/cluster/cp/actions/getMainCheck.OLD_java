@@ -1,0 +1,85 @@
+package com.mysql.cluster.cp.actions;
+
+import javax.servlet.http.*;
+
+import com.mysql.cluster.cp.objects.*;
+import net.tc.isma.actions.*;
+import net.tc.isma.actions.generic.*;
+import net.tc.isma.persister.*;
+import net.tc.isma.utils.*;
+
+/**
+ * <p>Title: NDBJ / API</p>
+ *
+ * <p>Description: </p>
+ *
+ * <p>Copyright: Marco Tusa Copyright (c) 2008</p>
+ *
+ * <p>Company: MySQL</p>
+ *
+ * @author Marco Tusa
+ * @version 1.0
+ */
+public class getMainCheck extends actionImpl {
+    public getMainCheck() {
+
+    }
+    private results resultLocal = null;
+
+
+
+
+  public Results execute() {
+      resultLocal = (results)this.getResult();
+
+      if (!resultLocal.processSuccesflullyExecuted())
+          return (Results) resultLocal;
+
+      try {
+
+          HttpServletRequest req = this.getRequest();
+
+          SynchronizedMap catHandlers = new SynchronizedMap();
+          SynchronizedMap listnerHandlers = new SynchronizedMap();
+          boolean monitorIsRunning = false;
+
+          catHandlers = ((SynchronizedMap) IsmaPersister.get(
+                  SynchronizedMap.class,
+                  "NDBMGMListeners"));
+
+
+          CategoryListner catStats = (CategoryListner)catHandlers.get("NDB_MGM_EVENT_CATEGORY_ERROR".toLowerCase());
+
+
+          ListnerHandler lh = null;
+
+          if(catStats != null && catStats.getListners().get("com.mysql.cluster.cp.listeners.handlers.GlobalCheckpointCompletedListener") != null)
+          {
+              lh = (ListnerHandler)catStats.getListners().get("com.mysql.cluster.cp.listeners.handlers.GlobalCheckpointCompletedListener") ;
+              lh.refreshReferences();
+          }
+
+          catStats.setStatus(lh.getStatus());
+
+          RangeHandler eventR = (RangeHandler) IsmaPersister.get(RangeHandler.class,"GlobalCheckpoint");
+
+          if (eventR != null)
+          {
+              resultLocal.put("GlobalCheckpoint", eventR);
+          }
+
+      } catch (Exception ex) {
+
+          IsmaPersister.getLogSystem().error(ex);
+          IsmaPersister.getLogByName("NDBMGMSYSTEM").error(ex);
+          resultLocal.processSuccesflullyExecuted(false, (Throwable) ex);
+
+      } finally {
+          return (Results) resultLocal;
+      }
+
+
+
+  }
+
+}

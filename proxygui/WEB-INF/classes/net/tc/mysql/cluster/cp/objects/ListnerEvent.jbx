@@ -1,0 +1,13 @@
+[PropertyInfo]
+currentvalue,Object,false,false, , ,true,<default>
+date,java.util.Date,false,false,date,date,true,<default>
+event,String,false,false, , ,true,<default>
+status,int,false,false, , ,true,<default>
+systemTime,long,false,false, , ,true,<default>
+time,java.util.Date,false,false,time,time,true,<default>
+nodeId,int,false,false,nodeId,nodeId,true,<default>
+[IconNames]
+
+
+
+

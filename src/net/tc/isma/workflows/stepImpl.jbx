@@ -1,0 +1,19 @@
+[PropertyInfo]
+application,String,false,false, , ,true,<default>
+applicationName,String,false,false, , ,true,<default>
+idStep,long,false,false, , ,true,<default>
+idWf,long,false,false, , ,true,<default>
+module,String,false,false, , ,true,<default>
+moduleName,String,false,false, , ,true,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameZh,String,false,false, , ,true,<default>
+stepxobj,java.util.SortedMap,false,false, , ,true,<default>
+roles,java.util.Set,false,false,roles,roles,true,<default>
+[IconNames]
+
+
+
+

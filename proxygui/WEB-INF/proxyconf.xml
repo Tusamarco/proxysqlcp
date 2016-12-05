@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+resorcetype
+ CONFIGURATION = 1;
+ DISPLAYDATA = 2;
+ RECORDSDATA = 3;
+
+ lifecycle
+ PERSISTENT = 50;
+ TRANSIENT = 60;
+ ETERNAL = 70;
+
+tohandleas
+ XML = 100;
+ INI = 110;
+ RESOURCEBUNDLE = 120;
+
+-->
+<isma_configuration resourcetype="1" lifecycle="70" tohandleas="110">
+    <!-- IMPORTANT !!!!! the setting below MUST be the name given in the webXML to the main controller -->
+    <httpcontroller>/proxycp</httpcontroller>
+    <usedatabase>true</usedatabase>
+    <usehibernate>false</usehibernate>
+
+    <proxycpautostart>1</proxycpautostart>
+    <!-- ndbmgmhost>138.132.171.68,138.132.171.63</ndbmgmhost>
+    <ndbmgmport>1188</ndbmgmport -->
+    <!-- ndbmgmport>1188,1187</ndbmgmport -->
+    <proxycphosts>192.168.0.12</proxycphosts>
+    <proxyport>3310</proxyport>
+
+    <proxycp_connectionretry>3</proxycp_connectionretry>
+    <proxycp_connectionwaitfor>2000</proxycp_connectionwaitfor>
+    <proxynode_connectionretry>2</proxynode_connectionretry>
+    <proxynode_connectionretrydelay>2</proxynode_connectionretrydelay>
+    <proxynode_connectiontimeout>4000</proxynode_connectiontimeout>
+    <proxycp_eventmemoryloglife>14400</proxycp_eventmemoryloglife>
+    <proxycp_heartbeathistorylife>14400</proxycp_heartbeathistorylife>
+    <monitorpooling>1000</monitorpooling>
+
+    <!-- listnerHandlerReference>/projects/ndbj/ndbcp/conf/references/listners_handlers.ini</listnerHandlerReference -->
+
+    <listnerHandlerReference>conf/references/listners_handlers.ini</listnerHandlerReference>
+
+
+   
+    <!--internaliprange>127.0.999.999</internaliprange-->
+	<versions>
+		<v1>ext</v1>
+		<v2>int</v2>
+		<default>ext</default>
+	</versions>
+	<ResourceBundle>
+		<lang>
+			<res tohandleas="110" lifecycle="50">conf/lang/lang.ini</res>
+		</lang>
+		<lang2>
+			<res tohandleas="120" lifecycle="50">conf/lang/xlate.xml</res>
+			<display tohandleas="120" lifecycle="50">conf/lang/display.xml</display>
+		</lang2>
+	</ResourceBundle>
+<!-- 
+
+	<references>
+		<areas lifecycle="70">conf/references/areas.xml</areas>
+	</references>
+-->
+
+	<actionFactory resourcetype="1" lifecycle="70">conf/actions</actionFactory>
+
+	<connectionin_driver_class>com.mysql.jdbc.Driver</connectionin_driver_class>
+	<!-- connectionin_url resourcetype="1" lifecycle="70">jdbc:oracle:thin:user/pw@10.0.0.6:1521:fs</connectionin_url>
+	<connectionoutout_driver_class>oracle.jdbc.driver.OracleDriver</connectionout_driver_class -->
+	<connectionin_url resourcetype="1" lifecycle="70">jdbc:mysql://192.168.0.12:3310/main?autoReconnect=true</connectionin_url>
+	<connectionin_user resourcetype="1" lifecycle="70">admin</connectionin_user>
+	<connectionin_password resourcetype="1" lifecycle="70">admin</connectionin_password>
+	
+	<languages type="java.util.HashMap">en,fr,es,ar,zh</languages>
+	<sqlcommands lifecycle="70" tohandleas="100">conf/sql/sql.xml</sqlcommands>
+</isma_configuration>

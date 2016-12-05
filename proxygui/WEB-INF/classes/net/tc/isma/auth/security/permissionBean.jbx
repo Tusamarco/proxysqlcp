@@ -1,0 +1,16 @@
+[PropertyInfo]
+canAdd,boolean,false,false, , ,false,<default>
+canDelete,boolean,false,false, , ,false,<default>
+canDemote,boolean,false,false, , ,false,<default>
+canEdit,boolean,false,false, , ,false,<default>
+canPromote,boolean,false,false, , ,false,<default>
+canPublish,boolean,false,false, , ,false,<default>
+canRead,boolean,false,false, , ,false,<default>
+canSecurity,boolean,false,false, , ,false,<default>
+canUnpublish,boolean,false,false, , ,false,<default>
+isAdmin,boolean,false,false,isAdmin,isAdmin,true,<default>
+[IconNames]
+
+
+
+

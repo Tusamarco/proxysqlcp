@@ -1,0 +1,27 @@
+[PropertyInfo]
+administrator,boolean,false,false, , ,true,<default>
+anonymous,boolean,false,false, , ,true,<default>
+createDate,java.util.Date,false,false, , ,true,<default>
+email,String,false,false, , ,true,<default>
+group,java.util.Set,false,false, , ,true,<default>
+hasLoggedIn,Boolean,false,false, , ,true,<default>
+id,String,false,false, , ,true,<default>
+ip,int[],false,false, , ,true,<default>
+ip,String,false,false, , ,true,<default>
+ipOldFashion,String,false,false, , ,true,<default>
+lastLogin,java.util.Date,false,false, , ,true,<default>
+name,String,false,false, , ,true,<default>
+noactDate,java.util.Date,false,false, , ,true,<default>
+password,String,false,false, , ,true,<default>
+roleNames,String[],false,false, , ,true,<default>
+roles,java.util.Set,false,false, , ,true,<default>
+session1,javax.servlet.http.HttpSession,false,false, , ,false,<default>
+statusCode,int,false,false, , ,true,<default>
+surname,String,false,false, , ,true,<default>
+username,String,false,false, , ,true,<default>
+isInternal,boolean,false,false,isInternal,isInternal,true,<default>
+[IconNames]
+
+
+
+

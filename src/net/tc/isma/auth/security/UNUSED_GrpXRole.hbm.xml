@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.auth.security.GrpXRole"  table="ISMA_GRP_X_ROLE">
+
+    <!--one-to-one  name="role" class="net.tc.isma.auth.security.Role" cascade="all" outer-join="false"/-->
+    <composite-id>
+      <key-property column="RNAME" length="50" name="rname" type="java.lang.String"/>
+      <key-property column="APPLICATION" length="255" name="application" type="java.lang.String"/>
+      <key-property column="GNAME" length="255" name="gname" type="java.lang.String"/>
+    </composite-id>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+[PropertyInfo]
+asBean,Object,false,false, , ,true,<default>
+asBeanXml,Object,false,false, , ,true,<default>
+bean,collectionBean,false,false, , ,false,<default>
+excludedProperty,String[],false,false, , ,true,<default>
+ExcludedProperty,String[],false,false, , ,false,<default>
+id,Object,false,false, , ,true,<default>
+isGroup,boolean,false,false, , ,true,<default>
+retrivableFields,List,false,false, , ,true,<default>
+RetrivableFields,Map,false,false, , ,false,<default>
+retrivableFieldsMap,Map,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

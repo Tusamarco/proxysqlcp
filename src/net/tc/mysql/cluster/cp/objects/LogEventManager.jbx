@@ -1,0 +1,12 @@
+[PropertyInfo]
+eventBuffer,com.mysql.cluster.mgmj.events.EventBufferStatus,false,false,eventBuffer,eventBuffer,true,<default>
+isRunning,boolean,false,false,isRunning,isRunning,true,<default>
+KeepRunning,boolean,false,false, , ,false,<default>
+manager,com.mysql.cluster.mgmj.NdbLogEventManager,false,false, , ,false,<default>
+poolingTime,int,false,false, , ,true,<default>
+runnableListners,com.sun.tools.javac.util.List,false,false,runnableListners,runnableListners,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,20 @@
+[PropertyInfo]
+cls,String,false,false, , ,true,<default>
+contentType,String,false,false, , ,true,<default>
+context,ServletContext,false,false, , ,false,<default>
+defQuery,String,false,false, , ,true,<default>
+in,java.io.InputStream,false,false, , ,true,<default>
+name,String,false,false, , ,true,<default>
+out,java.io.OutputStream,false,false, , ,true,<default>
+packg,String,false,false, , ,true,<default>
+query,String,false,false, , ,false,<default>
+request,javax.servlet.http.HttpServletRequest,false,false, , ,true,<default>
+response,javax.servlet.http.HttpServletResponse,false,false, , ,true,<default>
+result,org.fao.faostat.actions.Results,false,false, , ,true,<default>
+viewType,String,false,false, , ,true,<default>
+requestWrapper,org.fao.faostat.request.generic.requestImpl,false,false,requestWrapper,requestWrapper,true,<default>
+[IconNames]
+
+
+
+

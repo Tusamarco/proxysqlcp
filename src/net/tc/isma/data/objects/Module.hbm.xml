@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="net.tc.isma.data.objects.Module" table="ISMA_MODULE_LIST">
+        <!--id column="APPLICATION" length="255" name="application" type="java.lang.String">
+          <generator class="assigned"/>
+          </id-->
+        <composite-id>
+            <key-property column="APPLICATION" length="255" name="application" type="java.lang.String"/>
+            <key-property column="MODULE_NAME" length="255" name="moduleName" type="java.lang.String"/>
+        </composite-id>
+
+        <property update="false" insert="false"  column="MODULE_NAME" length="255" name="moduleNamep" type="java.lang.String"/>
+        <property column="DESCRIPTION" length="400" name="description" type="java.lang.String"/>
+        <property column="ACTIVE" length="1" name="active" type="java.lang.String"/>
+        <property column="DATASTORE_CLASS" length="255" name="datastoreClass" type="java.lang.String"/>
+        <property column="WEB_ROOT" length="255" name="webRoot" type="java.lang.String"/>
+        <property column="TGROUP" length="15" name="tgroup" type="java.lang.String"/>
+        <property column="PACKAGE_ROOT" length="255" name="packageRoot" type="java.lang.String"/>
+        <!--map role="pages" lazy="false">
+            <key>
+                <column name="APPLICATION"/>
+                <column name="MODULE_NAME"/>
+            </key>
+            <index type="string" column="PAGE_NAME"/>
+            <one-to-many class="org.fao.isma.IsmaPage"/>
+        </map-->
+        <!--map role="attribs" table="ISMA_MODULE_ATTRIB" lazy="false">
+            <key>
+                <column name="APPLICATION"/>
+                <column name="MODULE_NAME"/>
+            </key>
+            <index type="string" column="ATTRIB_NAME"/>
+            <element column="ATTRIB_VALUE" type="string"/>
+        </map-->
+
+        <set name="workflow" lazy="false">
+            <key>
+                <column name="APPLICATION"/>
+                <column name="MODULE"/>
+            </key>
+            <one-to-many class="net.tc.isma.workflows.workflow"/>
+        </set>
+        <!--set role="group" table="ISMA_MODULE_X_GROUP" lazy="false" >
+            <key>
+                 <column name="APPLICATION"/>
+                 <column name="MODULE"/>
+            </key>
+            <many-to-many column="GROUPN" class="org.fao.isma.auth.security.Group"/>
+         </set-->
+    </class>
+</hibernate-mapping>

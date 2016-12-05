@@ -1,0 +1,19 @@
+[PropertyInfo]
+active,String,false,false, , ,true,<default>
+application,String,false,false, , ,true,<default>
+attribs,java.util.Map,false,false, , ,true,<default>
+datastoreClass,String,false,false, , ,true,<default>
+description,String,false,false, , ,true,<default>
+group,java.util.Set,false,false, , ,true,<default>
+moduleName,String,false,false, , ,true,<default>
+moduleNamep,String,false,false,moduleNamep,moduleNamep,true,<default>
+packageRoot,String,false,false, , ,true,<default>
+pages,java.util.Map,false,false, , ,false,<default>
+tgroup,String,false,false, , ,true,<default>
+webRoot,String,false,false, , ,true,<default>
+workflow,java.util.Set,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

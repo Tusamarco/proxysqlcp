@@ -1,0 +1,14 @@
+[PropertyInfo]
+action,java.util.Set,false,false, , ,true,<default>
+application,String,false,false, , ,true,<default>
+description,String,false,false, , ,true,<default>
+id,String,false,false, , ,true,<default>
+idStep,Long,false,false,idStep,idStep,true,<default>
+idWf,Long,false,false,idWf,idWf,true,<default>
+module,String,false,false,module,module,true,<default>
+recordstatus,short,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

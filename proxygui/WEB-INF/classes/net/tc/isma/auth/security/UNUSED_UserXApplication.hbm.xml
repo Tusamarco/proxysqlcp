@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.auth.security.UserXApplication" table="ISMA_USER_X_APPLICATION">
+    <composite-id>
+      <key-property column="ANAME" length="255" name="aname" type="string"/>
+      <key-property column="UNAME" length="50" name="uname" type="string"/>
+    </composite-id>
+
+    <set name="group" table="ISMA_USER_X_GROUP" lazy="false" >
+      <jcs-cache usage="read-write"/>
+      <key>
+        <column name="UNAME"/>
+        <column name="APPLICATION"/>
+      </key>
+      <one-to-many class="net.tc.isma.auth.security.UserXGroup"/>
+    </set>
+  </class>
+</hibernate-mapping>

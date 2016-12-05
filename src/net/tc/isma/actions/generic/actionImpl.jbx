@@ -1,0 +1,13 @@
+[PropertyInfo]
+bounded,boolean,false,false,bounded,bounded,true,<default>
+boundedAction,String,false,false,boundedAction,boundedAction,true,<default>
+classname,String,false,false,classname,classname,true,<default>
+classpkg,String,false,false,classpkg,classpkg,true,<default>
+execorder,int,false,false,execorder,execorder,true,<default>
+name,String,false,false,name,name,true,<default>
+result,Results,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

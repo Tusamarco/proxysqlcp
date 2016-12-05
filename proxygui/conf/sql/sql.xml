@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql lifecycle="70" tohandleas="100">
+	<commands>
+		<getservers>select * from mysql_servers</getservers>
+	</commands>
+</sql>

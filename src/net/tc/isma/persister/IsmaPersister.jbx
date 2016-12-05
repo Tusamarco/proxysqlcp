@@ -1,0 +1,31 @@
+[PropertyInfo]
+alowedLanguages,String[],false,false, , ,false,<default>
+APPLICATIONNAME,String,false,false, , ,false,<default>
+availableLocales,java.util.Locale[],false,false, , ,false,<default>
+cacheManager,net.tc.isma.persister.CacheManager,false,false, , ,false,<default>
+configMap,java.util.Map,false,false, , ,false,<default>
+configMapAll,java.util.Map,false,false, , ,false,<default>
+connectionPoolIn,com.mchange.v2.c3p0.ComboPooledDataSource,false,false, , ,false,<default>
+connectionPoolOut,com.mchange.v2.c3p0.ComboPooledDataSource,false,false, , ,false,<default>
+internalip,int[],false,false, , ,false,<default>
+loader,net.tc.isma.persister.Loader,false,false, , ,false,<default>
+Logs,java.util.Map,false,false, , ,false,<default>
+LogsNames,String[],false,false, , ,false,<default>
+mainconfigfile,String,false,false, , ,false,<default>
+MAINROOT,String,false,false, , ,false,<default>
+modulesMap,java.util.Map,false,false, , ,false,<default>
+persistentResourceBundleObjs,net.tc.isma.persister.PersistentObject[],false,false, , ,false,<default>
+persistObjects,net.tc.isma.persister.PersistentObjectMap,false,false, , ,false,<default>
+resourceBundleMap,java.util.Map,false,false, , ,false,<default>
+resourceBundles,java.util.Set,false,false, , ,true,<default>
+resourceXmlBundleMap,java.util.Map,false,false, , ,false,<default>
+SECURESERVER,String,false,false, , ,false,<default>
+sessionFactory,net.tc.isma.data.hibernate.HSessionFactory,false,false, , ,false,<default>
+users,java.util.Vector,false,false, , ,false,<default>
+VERSION,String,false,false, , ,false,<default>
+useDatabase,boolean,false,false,useDatabase,useDatabase,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,27 @@
+[PropertyInfo]
+displayele,String,false,false,displayele,displayele,true,<default>
+groups,java.util.Map,false,false, , ,true,<default>
+id,Object,false,false, , ,true,<default>
+itemType,String,false,false, , ,true,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameLongAr,String,false,false, , ,true,<default>
+nameLongEn,String,false,false, , ,true,<default>
+nameLongEs,String,false,false, , ,true,<default>
+nameLongFr,String,false,false, , ,true,<default>
+nameLongZh,String,false,false, , ,true,<default>
+nameZh,String,false,false, , ,true,<default>
+stdUnitAr,String,false,false, , ,true,<default>
+stdUnitEn,String,false,false, , ,true,<default>
+stdUnitEs,String,false,false, , ,true,<default>
+stdUnitFr,String,false,false, , ,true,<default>
+stdUnitGeneric,String,false,false,stdUnitGeneric,stdUnitGeneric,true,<default>
+stdUnitZh,String,false,false, , ,true,<default>
+ele,String,false,false,ele,ele,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,456 @@
+package org.fao.faostat.data.hibernate;
+
+/**
+ * <p>Title: </p>
+ *
+ * <p>Description: </p>
+ *
+ * <p>Copyright: Copyright (c) 2005</p>
+ *
+ * <p>Company: </p>
+ *
+ * @author not attributable
+ * @version 1.0
+ */
+import org.fao.faostat.persister.FaostatPersister;
+import java.util.Map;
+import java.util.List;
+import net.sf.hibernate.Session;
+import java.io.Serializable;
+import net.sf.hibernate.ObjectNotFoundException;
+import java.sql.SQLException;
+import net.sf.hibernate.HibernateException;
+
+
+public class DataStorageHandler {
+
+    Session s = null;
+//    HibernateDatastoreSessionFactory dshF = new HibernateDatastoreSessionFactory();
+    public DataStorageHandler()
+    {
+    }
+    public void open()
+    {
+
+
+        try{
+            s = HibernateUtil.getSession();
+            s.beginTransaction();
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+    }
+
+    public void closeCommit() {
+        try {
+            s.flush();
+            s.connection().commit();
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+    }
+    public void save(Object obj)
+    {
+        try
+        {
+            if(obj instanceof HybernateObject && s != null && s.isOpen())
+            {
+                if(((HybernateObject)obj).getId() != null)
+                {
+                    s.saveOrUpdate(obj);
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Save an Object that contains a NULL ID"));
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+
+    }
+    public void save(Object obj, Object id)
+    {
+        try
+        {
+            if(obj instanceof HybernateObject && id instanceof Serializable && s != null && s.isOpen())
+            {
+                if(id != null)
+                {
+                    s.save(obj, (Serializable)id);
+                 }
+                else if(id == null && ((HybernateObject)obj).getId() != null)
+                {
+                    Object objL = s.load(obj.getClass(),(Serializable)((HybernateObject)obj).getId());
+                    if(objL == null)
+                        s.save(obj,(Serializable)((HybernateObject)obj).getId());
+                    else
+                    {
+                        objL = null;
+                        s.update(obj);
+                    }
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Save an Object that contains a NON Serializable ID"));
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            ex.printStackTrace();
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+    }
+
+    public Object getSingle(Object o , Object id)
+    {
+        Object obj = null;
+        try
+        {
+            if(o instanceof HybernateObject && id instanceof Serializable && s != null && s.isOpen())
+            {
+                if(id != null)
+                {
+                   try
+                   {
+                       obj = s.load(o.getClass(), (Serializable) id);
+                   }catch(ObjectNotFoundException nofound)
+                   {
+                       FaostatPersister.getLogDataAccess().info(" Object " + o.getClass().toString() + " ID: " + id.toString() + " Not found");
+                   }
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Load an Object that contains a NON Serializable ID"));
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+        finally
+        {
+            return obj;
+        }
+
+    }
+    public Object load(Object o , Object id)
+    {
+        Object obj = null;
+        try
+        {
+            if(s != null && s.isOpen())
+            {
+                if(id != null)
+                {
+                   try
+                   {
+                       obj = s.load(o.getClass(), (Serializable) id);
+                   }catch(ObjectNotFoundException nofound)
+                   {
+                       FaostatPersister.getLogDataAccess().info(" Object " + o.getClass().toString() + " ID: " + id.toString() + " Not found");
+                   }
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Load an Object that contains a NON Serializable ID"));
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+        finally
+        {
+            return obj;
+        }
+
+    }
+
+    public List getList(String condition)
+    {
+        List l = null;
+        try
+        {
+            if(s != null && s.isOpen())
+                l =  s.find(condition);
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+        finally
+        {
+            return l;
+        }
+    }
+    public Map getMap(Class cls, Map condition)
+    {
+        return null;
+    }
+
+    public void delete(Object obj)
+    {
+        delete(obj, true);
+    }
+    public void delete(Object obj, boolean flush)
+    {
+        try
+        {
+            if(obj instanceof HybernateObject && s != null && s.isOpen())
+            {
+//                ((HybernateObject)obj).onDelete(this);
+                s.delete(obj);
+            }
+
+        }
+        catch (Exception ex)
+        {
+            FaostatPersister.getLogDataAccess().error(ex);
+            try {
+                s.connection().rollback();
+            } catch (Exception ex1) {
+                FaostatPersister.getLogDataAccess().error(ex1);
+            }
+        }
+
+    }
+
+
+
+
+    /**
+     * All these are static methods BUT it will be much better to instanziate the class instead OK??!!!
+     */
+    public static void saveObject(Object obj)
+    {
+        Session s = HibernateUtil.getSession();
+        try
+        {
+            if(obj instanceof HybernateObject)
+            {
+                if(((HybernateObject)obj).getId() != null)
+                {
+                    s.beginTransaction();
+                    s.saveOrUpdate(obj);
+                    s.flush();
+                    s.connection().commit();
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Save an Object that contains a NULL ID"));
+                }
+            }
+
+        }
+        catch(Throwable th)
+        {
+            FaostatPersister.getLogDataAccess().error(th);
+            th.printStackTrace();
+        }
+        finally
+        {
+            try {
+                  s.flush();
+                  s.connection().commit();
+
+            } catch (Exception ex)
+            {
+                try{s.connection().rollback();}catch(Exception ex1){}
+            }
+            HibernateUtil.closeSession();
+        }
+
+    }
+    public static void saveObject(Object obj, Object id)
+    {
+        Session s = HibernateUtil.getSession();
+        try
+        {
+            if(obj instanceof HybernateObject && id instanceof Serializable)
+            {
+                if(id != null)
+                {
+                    s.beginTransaction();
+                    s.save(obj, (Serializable)id);
+                    s.flush();
+                    s.connection().commit();
+
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Save an Object that contains a NON Serializable ID"));
+                }
+            }
+
+        }
+        catch(Throwable th)
+        {
+            FaostatPersister.getLogDataAccess().error(th);
+            th.printStackTrace();
+        }
+        finally
+        {
+            try {
+                  s.flush();
+                  s.connection().commit();
+
+            } catch (Exception ex)
+            {
+                try{s.connection().rollback();}catch(Exception ex1){}
+            }
+            HibernateUtil.closeSession();
+        }
+    }
+
+    public static Object getSingleObject(Object o , Object id)
+    {
+        Session s = HibernateUtil.getSession();
+        Object obj = null;
+
+        try
+        {
+            if(o instanceof HybernateObject && id instanceof Serializable)
+            {
+                if(id != null)
+                {
+                   try
+                   {
+                       obj = s.load(o.getClass(), (Serializable) id);
+                   }catch(ObjectNotFoundException nofound)
+                   {
+                       FaostatPersister.getLogDataAccess().info(" Object " + o.getClass().toString() + " ID: " + id.toString() + " Not found");
+                   }
+                }
+                else
+                {
+                    FaostatPersister.getLogDataAccess().error( new Exception("Could not Load an Object that contains a NON Serializable ID"));
+                }
+            }
+
+        }
+        catch(Throwable th)
+        {
+            FaostatPersister.getLogDataAccess().error(th);
+            th.printStackTrace();
+        }
+        finally
+        {
+            HibernateUtil.closeSession();
+            return obj;
+        }
+
+    }
+    public static List getListObjects(String condition)
+    {
+        List l = null;
+        Session s = HibernateUtil.getSession();
+        try
+        {
+                  l =  s.find(condition);
+        }
+        catch(Throwable th)
+        {
+            FaostatPersister.getLogDataAccess().error(th);
+            th.printStackTrace();
+        }
+        finally
+        {
+            HibernateUtil.closeSession();
+            return l;
+        }
+    }
+    public static Map getMapObjects(Class cls, Map condition)
+    {
+
+        return null;
+    }
+
+    public static void deleteObject(Object obj)
+    {
+        deleteObject(obj, true);
+    }
+    public static void deleteObject(Object obj, boolean flush)
+    {
+        Session s = HibernateUtil.getSession();
+        try
+        {
+            if(obj instanceof HybernateObject )
+            {
+                s.beginTransaction();
+                s.delete(obj);
+
+                if(flush)
+                    s.flush();
+            }
+
+        }
+        catch(Throwable th)
+        {
+            FaostatPersister.getLogDataAccess().error(th);
+        }
+        finally
+        {
+            try {
+                  s.flush();
+                  s.connection().commit();
+
+            } catch (Exception ex)
+            {
+                try{s.connection().rollback();}catch(Exception ex1){}
+            }
+            HibernateUtil.closeSession();
+        }
+
+    }
+
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 2.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.auth.security.UserXGroup" table="ISMA_USER_X_GROUP">
+    <composite-id>
+      <key-property column="UNAME" length="255" name="uname"  type="string"/>
+      <key-property column="GNAME" length="255" name="gname"  type="string"/>
+      <key-property column="APPLICATION" length="255" name="application" type="string"/>
+    </composite-id>
+  </class>
+</hibernate-mapping>

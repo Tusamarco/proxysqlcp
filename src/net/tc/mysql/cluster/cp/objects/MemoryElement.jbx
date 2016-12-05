@@ -1,0 +1,10 @@
+[PropertyInfo]
+blocks,long,false,false,blocks,blocks,true,<default>
+pageSizekb,long,false,false,pageSizekb,pageSizekb,true,<default>
+pageTotal,long,false,false,pageTotal,pageTotal,true,<default>
+pageUsed,long,false,false,pageUsed,pageUsed,true,<default>
+[IconNames]
+
+
+
+

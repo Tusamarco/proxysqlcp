@@ -1,0 +1,27 @@
+[PropertyInfo]
+disseminateind,String,false,false,disseminateind,disseminateind,true,<default>
+excludedProperty,String[],false,false, , ,true,<default>
+ExcludedProperty,String[],false,false, , ,false,<default>
+groups,java.util.Map,false,false,groups,groups,true,<default>
+grpind,String,false,false,grpind,grpind,true,<default>
+id,Long,false,false, , ,true,<default>
+isGroup,boolean,false,false,isGroup,isGroup,true,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameLongAr,String,false,false,nameLongAr,nameLongAr,true,<default>
+nameLongEn,String,false,false,nameLongEn,nameLongEn,true,<default>
+nameLongEs,String,false,false,nameLongEs,nameLongEs,true,<default>
+nameLongFr,String,false,false,nameLongFr,nameLongFr,true,<default>
+nameLongZh,String,false,false,nameLongZh,nameLongZh,true,<default>
+nameZh,String,false,false, , ,true,<default>
+retrivableFields,List,false,false, , ,true,<default>
+RetrivableFields,Map,false,false, , ,false,<default>
+retrivableFieldsMap,Map,false,false, , ,true,<default>
+type,String,false,false,type,type,true,<default>
+[IconNames]
+
+
+
+

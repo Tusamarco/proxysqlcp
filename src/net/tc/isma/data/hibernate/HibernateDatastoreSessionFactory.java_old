@@ -1,0 +1,149 @@
+package org.fao.faostat.data.hibernate;
+import org.fao.faostat.persister.FaostatPersister;
+import net.sf.hibernate.*;
+//import net.sf.hibernate.type.*;
+//import java.sql.*;
+//import java.util.Enumeration;
+//import javax.servlet.*;
+//import java.util.Properties;
+//import net.sf.hibernate.impl.SessionFactoryImpl;
+//import net.sf.hibernate.persister.ClassPersister;
+//import net.sf.hibernate.MappingException;
+//import java.util.Map;
+//import net.sf.hibernate.impl.SessionImpl;
+//import java.util.HashMap;
+//import net.sf.hibernate.connection.C3P0ConnectionProvider;
+import net.sf.hibernate.connection.ConnectionProvider;
+//import net.sf.hibernate.persister.EntityPersister;
+//import net.sf.hibernate.type.ComponentType;
+import net.sf.hibernate.cfg.Configuration;
+
+/**
+ * Factory for HibernateDatastoreSession. Hibernate reads the configuration and
+ * mappings found in hibernate.cfg.xml (in the classpath) at instantiation of
+ * this factory.  Factory should be kept as a singletonand used to create
+ * new sessions as required.
+ *
+ * <p>Title: ISMA</p>
+ * <p>Description: Information System Modular Architecture</p>
+ * <p>Copyright: Copyright (c) 2003</p>
+ * <p>Company: FAO of the UN</p>
+ * @author
+ * @version 1.0
+ */
+public class HibernateDatastoreSessionFactory
+{
+    static SessionFactory sf = null;
+    ConnectionProvider conP;
+    public static final ThreadLocal session = new ThreadLocal();
+
+    public HibernateDatastoreSessionFactory()
+    {
+        try{
+            sf = (SessionFactory)new Configuration().configure().buildSessionFactory();
+        }catch(Throwable ex)
+        {
+           FaostatPersister.getLogDataAccess().error(ex);
+           ex.printStackTrace();
+        }
+
+    }
+
+    public HibernateDatastoreSessionFactory(String jndiName)
+    {
+        try{
+            sf = (SessionFactory)new Configuration().configure().
+                 buildSessionFactory();
+        }catch(Exception ex)
+        {
+           FaostatPersister.getLogDataAccess().error(ex);
+        }
+    }
+
+
+//    public static Session  openSession()
+//    {
+//            Session s = (Session) session.get();
+//            // Open a new Session, if this Thread has none yet
+//            if (s == null)
+//            {
+//                try {
+//                    s = sf.openSession();
+//                } catch (HibernateException ex)
+//                {
+//                    FaostatPersister.getLogDataAccess().error(ex);
+//                }
+//                session.set(s);
+//            }
+//        return s;
+//    }
+//    public static void closeSession()
+//    {
+//            try
+//            {
+//              Session s = (Session) session.get();
+//              session.set(null);
+//              if (s != null)
+//              s.close();
+//            }
+//            catch (Exception ex)
+//            {
+//                FaostatPersister.getLogDataAccess().error(ex);
+//            }
+//
+//    }
+    public static Session  openSession()
+    {
+            Session s = null;//(Session) session.get();
+            // Open a new Session, if this Thread has none yet
+            if (s == null)
+            {
+                try {
+                    s = sf.openSession();
+                } catch (HibernateException ex)
+                {
+                    FaostatPersister.getLogDataAccess().error(ex);
+                }
+            }
+        return s;
+    }
+    public static void closeSession(Session s)
+    {
+            try
+            {
+              if (s != null)
+              s.close();
+            }
+            catch (Exception ex)
+            {
+                FaostatPersister.getLogDataAccess().error(ex);
+            }
+
+    }
+
+    public static Session forceRefresh(Session ses)
+    {
+            try
+            {
+                ses.flush();
+                ses.connection().commit();
+            }
+            catch (Exception ex)
+            {
+               FaostatPersister.getLogDataAccess().error(ex);
+            }
+            finally
+            {
+                try{
+                    ses.disconnect();
+                    ses.reconnect();
+                }
+                catch(Exception ex1)
+                {
+                    FaostatPersister.getLogDataAccess().error(ex1);
+                }
+            }
+            return (Session)ses;
+    }
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.workflows.stepXObjInput"  table="ISMA_STEP_X_OBJ">
+    <id column="ID_OBJ" name="idObj" type="java.lang.Long">
+      <generator class="assigned"/>
+    </id>
+    <property column="APPLICATION" length="255" name="application" type="string"/>
+    <property column="ID_STEP" length="18" name="idStep" type="long"/>
+    <property column="ID_WF" length="18" name="idWf" type="long"/>
+    <property column="MODULE" length="255" name="module" type="string"/>
+    <property column="ID" length="18" name="idorig" type="long"/>
+  </class>
+</hibernate-mapping>

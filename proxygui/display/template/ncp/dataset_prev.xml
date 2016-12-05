@@ -1,0 +1,494 @@
+<dataset_prew>
+  <dataset id="2903" type="2" style="ncpdataset" order="0" name="testData">
+    <xml>
+      <datasets>
+
+        <country name="Madagascar"/>
+        <layer heading="layer" name="Admin 1">
+          <dataset datasetid="" heading="theme" name="Anthropometric surveys of preschool children" themeid="">
+            <region heading="Region" layername="Admin 1" name="Antananarivo">
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� Madagascar 1997 (DDSS/INSTAT and Macro Int.Inc.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="2" sample_size="968" value="25.7"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="2" sample_size="968" value="57.0"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="2" sample_size="968" value="0.8"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="2" sample_size="968" value="7.9"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="2" sample_size="968" value="15.1"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="2" sample_size="968" value="43.8"/>
+                        </extent>
+
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� de Madagascar 2003-2004 (INSTAT et ORC Macro">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="9" sample_size="830" value="27.9"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="9" sample_size="830" value="50.1"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="9" sample_size="830" value="2.5"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="9" sample_size="830" value="12.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="9" sample_size="830" value="11.1"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="9" sample_size="830" value="39.3"/>
+
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te nationale d�mographique et sanitaire 1992. (Refeno G.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 4.99">
+
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="7" sample_size="1273" value="27.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="7" sample_size="1273" value="61.4"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+
+                          <year Publishyear="2005" name="1992" sample_defn_idx="7" sample_size="1273" value="0.1"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="7" sample_size="1273" value="3.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="7" sample_size="1273" value="8.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+
+                          <year Publishyear="2005" name="1992" sample_defn_idx="7" sample_size="1273" value="44.7"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+            </region>
+            <region heading="Region" layername="Admin 1" name="Antsiranana">
+
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� Madagascar 1997 (DDSS/INSTAT and Macro Int.Inc.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="14" sample_size="211" value="15.0"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+
+                          <year Publishyear="2005" name="1997" sample_defn_idx="14" sample_size="211" value="37.1"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="14" sample_size="211" value="0.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="14" sample_size="211" value="4.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+
+                          <year Publishyear="2005" name="1997" sample_defn_idx="14" sample_size="211" value="7.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="14" sample_size="211" value="31.8"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� de Madagascar 2003-2004 (INSTAT et ORC Macro">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="5" sample_size="214" value="14.3"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="5" sample_size="214" value="31.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="5" sample_size="214" value="1.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="5" sample_size="214" value="14.0"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="5" sample_size="214" value="7.1"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="5" sample_size="214" value="27.9"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+
+                </extent>
+              </extent>
+            </region>
+            <region heading="Region" layername="Admin 1" name="Fianarantsoa">
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� Madagascar 1997 (DDSS/INSTAT and Macro Int.Inc.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="13" sample_size="643" value="24.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="13" sample_size="643" value="51.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="13" sample_size="643" value="0.6"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="13" sample_size="643" value="6.4"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="13" sample_size="643" value="16.4"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="13" sample_size="643" value="44.1"/>
+                        </extent>
+
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� de Madagascar 2003-2004 (INSTAT et ORC Macro">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="4" sample_size="655" value="20.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="4" sample_size="655" value="45.7"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="4" sample_size="655" value="5.4"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="4" sample_size="655" value="16.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="4" sample_size="655" value="14.0"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="4" sample_size="655" value="39.7"/>
+
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+            </region>
+            <region heading="Region" layername="Admin 1" name="Mahajanga">
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� Madagascar 1997 (DDSS/INSTAT and Macro Int.Inc.">
+
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="0" sample_size="431" value="16.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="0" sample_size="431" value="41.0"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="0" sample_size="431" value="1.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="0" sample_size="431" value="7.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="0" sample_size="431" value="9.9"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="0" sample_size="431" value="34.2"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� de Madagascar 2003-2004 (INSTAT et ORC Macro">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="12" sample_size="436" value="23.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="12" sample_size="436" value="48.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="12" sample_size="436" value="0.2"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="12" sample_size="436" value="11.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="12" sample_size="436" value="13.4"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="12" sample_size="436" value="44.6"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+
+              </extent>
+            </region>
+            <region heading="Region" layername="Admin 1" name="Toamasina">
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� Madagascar 1997 (DDSS/INSTAT and Macro Int.Inc.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+
+                          <year Publishyear="2005" name="1997" sample_defn_idx="6" sample_size="431" value="23.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="6" sample_size="431" value="47.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="6" sample_size="431" value="1.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+
+                          <year Publishyear="2005" name="1997" sample_defn_idx="6" sample_size="431" value="9.3"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="6" sample_size="431" value="11.4"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="6" sample_size="431" value="40.2"/>
+                        </extent>
+                      </extent>
+
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� de Madagascar 2003-2004 (INSTAT et ORC Macro">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="3" sample_size="514" value="18.7"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="3" sample_size="514" value="41.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="3" sample_size="514" value="3.3"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="3" sample_size="514" value="15.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="3" sample_size="514" value="13.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="3" sample_size="514" value="39.9"/>
+                        </extent>
+
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te nationale d�mographique et sanitaire 1992. (Refeno G.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 4.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="8" sample_size="523" value="12.4"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="8" sample_size="523" value="32.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="8" sample_size="523" value="0.2"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="8" sample_size="523" value="5.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="8" sample_size="523" value="5.7"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="8" sample_size="523" value="27.8"/>
+
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+            </region>
+            <region heading="Region" layername="Admin 1" name="Toliary">
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� Madagascar 1997 (DDSS/INSTAT and Macro Int.Inc.">
+
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="10" sample_size="396" value="14.0"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="10" sample_size="396" value="36.5"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="10" sample_size="396" value="0.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="10" sample_size="396" value="7.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="10" sample_size="396" value="8.7"/>
+
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1997" sample_defn_idx="10" sample_size="396" value="34.3"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+              </extent>
+
+              <extent axis="2" heading="Source Name" name="Enqu�te D�mographique et de Sant� de Madagascar 2003-2004 (INSTAT et ORC Macro">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 2.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="1" sample_size="451" value="16.5"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="1" sample_size="451" value="39.6"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="1" sample_size="451" value="3.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="1" sample_size="451" value="15.8"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="1" sample_size="451" value="8.7"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="2003-2004" sample_defn_idx="1" sample_size="451" value="38.9"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+                </extent>
+
+              </extent>
+              <extent axis="2" heading="Source Name" name="Enqu�te nationale d�mographique et sanitaire 1992. (Refeno G.">
+                <extent axis="3" heading="Residence" name="unspecified">
+                  <extent axis="4" heading="Age" name="0 - 4.99">
+                    <extent axis="5" heading="Gender" name="M/F">
+                      <extent axis="6" heading="Mother's Education" name="unspecified">
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age &lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="11" sample_size="431" value="15.3"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Stunting:Height-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="11" sample_size="431" value="39.9"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="11" sample_size="431" value="0.7"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Wasting:Weight-for-height&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="11" sample_size="431" value="4.4"/>
+                        </extent>
+
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-3 Z-scores">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="11" sample_size="431" value="6.0"/>
+                        </extent>
+                        <extent axis="7" heading="Indicator" name="Underweight:Weight-for-age&lt;-2 Z-scores*">
+                          <year Publishyear="2005" name="1992" sample_defn_idx="11" sample_size="431" value="28.1"/>
+                        </extent>
+                      </extent>
+                    </extent>
+                  </extent>
+
+                </extent>
+              </extent>
+            </region>
+          </dataset>
+        </layer>
+      </datasets>
+    </xml>
+  </dataset>
+</dataset_prew>

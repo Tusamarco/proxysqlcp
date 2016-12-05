@@ -1,0 +1,24 @@
+[PropertyInfo]
+groups,java.util.Map,false,false, , ,true,<default>
+id,Long,false,false, , ,true,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameLongAr,String,false,false, , ,true,<default>
+nameLongEn,String,false,false, , ,true,<default>
+nameLongEs,String,false,false, , ,true,<default>
+nameLongFr,String,false,false, , ,true,<default>
+nameLongZh,String,false,false, , ,true,<default>
+nameZh,String,false,false, , ,true,<default>
+type,String,false,false, , ,true,<default>
+stdUnitEn,Long,false,false,stdUnitEn,stdUnitEn,true,<default>
+stdUnitFr,Long,false,false,stdUnitFr,stdUnitFr,true,<default>
+stdUnitEs,Long,false,false,stdUnitEs,stdUnitEs,true,<default>
+stdUnitAr,Long,false,false,stdUnitAr,stdUnitAr,true,<default>
+stdUnitZh,Long,false,false,stdUnitZh,stdUnitZh,true,<default>
+[IconNames]
+
+
+
+

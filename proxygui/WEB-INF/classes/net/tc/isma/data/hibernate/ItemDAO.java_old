@@ -1,0 +1,143 @@
+package org.fao.faostat.data.hibernate;
+
+import net.sf.hibernate.*;
+import net.sf.hibernate.expression.Example;
+
+import java.util.Collection;
+import org.fao.faostat.*;
+import org.fao.faostat.persister.FaostatPersister;
+import org.apache.log4j.Logger;
+import java.util.List;
+import java.io.Serializable;
+
+/**
+ * A typical DAO for auction items using Hibernate.
+ *
+ * @author Christian Bauer <christian@hibernate.org>
+ */
+public class ItemDAO {
+
+    Logger log = FaostatPersister.getLogDataAccess();
+    HibernateUtil hibernateUtil = new HibernateUtil();
+	public ItemDAO()
+        {
+                try {
+                    hibernateUtil.beginTransactionI();
+                } catch (Exception ex)
+                {
+                    log.error(ex);
+                    ex.printStackTrace();
+                }
+	}
+
+	// ********************************************************** //
+
+	public HybernateObject getItemById(Class clazz, Long itemId, LockMode lock)
+        {
+
+		Session session = hibernateUtil.getSessionI();
+		HybernateObject item = null;
+		try {
+			if ( lock != null ) {
+				item = (HybernateObject) session.load(clazz, itemId, lock);
+			} else {
+				item = (HybernateObject) session.load(clazz, itemId);
+			}
+		}  catch (HibernateException ex) {
+                    log.error(ex);
+                    ex.printStackTrace();
+		}
+		return item;
+	}
+
+	// ********************************************************** //
+
+	// ********************************************************** //
+
+	public List findAll(Class clazz)
+        {
+
+		List items = null;
+		try {
+			items = hibernateUtil.getSessionI().createCriteria(clazz).list();
+		} catch (HibernateException ex) {
+                    log.error(ex);
+                    ex.printStackTrace();
+		}
+		return items;
+	}
+        public List findBySQL(String sql)
+        {
+
+                List items = null;
+                try {
+                        items = hibernateUtil.getSessionI().find(sql);
+                } catch (HibernateException ex) {
+                    log.error(ex);
+                    ex.printStackTrace();
+                }
+                return items;
+        }
+
+	// ********************************************************** //
+
+	public List findByExample(HybernateObject exampleItem, Class clazz)
+	{
+
+		List items = null;
+		try {
+			Criteria crit = hibernateUtil.getSessionI().createCriteria(clazz);
+			items = crit.add(Example.create(exampleItem)).list();
+		} catch (HibernateException ex) {
+			log.error(ex);
+                        ex.printStackTrace();
+		}
+		return items;
+	}
+
+	// ********************************************************** //
+
+	public void makePersistent(HybernateObject item)
+	{
+
+		try {
+			hibernateUtil.getSessionI().saveOrUpdate(item);
+		} catch (HibernateException ex) {
+			log.error(ex);
+                        ex.printStackTrace();
+		}
+	}
+
+        // ********************************************************** //
+
+        public void makePersistent(HybernateObject item, Serializable id)
+        {
+
+                try {
+                        if(!hibernateUtil.getSessionI().isConnected())
+                            hibernateUtil.getSessionI().reconnect();
+                        hibernateUtil.getSessionI().save(item , id);
+                } catch (HibernateException ex) {
+                        log.error(ex);
+                        ex.printStackTrace();
+                }
+        }
+
+	// ********************************************************** //
+
+	public void makeTransient(HybernateObject item)
+	{
+
+		try {
+                        ((HybernateObject)item).onDelete(this);
+			hibernateUtil.getSessionI().delete(item);
+		} catch (HibernateException ex) {
+			log.error(ex);
+                        ex.printStackTrace();
+		}
+	}
+        public void commit()
+        {
+            hibernateUtil.commitTransactionI();;
+        }
+}

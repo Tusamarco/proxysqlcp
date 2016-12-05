@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.workflows.workflow"  table="ISMA_WORKFLOW">
+    <composite-id>
+      <key-property column="APPLICATION" length="255" name="application" type="string"/>
+      <key-property column="MODULE" length="255" name="module" type="string"/>
+      <key-property column="ID_WF" length="18" name="idWf" type="long"/>
+    </composite-id>
+    <property column="NAME_EN" length="255" name="nameEn" type="string"/>
+    <property column="NAME_FR" length="255" name="nameFr" type="string"/>
+    <property column="NAME_ES" length="255" name="nameEs" type="string"/>
+    <property column="NAME_AR" length="255" name="nameAr" type="string"/>
+    <property column="NAME_ZH" length="255" name="nameZh" type="string"/>
+    <set name="steps" lazy="false" table="ISMA_STEPS" order-by="ID_STEP asc">
+      <key>
+        <column name="APPLICATION"/>
+        <column name="MODULE"/>
+        <column name="ID_WF"/>
+      </key>
+      <one-to-many class="net.tc.isma.workflows.stepImpl"/>
+    </set>
+  </class>
+</hibernate-mapping>

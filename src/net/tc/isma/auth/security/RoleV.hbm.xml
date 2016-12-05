@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.auth.security.RoleV"  table="VSTEP_ROLES">
+    <id column="NAME" name="id" type="java.lang.String">
+      <generator class="assigned"/>
+    </id>
+
+    <set name="action" table="ISMA_ROLE_X_ACTION" lazy="false" >
+      <key column="ROLE"/>
+      <many-to-many column="ACTION" class="net.tc.isma.auth.security.Action"/>
+    </set>
+
+    <property column="APPLICATION" length="255" name="application" type="string"/>
+    <property column="MODULE" length="255" name="module" type="string"/>
+    <property column="ID_WF" length="18" name="idWf" type="long"/>
+    <property column="ID_STEP" length="18" name="idStep" type="long"/>
+
+
+    <property column="DESCRIPTION" length="255" name="description" type="java.lang.String"/>
+    <property column="RECORDSTATUS" length="4" name="recordstatus" type="java.lang.Short"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+[PropertyInfo]
+application,String,false,false, , ,true,<default>
+idWf,long,false,false, , ,true,<default>
+module,String,false,false, , ,true,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameZh,String,false,false, , ,true,<default>
+steps,java.util.Set,false,false,steps,steps,true,<default>
+[IconNames]
+
+
+
+

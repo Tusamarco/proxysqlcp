@@ -1,0 +1,33 @@
+[PropertyInfo]
+additionalText,String,false,false, , ,true,<default>
+areas,java.util.Map,false,false, , ,true,<default>
+axisElement,String,false,false, , ,true,<default>
+copyrightlink,String,false,false,copyrightlink,copyrightlink,true,<default>
+copyrighttext,String,false,false,copyrighttext,copyrighttext,true,<default>
+disseminateind,String,false,false,disseminateind,disseminateind,true,<default>
+elements,java.util.Map,false,false, , ,true,<default>
+endYear,String,false,false,endYear,endYear,true,<default>
+firstkey,String,false,false,firstkey,firstkey,true,<default>
+grpind,String,false,false,grpind,grpind,true,<default>
+id,Object,false,false, , ,true,<default>
+items,java.util.Map,false,false, , ,true,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameZh,String,false,false, , ,true,<default>
+notes,java.util.Map,false,false, , ,true,<default>
+redirect,String,false,false,redirect,redirect,true,<default>
+secondkeytex,String,false,false,secondkeytex,secondkeytex,true,<default>
+selecttext,String,false,false,selecttext,selecttext,true,<default>
+startYear,String,false,false,startYear,startYear,true,<default>
+thirdkey,String,false,false, , ,true,<default>
+type,String,false,false,type,type,true,<default>
+version,int,false,false, , ,true,<default>
+zone,String,false,false, , ,true,<default>
+internalname,String,false,false,internalname,internalname,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"><hibernate-mapping>
+
+<class name="net.tc.isma.auth.security.GrpXMod"  table="ISMA_MODULE_X_GROUP">
+<composite-id>
+<key-property column="APPLICATION" length="255" name="application" type="java.lang.String"/>
+<key-property column="MODULE" length="255" name="module" type="java.lang.String"/>
+<key-property column="GROUPN" length="50" name="groupn" type="java.lang.String"/>
+</composite-id>
+<property  update="false" insert="false" column="APPLICATION" length="255" name="applicationp" type="java.lang.String"/>
+<property update="false" insert="false" column="MODULE" length="255" name="modulep" type="java.lang.String"/>
+<property update="false" insert="false" column="GROUPN" length="50" name="groupnp" type="java.lang.String"/>
+
+</class>
+</hibernate-mapping>

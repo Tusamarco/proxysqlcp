@@ -1,0 +1,88 @@
+# Cache types
+# PERSISTENT = 50;
+# TRANSIENT = 60;
+# ETERNAL = 70;
+
+
+# DEFAULT CACHE REGION
+#jcs.default=DC,LTCP
+jcs.default=
+jcs.default.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.default.cacheattributes.MaxObjects=1000
+jcs.default.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.default.cacheattributes.UseMemoryShrinker=true
+jcs.default.cacheattributes.IsEternal=false
+jcs.default.cacheattributes.MaxLifeSeconds=3800
+jcs.default.cacheattributes.IdleTime=1800
+jcs.default.cacheattributes.IsSpool=true
+jcs.default.cacheattributes.IsRemote=false
+jcs.default.cacheattributes.IsLateral=false
+
+
+# PERSISTENT CACHE REGIONS
+jcs.region.persistent=
+jcs.region.persistent.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.persistent.cacheattributes.MaxObjects=1000000
+jcs.region.persistent.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.persistent.cacheattributes.UseMemoryShrinker=true
+jcs.region.persistent.cacheattributes.MaxMemoryIdleTimeSeconds=10800
+jcs.region.persistent.cacheattributes.ShrinkerIntervalSeconds=180
+jcs.region.persistent.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.region.persistent.elementattributes.IsEternal=false
+jcs.region.persistent.elementattributes.MaxLifeSeconds=10800
+jcs.region.persistent.elementattributes.IdleTime=1800
+jcs.region.persistent.elementattributes.IsSpool=true
+jcs.region.persistent.elementattributes.IsRemote=false
+jcs.region.persistent.elementattributes.IsLateral=false
+
+
+# Transient CACHE REGIONS
+jcs.region.transient=
+jcs.region.transient.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.transient.cacheattributes.MaxObjects=1000000
+jcs.region.transient.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.transient.cacheattributes.UseMemoryShrinker=true
+jcs.region.transient.cacheattributes.MaxMemoryIdleTimeSeconds=1800
+jcs.region.transient.cacheattributes.ShrinkerIntervalSeconds=60
+
+jcs.region.transient.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.region.transient.elementattributes.IsEternal=false
+jcs.region.transient.elementattributes.MaxLifeSeconds=1200
+jcs.region.transient.elementattributes.IdleTime=1200
+jcs.region.transient.elementattributes.IsSpool=true
+jcs.region.transient.elementattributes.IsRemote=false
+jcs.region.transient.elementattributes.IsLateral=false
+
+# ETERNAL CACHE REGIONS   MAY BE I WILL NOT USE IT BECAUSE THERE IS AN INTERNAL LAYER FOR ETERNAL OBJECTS
+jcs.region.eternal=
+jcs.region.eternal.cacheattributes=org.apache.jcs.engine.CompositeCacheAttributes
+jcs.region.eternal.cacheattributes.MaxObjects=20000000
+jcs.region.eternal.cacheattributes.IsEternal=true
+#jcs.region.eternal.cacheattributes.MemoryCacheName=org.apache.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.eternal.cacheattributes.UseMemoryShrinker=false
+#jcs.region.eternal.cacheattributes.MaxMemoryIdleTimeSeconds=31536000
+#jcs.region.eternal.cacheattributes.ShrinkerIntervalSeconds=1800
+
+jcs.region.eternal.elementattributes=org.apache.jcs.engine.ElementAttributes
+jcs.region.eternal.elementattributes.IsEternal=true
+#jcs.region.eternal.elementattributes.MaxLifeSeconds=31536000
+#jcs.region.eternal.elementattributes.IdleTime=31536000
+#jcs.region.eternal.elementattributes.IsSpool=true
+jcs.region.eternal.elementattributes.IsRemote=false
+jcs.region.eternal.elementattributes.IsLateral=false
+
+
+
+
+# AVAILABLE AUXILIARY CACHES
+#jcs.auxiliary.DC=org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory
+#jcs.auxiliary.DC.attributes=org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCacheAttributes
+#jcs.auxiliary.DC.attributes.DiskPath=D:/projects/isma/webroot/WEB-INF/chache/
+#jcs.auxiliary.DC.attributes.maxKeySize=2000000
+
+#jcs.auxiliary.LTCP=org.apache.jcs.auxiliary.lateral.LateralCacheFactory
+#jcs.auxiliary.LTCP.attributes=org.apache.jcs.auxiliary.lateral.LateralCacheAttributes
+#jcs.auxiliary.LTCP.attributes.TransmissionTypeName=TCP
+#jcs.auxiliary.LTCP.attributes.TcpServers=localhost:1111
+#jcs.auxiliary.LTCP.attributes.TcpListenerPort=1110
+#jcs.auxiliary.LTCP.attributes.PutOnlyMode=false

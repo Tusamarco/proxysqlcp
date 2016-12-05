@@ -1,0 +1,30 @@
+[PropertyInfo]
+alowedLanguages,String[],false,false, , ,false,<default>
+APPLICATIONNAME,String,false,false, , ,false,<default>
+availableLocales,java.util.Locale[],false,false, , ,true,<default>
+cacheManager,org.fao.faostat.persister.CacheManager,false,false, , ,false,<default>
+configMap,java.util.Map,false,false, , ,false,<default>
+configMapAll,java.util.Map,false,false, , ,false,<default>
+connectionPoolIn,com.mchange.v2.c3p0.ComboPooledDataSource,false,false,connectionPoolIn,connectionPoolIn,true,<default>
+connectionPoolOut,com.mchange.v2.c3p0.ComboPooledDataSource,false,false,connectionPoolOut,connectionPoolOut,true,<default>
+internalip,int[],false,false,internalip,internalip,true,<default>
+loader,org.fao.faostat.persister.Loader,false,false, , ,false,<default>
+Logs,java.util.Map,false,false, , ,false,<default>
+LogsNames,String[],false,false, , ,false,<default>
+mainconfigfile,String,false,false, , ,false,<default>
+MAINROOT,String,false,false, , ,false,<default>
+modulesMap,org.fao.faostat.utils.SynchronizedMap,false,false,modulesMap,modulesMap,true,<default>
+persistentResourceBundleObjs,org.fao.faostat.persister.PersistentObject[],false,false, , ,false,<default>
+persistObjects,org.fao.faostat.persister.PersistentObjectMap,false,false, , ,false,<default>
+resourceBundleMap,java.util.Map,false,false, , ,false,<default>
+resourceBundles,java.util.Set,false,false, , ,true,<default>
+resourceXmlBundleMap,java.util.Map,false,false, , ,false,<default>
+SECURESERVER,String,false,false, , ,false,<default>
+sessionFactory,org.fao.faostat.data.hibernate.HibernateDatastoreSessionFactory,false,false, , ,false,<default>
+users,java.util.Vector,false,false,Users,Users,true,<default>
+VERSION,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

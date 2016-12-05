@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.auth.security.Group" table="ISMA_GROUP">
+    <id column="NAME" name="id" type="java.lang.String">
+      <generator class="assigned"/>
+    </id>
+
+    <set name="role" table="ISMA_GRP_X_ROLE" lazy="false" >
+      <key column="GNAME"/>
+      <many-to-many column="RNAME" class="net.tc.isma.auth.security.Role"/>
+    </set>
+    <!--property column="DESCRIPTION" length="255" name="description" type="java.lang.String"/-->
+  </class>
+</hibernate-mapping>

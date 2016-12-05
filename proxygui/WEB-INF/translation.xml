@@ -1,0 +1,27 @@
+<ROOT>
+<W code="find"     ar="بهىي"         en="Find"      fr="trove"   />
+<W code="show"     ar="بهىي"         en="Show"      fr="semble"  />
+<W code="viewall"  ar="رهثص شمم"  en="View All"  fr="View Toute"  />
+<W code="fit"      ar="بهف"           en="Fit"       fr="Fitez" />
+<W code="enlarge"  ar="ثىمشقلث"   en="Enlarge"   fr="Enlargez" />
+<W code="shrink"   ar="ساقهىن"     en="Shrink"    fr="Shrinkez" />
+<W code="map"      ar="ةشح"           en="Map"       fr="Mappa" />
+<W code="table"    ar="فشﻻمث"      en="Table"     fr="Table" />
+<W code="chart"    ar="ؤاشقف"       en="Chart"     fr="Charte" />
+<W code="metadata" ar="ةثفشيشفش" en="Metadata"  fr="Metadata" />
+<W code="links"    ar="لينك"       en="Links"     fr="Links" />
+<W code="show"     ar="ساخص"         en="Show"      fr="Show" />
+<W code="hide"     ar="اهيث"         en="Hide"      fr="Hide" />
+<W code="project"  ar="حقختثؤف"   en="Project"   fr="Project" />
+<W code="row"      ar="رو"             en="Row"       fr="Row" />
+<W code="column"   ar="كالم"         en="Column"    fr="Column" />
+<W code="compare"  ar="كمبىر"       en="Compare"   fr="Compare" />
+<W code="rmap"     ar="رىست مث"    en="Reset Map" fr="Reset Map" />
+<W code="showall"  ar="شو: آل نغشه لعىبل"    en="Show: All Map Labels" fr="Show: All Map Labels" />
+<W code="hideall"  ar="هاىد: آل نغشه لعىبل"    en="Hide: All Map Labels" fr="Hide: All Map Labels" />
+<W code="paging"   ar="بىجىنك"     en="Paging"    fr="Paging" />
+<W code="indbrowse" ar="عينديكعتر برعزينك"     en="Indicator&#160;Browsing"    fr="Indicator&#160;Browsing" />
+<W code="banner" ar="ASIAFIVIMS.net"     en="ASIAFIVIMS.net"    fr="ASIAFIVIMS.net" />
+<W code="subbanner" ar="ديتا برعذينك FIVIMS آن لاين " en="Online FIVIMS Data Mapper/Viewer"   fr="Online FIVIMS Data Mapper/Viewer" />
+<W code="data" ar="داتا" en="Data"  fr="Data" />
+</ROOT>

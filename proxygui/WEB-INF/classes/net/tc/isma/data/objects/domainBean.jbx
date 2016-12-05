@@ -1,0 +1,19 @@
+[PropertyInfo]
+collections,java.util.Map,false,false, , ,true,<default>
+id,Object,false,false, , ,true,<default>
+internalName,String,false,false, , ,true,<default>
+lastUpdate,String,false,false, , ,true,<default>
+legacy,String,false,false, , ,true,<default>
+messages,java.util.Map,false,false, , ,false,<default>
+nameAr,String,false,false, , ,true,<default>
+nameEn,String,false,false, , ,true,<default>
+nameEs,String,false,false, , ,true,<default>
+nameFr,String,false,false, , ,true,<default>
+nameZh,String,false,false, , ,true,<default>
+nextUpdate,String,false,false, , ,true,<default>
+notes,Map,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

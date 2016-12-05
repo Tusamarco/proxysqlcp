@@ -1,0 +1,23 @@
+[PropertyInfo]
+connectedHost,String,false,false,connectedHost,connectedHost,true,<default>
+connectedPort,int,false,false,connectedPort,connectedPort,true,<default>
+isMonitored,boolean,false,false,isMonitored,isMonitored,true,<default>
+isRunning,boolean,false,false,isRunning,isRunning,true,<default>
+lastErrorCode,int,false,false,lastErrorCode,lastErrorCode,true,<default>
+lastErrorDesc,String,false,false,lastErrorDesc,lastErrorDesc,true,<default>
+lastErrorMsg,String,false,false,lastErrorMsg,lastErrorMsg,true,<default>
+monitored,boolean,false,false, , ,true,<default>
+NDB_CLUSTER_STATE_BACKUP,int,false,false, , ,false,<default>
+NDB_CLUSTER_STATE_DEGRADATED,int,false,false, , ,false,<default>
+NDB_CLUSTER_STATE_INIZIALIZING,int,false,false, , ,false,<default>
+NDB_CLUSTER_STATE_OFFLINE,int,false,false, , ,false,<default>
+NDB_CLUSTER_STATE_OK,int,false,false, , ,false,<default>
+NDB_CLUSTER_STATE_RECOVERING,int,false,false, , ,false,<default>
+nodes,java.util.Map,false,false,Nodes,Nodes,true,<default>
+running,boolean,false,false, , ,true,<default>
+state,int,false,false,state,state,true,<default>
+[IconNames]
+
+
+
+

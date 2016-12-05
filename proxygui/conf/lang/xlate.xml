@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xlate>
+	<key name="KEY">
+		<value xml:lang="EN">ENGLISH</value>
+		<value xml:lang="CN">CHINESE</value>
+		<value xml:lang="FR">FRANCAIS</value>
+		<value xml:lang="ES">ESPAÑOL</value>
+		<value xml:lang="AR">ARABIC</value>
+		<value xml:lang="JP">JAPANESE</value>
+	</key>
+	<key name="AbbreviatedName">
+		<value xml:lang="EN">Abbreviated Name</value>
+		<value xml:lang="CN">Abbreviated Name</value>
+		<value xml:lang="FR">Abbreviated Name</value>
+		<value xml:lang="ES">Abbreviated Name</value>
+		<value xml:lang="AR">Abbreviated Name</value>
+		<value xml:lang="JP">Abbreviated Name</value>
+	</key>
+	<key name="AggBoth">
+		<value xml:lang="EN">Both</value>
+		<value xml:lang="CN">都选</value>
+		<value xml:lang="FR">Les deux</value>
+		<value xml:lang="ES">Ambos</value>
+		<value xml:lang="AR">كلاهما</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="AggCounties">
+		<value xml:lang="EN">Countries</value>
+		<value xml:lang="CN">国家</value>
+		<value xml:lang="FR">Agrégat de Pays</value>
+		<value xml:lang="ES">Países</value>
+		<value xml:lang="AR">البلدان</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="AggItems">
+		<value xml:lang="EN">Items</value>
+		<value xml:lang="CN">项目</value>
+		<value xml:lang="FR">Agrégat de Produits</value>
+		<value xml:lang="ES">Productos</value>
+		<value xml:lang="AR">البنود</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Aggregate">
+		<value xml:lang="EN">Aggregate</value>
+		<value xml:lang="CN">合计</value>
+		<value xml:lang="FR">Agrégat</value>
+		<value xml:lang="ES">Agregado</value>
+		<value xml:lang="AR">المجموع</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Agricultural Machinery">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农业机械</value>
+		<value xml:lang="FR">Machines agricoles</value>
+		<value xml:lang="ES">Maquinarias Agrícolas</value>
+		<value xml:lang="AR">آلات زراعية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Agricultural Production Indices">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农业生产指数</value>
+		<value xml:lang="FR">Indices de la production agricole</value>
+		<value xml:lang="ES">Indices de la Producción Agrícola</value>
+		<value xml:lang="AR">الأرقام القياسية للانتاج الزراعى</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Agricultural Production Value">
+		<value xml:lang="EN">Value of Agricultural Production</value>
+		<value xml:lang="CN">Value of Agricultural Production</value>
+		<value xml:lang="FR">Value of Agricultural Production</value>
+		<value xml:lang="ES">Value of Agricultural Production</value>
+		<value xml:lang="AR">Value of Agricultural Production</value>
+		<value xml:lang="JP">Value of Agricultural Production</value>
+	</key>
+	<key name="All Agricultural Products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">All Agricultural Products</value>
+		<value xml:lang="FR">All Agricultural Products</value>
+		<value xml:lang="ES">All Agricultural Products</value>
+		<value xml:lang="AR">All Agricultural Products</value>
+		<value xml:lang="JP">All Agricultural Products</value>
+	</key>
+	<key name="and">
+		<value xml:lang="EN">and</value>
+		<value xml:lang="CN">和</value>
+		<value xml:lang="FR">et</value>
+		<value xml:lang="ES">y</value>
+		<value xml:lang="AR">و</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Annual Time Series">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">年度时间序列</value>
+		<value xml:lang="FR">Séries  annuelles</value>
+		<value xml:lang="ES">Series Anuales</value>
+		<value xml:lang="AR">السلسلة الزمنية السنوية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="AOAD Agricultural Data">
+		<value xml:lang="EN">AOAD Agricultural Data</value>
+		<value xml:lang="CN">AOAD 农业生产</value>
+		<value xml:lang="FR">AOAD Production Agricole</value>
+		<value xml:lang="ES">AOAD Producción</value>
+		<value xml:lang="AR">AOAD  الانتاج الزراعى</value>
+		<value xml:lang="JP">AOAD ?????</value>
+	</key>
+	<key name="AOAD Home Page">
+		<value xml:lang="EN">AOAD Home Page</value>
+		<value xml:lang="CN">AOAD 主页</value>
+		<value xml:lang="FR">Page d'accueil de la AOAD</value>
+		<value xml:lang="ES">Página Principal AOAD</value>
+		<value xml:lang="AR">موقع المنظمة</value>
+		<value xml:lang="JP">FAO??????</value>
+	</key>
+	<key name="AOAD Production">
+		<value xml:lang="EN">AOAD Agricultural Production</value>
+		<value xml:lang="CN">AOAD 农业生产</value>
+		<value xml:lang="FR">AOAD Production Agricole</value>
+		<value xml:lang="ES">AOAD Producción</value>
+		<value xml:lang="AR">AOAD  الانتاج الزراعى</value>
+		<value xml:lang="JP">AOAD ?????</value>
+	</key>
+	<key name="Aquatic mammals">
+		<value xml:lang="EN">Aquatic mammals</value>
+		<value xml:lang="CN">水生哺乳动物</value>
+		<value xml:lang="FR">Mammifères aquatiques</value>
+		<value xml:lang="ES">Mamíferos acuáticos</value>
+		<value xml:lang="AR">الحيوانات المائية</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Aquatic plants">
+		<value xml:lang="EN">Aquatic plants</value>
+		<value xml:lang="CN">水生植物</value>
+		<value xml:lang="FR">Plantes aquatiques</value>
+		<value xml:lang="ES">Plantas acuáticas</value>
+		<value xml:lang="AR">نباتات مائية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="AxisAreas">
+		<value xml:lang="EN">Countries</value>
+		<value xml:lang="CN">国家</value>
+		<value xml:lang="FR">Pays</value>
+		<value xml:lang="ES">Países</value>
+		<value xml:lang="AR">البلدان</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="AxisDonorCountry">
+		<value xml:lang="EN">Donor Country</value>
+		<value xml:lang="CN">援助国</value>
+		<value xml:lang="FR">Pays donateurs</value>
+		<value xml:lang="ES">País Donante</value>
+		<value xml:lang="AR">البلد المتبرع</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="AxisElements">
+		<value xml:lang="EN">Elements</value>
+		<value xml:lang="CN">指标</value>
+		<value xml:lang="FR">Éléments</value>
+		<value xml:lang="ES">Elementos</value>
+		<value xml:lang="AR">العناصر</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="AxisItems">
+		<value xml:lang="EN">Items</value>
+		<value xml:lang="CN">项目</value>
+		<value xml:lang="FR">Produits</value>
+		<value xml:lang="ES">Productos</value>
+		<value xml:lang="AR">البنود</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="AxisYears">
+		<value xml:lang="EN">Years</value>
+		<value xml:lang="CN">年份</value>
+		<value xml:lang="FR">Axe des Années</value>
+		<value xml:lang="ES">Años</value>
+		<value xml:lang="AR">السنوات</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="Balance Elements by Area">
+		<value xml:lang="EN">By Element</value>
+		<value xml:lang="CN">分指标</value>
+		<value xml:lang="FR">Par élément</value>
+		<value xml:lang="ES">Por elemento</value>
+		<value xml:lang="AR">بحسب العنصر</value>
+		<value xml:lang="JP">????????????</value>
+	</key>
+	<key name="Balance Elements by Item">
+		<value xml:lang="EN">By Item</value>
+		<value xml:lang="CN">分项目</value>
+		<value xml:lang="FR">Par produit</value>
+		<value xml:lang="ES">Por producto</value>
+		<value xml:lang="AR">بحسب البند</value>
+		<value xml:lang="JP">????????????</value>
+	</key>
+	<key name="Balances by Area">
+		<value xml:lang="EN">By Area</value>
+		<value xml:lang="CN">分地区</value>
+		<value xml:lang="FR">Par superficie</value>
+		<value xml:lang="ES">Por superficie</value>
+		<value xml:lang="AR">بحسب المساحة</value>
+		<value xml:lang="JP">?????????</value>
+	</key>
+	<key name="Bilateral Trade Matrices">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">林业数据</value>
+		<value xml:lang="FR">Statistiques du commerce bilatéral</value>
+		<value xml:lang="ES">Matrices de Comercio Bilateral</value>
+		<value xml:lang="AR">مصفوفات التجارة الثنائية</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Bulk">
+		<value xml:lang="EN">Bulk Download</value>
+		<value xml:lang="CN">批量下载</value>
+		<value xml:lang="FR">Télédécharger en bloc</value>
+		<value xml:lang="ES">Bajar datos en bulto</value>
+		<value xml:lang="AR">Bulk Download</value>
+		<value xml:lang="JP">Bulk Download</value>
+	</key>
+	<key name="BulkDownload">
+		<value xml:lang="EN">Download as Zip File</value>
+		<value xml:lang="CN">下载为zip文件</value>
+		<value xml:lang="FR">Télécharger comme fichier Zip</value>
+		<value xml:lang="ES">Cargar en formato ZIP</value>
+		<value xml:lang="AR">Download as Zip File</value>
+		<value xml:lang="JP">Download as Zip File</value>
+	</key>
+	<key name="By Area">
+		<value xml:lang="EN">Oils, Meals, Proteins by Area</value>
+		<value xml:lang="CN">Oils, Meals, Proteins by Area</value>
+		<value xml:lang="FR">Oils, Meals, Proteins by Area</value>
+		<value xml:lang="ES">Oils, Meals, Proteins by Area</value>
+		<value xml:lang="AR">Oils, Meals, Proteins by Area</value>
+		<value xml:lang="JP">Oils, Meals, Proteins by Area</value>
+	</key>
+	<key name="By Element">
+		<value xml:lang="EN">Oils, Meals, Proteins by Element</value>
+		<value xml:lang="CN">Oils, Meals, Proteins by Element</value>
+		<value xml:lang="FR">Oils, Meals, Proteins by Element</value>
+		<value xml:lang="ES">Oils, Meals, Proteins by Element</value>
+		<value xml:lang="AR">Oils, Meals, Proteins by Element</value>
+		<value xml:lang="JP">Oils, Meals, Proteins by Element</value>
+	</key>
+	<key name="By Item">
+		<value xml:lang="EN">Oils, Meals, Proteins by Item</value>
+		<value xml:lang="CN">Oils, Meals, Proteins by Item</value>
+		<value xml:lang="FR">Oils, Meals, Proteins by Item</value>
+		<value xml:lang="ES">Oils, Meals, Proteins by Item</value>
+		<value xml:lang="AR">Oils, Meals, Proteins by Item</value>
+		<value xml:lang="JP">Oils, Meals, Proteins by Item</value>
+	</key>
+	<key name="CalcAvg">
+		<value xml:lang="EN">3-Year Average</value>
+		<value xml:lang="CN">3年平均</value>
+		<value xml:lang="FR">Moyenne sur trois ans</value>
+		<value xml:lang="ES">Promedio de tres años</value>
+		<value xml:lang="AR">متوسط 3 سنوات</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="CalcAvgMoving">
+		<value xml:lang="EN">Center-Moving Average (3 Yr)</value>
+		<value xml:lang="CN">趋中移动平均（3年）</value>
+		<value xml:lang="FR">Moyenne mobile centrée sur trois ans</value>
+		<value xml:lang="ES">Promedio Móvil Centrado en tres años</value>
+		<value xml:lang="AR">متوسط الحركة من الوسط (3 سنوات)</value>
+		<value xml:lang="JP">??????????</value>
+	</key>
+	<key name="CalcAvgWeighted">
+		<value xml:lang="EN">Weighted Average</value>
+		<value xml:lang="CN">加权平均</value>
+		<value xml:lang="FR">Moyenne pondérée</value>
+		<value xml:lang="ES">Media Ponderada</value>
+		<value xml:lang="AR">الوزن المرجح</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="CalcBasic">
+		<value xml:lang="EN">Basic Statistics</value>
+		<value xml:lang="CN">基本统计</value>
+		<value xml:lang="FR">Statistiques de base</value>
+		<value xml:lang="ES">Estadística Basica</value>
+		<value xml:lang="AR">الاحصاءات الأساسية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="CalcExp">
+		<value xml:lang="EN">Exponential Growth</value>
+		<value xml:lang="CN">指数增长</value>
+		<value xml:lang="FR">Croissance exponentielle</value>
+		<value xml:lang="ES">Crecimiento Exponencial</value>
+		<value xml:lang="AR">نمو أسى</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="CalcMean">
+		<value xml:lang="EN">Mean</value>
+		<value xml:lang="CN">平均</value>
+		<value xml:lang="FR">Moyenne</value>
+		<value xml:lang="ES">Promedio</value>
+		<value xml:lang="AR">الوسيط</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="CalcNetTr">
+		<value xml:lang="EN">Net Trade</value>
+		<value xml:lang="CN">净贸易</value>
+		<value xml:lang="FR">Commerce net</value>
+		<value xml:lang="ES">Comercio Neto</value>
+		<value xml:lang="AR">التجارة الصافية</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="CalcNetTrQ">
+		<value xml:lang="EN">Net Trade Qty</value>
+		<value xml:lang="CN">净贸易数量</value>
+		<value xml:lang="FR">Commerce net - quantité</value>
+		<value xml:lang="ES">Comercio Neto - cantidad</value>
+		<value xml:lang="AR">كميات التجارة الصافية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="CalcNetTrV">
+		<value xml:lang="EN">Net Trade Val</value>
+		<value xml:lang="CN">净贸易金额</value>
+		<value xml:lang="FR">Commerce net - valeur</value>
+		<value xml:lang="ES">Comercio Neto - valor</value>
+		<value xml:lang="AR">قيمة التجارة الصافية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="CalcPerCap">
+		<value xml:lang="EN">Per Capita</value>
+		<value xml:lang="CN">每人</value>
+		<value xml:lang="FR">Par personne</value>
+		<value xml:lang="ES">Per Cápita</value>
+		<value xml:lang="AR">نصيب الفرد</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="CalcSD">
+		<value xml:lang="EN">Standard Deviation</value>
+		<value xml:lang="CN">标准差</value>
+		<value xml:lang="FR">Écart type</value>
+		<value xml:lang="ES">Desviación Estándar</value>
+		<value xml:lang="AR">انحراف معيارى</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Calculate">
+		<value xml:lang="EN">Calculate</value>
+		<value xml:lang="CN">计算</value>
+		<value xml:lang="FR">Calcul</value>
+		<value xml:lang="ES">Cálculo</value>
+		<value xml:lang="AR">حساب</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="CitationFaostat">
+		<value xml:lang="EN">Faostat Citation</value>
+		<value xml:lang="CN">Faostat Citation</value>
+		<value xml:lang="FR">Faostat Citing</value>
+		<value xml:lang="ES">Faostat Fuente</value>
+		<value xml:lang="AR">Faostat Citation</value>
+		<value xml:lang="JP">Faostat Citation</value>
+	</key>
+	<key name="ClickOnFile">
+		<value xml:lang="EN">Click on the file to download it as .CSV</value>
+		<value xml:lang="CN">点击该文件将其下载为.CSV</value>
+		<value xml:lang="FR">Cliquer sur le fichier pour le décharger sous forme de document CSV</value>
+		<value xml:lang="ES">Haga click sobre el archivo para cargarlo en CSV</value>
+		<value xml:lang="AR">اضغط على الملف لاعطاء المعلومات على شكل ملف CSV</value>
+		<value xml:lang="JP">CSV??????????????????????????????</value>
+	</key>
+	<key name="CO3">
+		<value xml:lang="EN">Oilseeds, Oils, Fats, Cakes and Meals</value>
+		<value xml:lang="CN">油籽，油，脂，油饼及粗粉</value>
+		<value xml:lang="FR">Graines oléagineuses, huiles, martières grasses, tourteau et farine</value>
+		<value xml:lang="ES">Semillas oleaginosas, aceite, materias grasas, tortas y harinas</value>
+		<value xml:lang="AR">البذور الزيتية والزيوت والدهون والكسب والمساحيق</value>
+		<value xml:lang="JP">??????????????????</value>
+	</key>
+	<key name="Code">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">代码</value>
+		<value xml:lang="FR">Code</value>
+		<value xml:lang="ES">Código</value>
+		<value xml:lang="AR">الرموز</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Codes">
+		<value xml:lang="EN">Codes</value>
+		<value xml:lang="CN">代码</value>
+		<value xml:lang="FR">Codes</value>
+		<value xml:lang="ES">Códigos</value>
+		<value xml:lang="AR">الرموز</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="CODEX ALIMENTARIUS: Pesticide Residues in Food">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">食物标准：食物中的农药残留物</value>
+		<value xml:lang="FR">CODEX ALIMENTARIUS: Résidus de pesticides dans les denrées alimentaires.</value>
+		<value xml:lang="ES">CODEX ALIMENTARIUS: Residuos de plaguicidas en los alimentos.</value>
+		<value xml:lang="AR">الدستور الغذائى: مخلفات المبيدات فى الأغذية</value>
+		<value xml:lang="JP">???????: ??????</value>
+	</key>
+	<key name="CODEX ALIMENTARIUS: Veterinary Drug Residues in Food">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">食物标准：食物中的兽药残留物</value>
+		<value xml:lang="FR">Codex Alimentarius: Résidus de médicaments vétérinaires dans les aliments</value>
+		<value xml:lang="ES">Codex Alimentarius: Residuos de Medicamentos Veterinarios en alimentos</value>
+		<value xml:lang="AR">الدستور الغذائى: مخلفات العقاقير البيطرية فى الأغذية</value>
+		<value xml:lang="JP">???????????????</value>
+	</key>
+	<key name="Collections:Blurb">
+		<value xml:lang="EN">Select a data collection on which to query the FAOSTAT database:-</value>
+		<value xml:lang="CN">选择一个数据集来查询FAOSTAT数据库：</value>
+		<value xml:lang="FR">Sélectionner une série de données pour interroger la base de données FAOSTAT</value>
+		<value xml:lang="ES">Seleccione una recolección de datos sobre la cual consultar la base de datos FAOSTAT</value>
+		<value xml:lang="AR">اختر مجموعة البيانات التى ستسأل بشأنها قاعدة البيانات</value>
+		<value xml:lang="JP">FAOSTAT???????????????????????????????</value>
+	</key>
+	<key name="Collections:Blurb-ESCR">
+		<value xml:lang="EN">Select a data collection on which to query the database:-</value>
+		<value xml:lang="CN">选择一个数据集来查询数据库：</value>
+		<value xml:lang="FR">Sélectionner une série de données pour interroger la base de données</value>
+		<value xml:lang="ES">Seleccione una recolección de datos sobre la cual consultar la base de datos</value>
+		<value xml:lang="AR">اختر مجموعة البيانات التى ستسأل بشأنها قاعدة البيانات</value>
+		<value xml:lang="JP">???????????????????????????????</value>
+	</key>
+	<key name="Collections:Title">
+		<value xml:lang="EN">FAOSTAT Database Collections</value>
+		<value xml:lang="CN">FAOSTAT 数据库集</value>
+		<value xml:lang="FR">Base de Données FAOSTAT</value>
+		<value xml:lang="ES">Recolección de Datos FAOSTAT</value>
+		<value xml:lang="AR">مجموعات قاعدة بيانات المعلومات الاحصائية فى المنظمة</value>
+		<value xml:lang="JP">FAOSTAT???????</value>
+	</key>
+	<key name="Collections:Title-ESCR">
+		<value xml:lang="EN">ESCR Raw Data Database Collections</value>
+		<value xml:lang="CN">ESCR Raw Data 数据库集</value>
+		<value xml:lang="FR">Base de Données ESCR Raw Data</value>
+		<value xml:lang="ES">Recolección de Datos ESCR Raw Data</value>
+		<value xml:lang="AR">مجموعات قاعدة بيانات المعلومات الاحصائية فى المنظمة</value>
+		<value xml:lang="JP">ESCR Raw Data ???????</value>
+	</key>
+	<key name="Collections:Title AOAD">
+		<value xml:lang="EN">Database Collections</value>
+		<value xml:lang="CN">数据库集</value>
+		<value xml:lang="FR">Base de Données</value>
+		<value xml:lang="ES">Recolección de Datos</value>
+		<value xml:lang="AR">مجموعات قاعدة بيانات المعلومات الاحصائية فى المنظمة</value>
+		<value xml:lang="JP">FAOSTAT???????</value>
+	</key>
+	<key name="Commodity Balances">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农产品平衡</value>
+		<value xml:lang="FR">Bilan de produits</value>
+		<value xml:lang="ES">Balance de Productos</value>
+		<value xml:lang="AR">موازنات السلع</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Commodity Balances: Demand">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农产品平衡：需求</value>
+		<value xml:lang="FR">Bilan de produits (de base): Demande</value>
+		<value xml:lang="ES">Balance de Productos de Base: Demanda</value>
+		<value xml:lang="AR">موزانات السلع: الطلب</value>
+		<value xml:lang="JP">????: ??</value>
+	</key>
+	<key name="Commodity Balances: Supply">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农产品平衡：供给</value>
+		<value xml:lang="FR">Bilan de produits (de base): Disponibilité</value>
+		<value xml:lang="ES">Balance de Productos de Base: Disponibilidad</value>
+		<value xml:lang="AR">موازنات السلع: العرض</value>
+		<value xml:lang="JP">????: ??</value>
+	</key>
+	<key name="ConfigureBrowser">
+		<value xml:lang="EN">If you configure your browser to associate the file type  with your spreadsheet software, then it will be started automatically when you download the file.</value>
+		<value xml:lang="CN">如果你把浏览器配置为将你的电子表格软件与文本（TXT）/逗号分隔 文件（CSV）相关联，当你下载该文件时，它将自动打开。</value>
+		<value xml:lang="FR">Si votre ordinateur reconnait les documents en CSV le fichier s'ouvrira directement dans un logiciel de tabulation.</value>
+		<value xml:lang="ES">Si su browser está configurado para asociar archivos CSV con su tablero electrónico, éste se pondrá en marcha automaticamente cuando carga el fichero.</value>
+		<value xml:lang="AR">اذا هيأت المتصفح الخاص بك لاستيعاب ملف من نوع ملف قيم منفصلة بالفاصلات CSV</value>
+		<value xml:lang="JP">?????????????CSV????????????????????????????????????????????????????????????</value>
+	</key>
+	<key name="Copyright FAO">
+		<value xml:lang="EN"/>
+		<value xml:lang="CN"/>
+		<value xml:lang="FR"/>
+		<value xml:lang="ES"/>
+		<value xml:lang="AR">حقوق الطبع محفوظة</value>
+		<value xml:lang="JP">????FAO??????</value>
+	</key>
+	<key name="Copyright WFP">
+		<value xml:lang="EN">FAO/WFP 2004</value>
+		<value xml:lang="CN">FAO/WFP 2004</value>
+		<value xml:lang="FR">FAO/WFP 2004</value>
+		<value xml:lang="ES">FAO/WFP 2004</value>
+		<value xml:lang="AR">FAO/WFP 2004</value>
+		<value xml:lang="JP">FAO/WFP 2004</value>
+	</key>
+	<key name="Copyright WFP 2">
+		<value xml:lang="EN"/>
+		<value xml:lang="CN"/>
+		<value xml:lang="FR"/>
+		<value xml:lang="ES"/>
+		<value xml:lang="AR">حقوق الطبع محفوظة</value>
+		<value xml:lang="JP">????FAO??????</value>
+	</key>
+	<key name="Countries">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">国家</value>
+		<value xml:lang="FR">Pays</value>
+		<value xml:lang="ES">Países</value>
+		<value xml:lang="AR">البلدان</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="Country">
+		<value xml:lang="EN">Country</value>
+		<value xml:lang="CN">国家</value>
+		<value xml:lang="FR">Pays</value>
+		<value xml:lang="ES">País</value>
+		<value xml:lang="AR">البلد</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="CountryCodes">
+		<value xml:lang="EN">In the query selection box and standard output, countries and country groups are listed in alphabetical order. If the user wishes output to be in FAO yearbook order, select the 'FAO Yearbook Sort Order' Option on the Database Query Form.</value>
+		<value xml:lang="CN">在查询选择框和标准输出格式中，国家和国家群以字母顺序排列。如果用户希望输出格式为FAO 年鉴顺序，在数据库查询表格内选择”FAO年鉴排序顺序”选项。</value>
+		<value xml:lang="FR">Dans la liste des paramètres et tableau des résultats, les pays et groupe de pays sont classés par ordre alphabétique.  Si l'utilisateur désire que les résultats soient classés selon l'annuaire de la FAO, cocher l'option 'Liste des pays selon l'annuaire de la FAO' sur la page d'interrogation de la base de données.</value>
+		<value xml:lang="ES">En las listas de selección y en los resultados, los países y grupos de países se muestran en orden alfabética. Para ver los resultados en el order en que aparecen en los anuarios FAO, seleccione la opción 'Páises ordenados como en el Anuario de la FAO' que se encuentra en la página de selección de parámetros.</value>
+		<value xml:lang="AR">In the query selection box and standard output, countries and country groups are listed in alphabetical order. If the user wishes output to be in FAO yearbook order, select the 'FAO Yearbook Sort Order' Option on the Database Query Form.</value>
+		<value xml:lang="JP">In the query selection box and standard output, countries and country groups are listed in alphabetical order. If the user wishes output to be in FAO yearbook order, select the 'FAO Yearbook Sort Order' Option on the Database Query Form.</value>
+	</key>
+	<key name="Crocodiles and alligators">
+		<value xml:lang="EN">Crocodiles and alligators</value>
+		<value xml:lang="CN">鳄鱼及短吻鳄</value>
+		<value xml:lang="FR">Crocodiles et alligators</value>
+		<value xml:lang="ES">Cocodrilos y aligatores</value>
+		<value xml:lang="AR">التماسيح والتمساح الأمريكى</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Crops">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农作物</value>
+		<value xml:lang="FR">Cultures</value>
+		<value xml:lang="ES">Cultivos</value>
+		<value xml:lang="AR">محاصيل</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Crops &amp; Livestock">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">作物和畜产品，初级及加工的</value>
+		<value xml:lang="FR">Cultures et Élevage</value>
+		<value xml:lang="ES">Cultivos y Ganado</value>
+		<value xml:lang="AR">المحاصيل والمنتجات الحيوانية</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Crops &amp; Livestock Primary &amp; Processed">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">作物和畜产品，初级及加工的</value>
+		<value xml:lang="FR">Cultures et élevage primaires et transformés</value>
+		<value xml:lang="ES">Cultivos y Ganado Primarios y Elaborados</value>
+		<value xml:lang="AR">المحاصيل و المنتجات الحيوانية الأولية و المصنعة</value>
+		<value xml:lang="JP">???????????????</value>
+	</key>
+	<key name="Crops Derived">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">作物，加工的</value>
+		<value xml:lang="FR">Produits Agricoles Transformés</value>
+		<value xml:lang="ES">Cultivos Derivados</value>
+		<value xml:lang="AR">مستمدة من المحاصيل</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Crops Primary">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">作物，初级的</value>
+		<value xml:lang="FR">Cultures primaires</value>
+		<value xml:lang="ES">Cultivos Primarios</value>
+		<value xml:lang="AR">المحاصيل الأولية</value>
+		<value xml:lang="JP">????????</value>
+	</key>
+	<key name="Crops Primary Equivalent">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">作物，相当于初级的</value>
+		<value xml:lang="FR">Cultures primaires, équivalent</value>
+		<value xml:lang="ES">Cultivos Primarios Equivalentes</value>
+		<value xml:lang="AR">معادل المحاصيل الأولية</value>
+		<value xml:lang="JP">??????????</value>
+	</key>
+	<key name="Crops Processed">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">作物，加工的</value>
+		<value xml:lang="FR">Produits agricoles transformés</value>
+		<value xml:lang="ES">Cultivos Elaborados</value>
+		<value xml:lang="AR">المحاصيل المصنعة</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="CustomerSurvey">
+		<value xml:lang="EN">Customer Survey</value>
+		<value xml:lang="CN">Customer Survey</value>
+		<value xml:lang="FR">Enquête Sur La Satisfaction De Nos Clients</value>
+		<value xml:lang="ES">Encuesta de opinión entre los usuarios</value>
+		<value xml:lang="AR">Customer Survey</value>
+		<value xml:lang="JP">Customer Survey</value>
+	</key>
+	<key name="Data Collections">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">数据集</value>
+		<value xml:lang="FR">Série de données</value>
+		<value xml:lang="ES">Recolección de Datos</value>
+		<value xml:lang="AR">مجموعات بيانات</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Data Source">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">数据源</value>
+		<value xml:lang="FR">Source des données</value>
+		<value xml:lang="ES">Fuente de los datos</value>
+		<value xml:lang="AR">مصدر البيانات</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Default Factor">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">缺省因子</value>
+		<value xml:lang="FR">Facteur par défaut</value>
+		<value xml:lang="ES">Factor por defecto</value>
+		<value xml:lang="AR">Default Factor</value>
+		<value xml:lang="JP">Default Factor</value>
+	</key>
+	<key name="Derived">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">加工的</value>
+		<value xml:lang="FR">Transformés</value>
+		<value xml:lang="ES">Derivados</value>
+		<value xml:lang="AR">المستمدة</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Derived Products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">加工产品</value>
+		<value xml:lang="FR">Produits transformés</value>
+		<value xml:lang="ES">Productos Derivados</value>
+		<value xml:lang="AR">منتجات مستمدة</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Domain">
+		<value xml:lang="EN">Domain</value>
+		<value xml:lang="CN">领域</value>
+		<value xml:lang="FR">Domaines</value>
+		<value xml:lang="ES">Materias</value>
+		<value xml:lang="AR">مجال</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Donor Country">
+		<value xml:lang="EN">Donor Country</value>
+		<value xml:lang="CN">援助国</value>
+		<value xml:lang="FR">Pays donateurs</value>
+		<value xml:lang="ES">País Donante</value>
+		<value xml:lang="AR">البلد المتبرع</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="EBDBlurb">
+		<value xml:lang="EN">(July/June trade beginning in year shown except for rice which is calendar)</value>
+		<value xml:lang="CN">拢篓7谩泵?/6谩泵? 氓V鲁谩��?谩G冒氓A录谩懊�F�?霉氓A戮谩B锚拢卢�?媒�?芒拢潞麓贸氓V�?氓A鹿谩懊�V鹿芦�?煤谩B锚拢漏</value>
+		<value xml:lang="FR">(Commerce de juillet de l'année sélectionnée à  juin de l'année suivante, à  l'exception des données concernant le riz pour lesquelles il s'agit de l'année civile)</value>
+		<value xml:lang="ES">(Los datos de comercio se indican con referencia al año comercial general julio/junio, excepto los datos sobre el arroz cuyo período de referencia es el año civil).</value>
+		<value xml:lang="AR">(أ?أ،أ?أ?أ?أ?أ? أ­أ¦أ،أ­أ¦/أ?أ£أ¦أ? أ¦أ?أ?أ?أ? أ?أ?أ،أ?أ¤أ? أ?أ،أ£أ?أ­أ¤أ? أ?أ­أ£أ? أ?أ?أ? أ?أ،أ?أ?أ? أ?أ،أ?أ¬ أ­أ?أ­أ? أ?أ?أ? أ?أ،أ?أ¤أ? أ?أ،أ?أ?أ¦أ­أ£أ­أ?)</value>
+		<value xml:lang="JP">?????6??????????????????????????????????????????????</value>
+	</key>
+	<key name="Element">
+		<value xml:lang="EN">Element</value>
+		<value xml:lang="CN">指标</value>
+		<value xml:lang="FR">Élément</value>
+		<value xml:lang="ES">Elemento</value>
+		<value xml:lang="AR">العنصر</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Elements">
+		<value xml:lang="EN">Elements</value>
+		<value xml:lang="CN">指标</value>
+		<value xml:lang="FR">Éléments</value>
+		<value xml:lang="ES">Elementos</value>
+		<value xml:lang="AR">العناصر</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="End Year">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">结束年份</value>
+		<value xml:lang="FR">Année fin</value>
+		<value xml:lang="ES">Año final</value>
+		<value xml:lang="AR">سنة الانتهاء</value>
+		<value xml:lang="JP">End Year</value>
+	</key>
+	<key name="English">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">英语</value>
+		<value xml:lang="FR">Anglais</value>
+		<value xml:lang="ES">Inglés</value>
+		<value xml:lang="AR">الانجليزية</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Exit from FAOSTAT">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">从粮农统计数据库（FAOSTAT ) 退出</value>
+		<value xml:lang="FR">Sortir de FAOSTAT</value>
+		<value xml:lang="ES">Salga del FAOSTAT</value>
+		<value xml:lang="AR">Exit from FAOSTAT</value>
+		<value xml:lang="JP">Exit from FAOSTAT</value>
+	</key>
+	<key name="Export By Destination">
+		<value xml:lang="EN">Exports of Cereals by Source and Destination</value>
+		<value xml:lang="CN">谷物出口（到岸，离岸）</value>
+		<value xml:lang="FR">Exportation de céréales par pays donateur et de destination</value>
+		<value xml:lang="ES">Exportación por País de Destino</value>
+		<value xml:lang="AR">صادرات الحبوب بحسب  بلد المصدر وبلد المقصد</value>
+		<value xml:lang="JP">???????????</value>
+	</key>
+	<key name="Exporter Country">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">出口国家</value>
+		<value xml:lang="FR">Exporter Country</value>
+		<value xml:lang="ES">Exporter Country</value>
+		<value xml:lang="AR">Exporter Country</value>
+		<value xml:lang="JP">Exporter Country</value>
+	</key>
+	<key name="FAO Home Page">
+		<value xml:lang="EN">FAO Home Page</value>
+		<value xml:lang="CN">FAO主页</value>
+		<value xml:lang="FR">Page d'accueil de la FAO</value>
+		<value xml:lang="ES">Página Principal FAO</value>
+		<value xml:lang="AR">موقع المنظمة</value>
+		<value xml:lang="JP">FAO??????</value>
+	</key>
+	<key name="FAO-WFP Food Aid Database">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">FAO-WFP Food Aid Database</value>
+		<value xml:lang="FR">FAO-WFP Food Aid Database</value>
+		<value xml:lang="ES">FAO-WFP Food Aid Database</value>
+		<value xml:lang="AR">FAO-WFP Food Aid Database</value>
+		<value xml:lang="JP">FAO-WFP Food Aid Database</value>
+	</key>
+	<key name="FBS Reports">
+		<value xml:lang="EN">Food Balance Sheet Reports</value>
+		<value xml:lang="CN">食物平衡表报表</value>
+		<value xml:lang="FR">Bilans alimentaires</value>
+		<value xml:lang="ES">Hoja de Balance de Alimentos</value>
+		<value xml:lang="AR">تقارير الموازين الغذائية</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Warning line 1">
+		<value xml:lang="EN">The data are expressed in 1000 metric tons.</value>
+		<value xml:lang="CN">警告 数据以千公吨表示。</value>
+		<value xml:lang="FR">Les données sont exprimées en 1000 tonnes métriques. Si vous désirez les voir exprimées simplement en tonnes métriques,</value>
+		<value xml:lang="ES">Los datos estan expresados en 1000 toneladas métricas.</value>
+		<value xml:lang="AR">تنبيه : الأرقام معطاة بالف طن متري</value>
+		<value xml:lang="JP">??????1000??????????????</value>
+	</key>
+	<key name="Warning line 2">
+		<value xml:lang="EN">If you want to see data in metric tons download the relevant CSV file or see Domain Commodities Balances and Food Supply in Data Collection.</value>
+		<value xml:lang="CN">如希望看到以公吨表示的数据，请下载相关的CSV文档或查看商品对照表域和数据集内的粮食供应选项。</value>
+		<value xml:lang="FR">faites le téléchargement du fichier CSV ou consultez la Série de données des Domaines Bilan de produits et Disponibilité alimentaire</value>
+		<value xml:lang="ES">Si usted quiere ver que los datos en toneladas métricas descargan el archivo pertinente de CSV o vea las Materias: Balance de Productos y Suministros de Alimentos en los Datos Agrícolas de FAOSTAT.</value>
+		<value xml:lang="AR">أو انظر مجال موازنات السلع  CVSللحصول على الأرقام بالطن المتري ترحل الأرقام على شكل ملف والإمدادات الغذائية في مجموعة البيانات .</value>
+		<value xml:lang="JP">If you want to see data in metric tons download the relevant CSV file or see Domain Commodities Balances and Food Supply in Data Collection.</value>
+	</key>
+	<key name="Warning line 3">
+		<value xml:lang="EN">In the Commodity Balances as well as in Food Balance Sheet, negative imbalances can occur because of rounding errors, trade imbalances, multiple inputs or non conventional input into a processed item. While these cases are rare, it should be considered as "statistical discrepancy". In the new version of our data base (&lt;a href="http://www.fao.org/faostat" target="_new">FAOSTAT2&lt;/a>), this problem is being addressed.</value>
+		<value xml:lang="CN">In the Commodity Balances as well as in Food Balance Sheet, negative imbalances can occur because of rounding errors, trade imbalances, multiple inputs or non conventional input into a processed item. While these cases are rare, it should be considered as "statistical discrepancy". In the new version of our data base (&lt;a href="http://www.fao.org/faostat" target="_new">FAOSTAT2&lt;/a>), this problem is being addressed.</value>
+		<value xml:lang="FR">Dans les Bilans de produits et Bilans alimentaires, des déséquilibres de bilans peuvent subsister à cause des erreurs d'arrondis, des déséquilibres de balance commerciale, multiples inputs ou inputs non conventionnels des produits transformés. Bien que ces cas soient rares, ils devraient être considérés comme des "incohérences statistiques". Dans la nouvelles version de notre base de données (&lt;a href="http://www.fao.org/faostat" target="_new">FAOSTAT2&lt;/a>), on est entrain de re-étudier ce problème.</value>
+		<value xml:lang="ES">En la materia Balance de Productos así como en la Hoja de Balance de Alimentos, los desequilibrios negativos pueden ocurrir a causa de errores de redondeo, los desequilibrios del comercio, múltiples entradas o la entrada no convencional en un artículo procesado. Aunque estos casos son raros y se deben considerar como discrepancia estadística. En la versión nueva de nuestra base de datos (&lt;a href="http://www.fao.org/faostat" target="_new">FAOSTAT2&lt;/a>), este problema será reconsiderado más cuidadosamente.</value>
+		<value xml:lang="AR">In the Commodity Balances as well as in Food Balance Sheet, negative imbalances can occur because of rounding errors, trade imbalances, multiple inputs or non conventional input into a processed item. While these cases are rare, it should be considered as "statistical discrepancy". In the new version of our data base (&lt;a href="http://www.fao.org/faostat" target="_new">FAOSTAT2&lt;/a>), this problem is being addressed.</value>
+		<value xml:lang="JP">In the Commodity Balances as well as in Food Balance Sheet, negative imbalances can occur because of rounding errors, trade imbalances, multiple inputs or non conventional input into a processed item. While these cases are rare, it should be considered as "statistical discrepancy". In the new version of our data base (&lt;a href="http://www.fao.org/faostat" target="_new">FAOSTAT2&lt;/a>), this problem is being addressed.</value>
+	</key>
+	<key name="Fertilizers">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">化肥</value>
+		<value xml:lang="FR">Engrais</value>
+		<value xml:lang="ES">Fertilizantes</value>
+		<value xml:lang="AR">أسمدة</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Fibres">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Fibres</value>
+		<value xml:lang="FR">Fibres</value>
+		<value xml:lang="ES">Fibres</value>
+		<value xml:lang="AR">Fibres</value>
+		<value xml:lang="JP">Fibres</value>
+	</key>
+	<key name="Fish Catch">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">渔业捕捞</value>
+		<value xml:lang="FR">Captures des pêches</value>
+		<value xml:lang="ES">Capturas de pesca</value>
+		<value xml:lang="AR">الانتاج السمكى</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Fish Production">
+		<value xml:lang="EN">Fish Production</value>
+		<value xml:lang="CN">渔业生产</value>
+		<value xml:lang="FR">Production halieutique</value>
+		<value xml:lang="ES">Producción Pesquera</value>
+		<value xml:lang="AR">الانتاج السمكى</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Fishery Data">
+		<value xml:lang="EN">Fishery Data</value>
+		<value xml:lang="CN">渔业数据</value>
+		<value xml:lang="FR">Pêches</value>
+		<value xml:lang="ES">Pesca</value>
+		<value xml:lang="AR">بيانات مصايد الأسماك</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Fishery Division">
+		<value xml:lang="EN">FISHSTAT+ Universal software for fishery statistical time series</value>
+		<value xml:lang="CN">FISHSTAT+ 渔业统计时间序列通用软件</value>
+		<value xml:lang="FR">FISHSTAT+ Logiciel universel pour établir des séries statistiques chronologiques sur les pêches</value>
+		<value xml:lang="ES">FISHSTAT+ Programa informático universal para series cronológicas estadísticas de pesca</value>
+		<value xml:lang="AR">FISHSTAT+ برنامج كومبيوتري جاهز وشامل للسلاسل الزمنية الإحصائية للثروة السمكية</value>
+		<value xml:lang="JP">The Statistics Division</value>
+	</key>
+	<key name="Fishes crustaceans molluscs and misc.aquatic animals">
+		<value xml:lang="EN">Fishes, crustaceans, molluscs and misc.aquatic animals</value>
+		<value xml:lang="CN">鱼类，甲壳类</value>
+		<value xml:lang="FR">Poissons, crustacés, mollusques et autres animaux aquatiques</value>
+		<value xml:lang="ES">Peces, crustáceos, moluscos and animales acuáticos diversos</value>
+		<value xml:lang="AR">الأسماك والقشريات والمحار والحيوانات المائية السطحية</value>
+		<value xml:lang="JP">?????????????????????</value>
+	</key>
+	<key name="Fishing Area">
+		<value xml:lang="EN">Fishing Area</value>
+		<value xml:lang="CN">捕捞区域</value>
+		<value xml:lang="FR">Zone de pêche</value>
+		<value xml:lang="ES">Area de Pesca</value>
+		<value xml:lang="AR">مناطق الصيد</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Fishing Areas">
+		<value xml:lang="EN">Fishing Areas</value>
+		<value xml:lang="CN">捕捞区域</value>
+		<value xml:lang="FR">Zone de pêche</value>
+		<value xml:lang="ES">Area de Pesca</value>
+		<value xml:lang="AR">مناطق الصيد</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Food Aid (WFP)">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">食物援助（粮食计划署）</value>
+		<value xml:lang="FR">Aide alimentaire (PAM)</value>
+		<value xml:lang="ES">La Ayuda Alimentaria (PMA)</value>
+		<value xml:lang="AR">المعونة الغذائية (برنامج الأغذية العالمى)</value>
+		<value xml:lang="JP">????(WFP)</value>
+	</key>
+	<key name="Food Aid 2key text">
+		<value xml:lang="EN">Item</value>
+		<value xml:lang="CN">项目</value>
+		<value xml:lang="FR">Produit</value>
+		<value xml:lang="ES">Producto</value>
+		<value xml:lang="AR">البند</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Food Aid 3key text">
+		<value xml:lang="EN">Donor Country</value>
+		<value xml:lang="CN">援助国</value>
+		<value xml:lang="FR">Pays donateurs</value>
+		<value xml:lang="ES">País Donante</value>
+		<value xml:lang="AR">البلد المتبرع</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Food Aid select text">
+		<value xml:lang="EN">(For Cereals, July/June, beginning in year shown)</value>
+		<value xml:lang="CN">(对于谷类，7月/6月，从显示年份开始)</value>
+		<value xml:lang="FR">(For Cereals, July/June, beginning in year shown)</value>
+		<value xml:lang="ES">(For Cereals, July/June, beginning in year shown)</value>
+		<value xml:lang="AR">(For Cereals, July/June, beginning in year shown)</value>
+		<value xml:lang="JP">(For Cereals, July/June, beginning in year shown)</value>
+	</key>
+	<key name="Food Bal. Sheet">
+		<value xml:lang="EN">Food Bal. Sheet</value>
+		<value xml:lang="CN">食物平衡表</value>
+		<value xml:lang="FR">Bilan alimentaire</value>
+		<value xml:lang="ES">Balance Alimentario</value>
+		<value xml:lang="AR">الموازنات الغذائية</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Food Balance Sheets">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">食物平衡表</value>
+		<value xml:lang="FR">Bilan alimentaire</value>
+		<value xml:lang="ES">Balance Alimentario</value>
+		<value xml:lang="AR">الموازنات الغذائية</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Food Supply">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">食物供给</value>
+		<value xml:lang="FR">Disponibilité alimentaire</value>
+		<value xml:lang="ES">Suministros de Alimentos</value>
+		<value xml:lang="AR">الامدادات الغذائية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="For information">
+		<value xml:lang="EN">For information on the source of FAO statistical data please click here -</value>
+		<value xml:lang="CN">有关FAO统计数据来源信息请点击此处－</value>
+		<value xml:lang="FR">Pour information concernant la source des données statistiques de la FAO cliquer ici -</value>
+		<value xml:lang="ES">Para más información sobre la fuente de los datos estadisticos de la FAO cliquar aqui -</value>
+		<value xml:lang="AR">لمزيد من المعلومات عن مصدر البيانات الاحصائية يرجى الضغط هنا</value>
+		<value xml:lang="JP">FAO????????????????????????????</value>
+	</key>
+	<key name="Forestry Data">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">林业数据</value>
+		<value xml:lang="FR">Forêts</value>
+		<value xml:lang="ES">Silvicultura</value>
+		<value xml:lang="AR">بيانات حرجية</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Forestry Processed">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">林业，加工的</value>
+		<value xml:lang="FR">Produits forestiers transformés</value>
+		<value xml:lang="ES">Productos Forestales Elaborados</value>
+		<value xml:lang="AR">غابات مجهزة</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Forestry Trade Flow">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">�h�l�Xμ贸易流量</value>
+		<value xml:lang="FR">Flux commerciaux des produits forestiers</value>
+		<value xml:lang="ES">Flujo del Comercio de Productos Forestales</value>
+		<value xml:lang="AR">تدفق التجارة الحرجية</value>
+		<value xml:lang="JP">????????</value>
+	</key>
+	<key name="ForestryDerived">
+		<value xml:lang="EN">Pulp, Paper&amp;Paperboard</value>
+		<value xml:lang="CN">纸浆，纸及纸板</value>
+		<value xml:lang="FR">Pâte de bois, papier et carton</value>
+		<value xml:lang="ES">Pulpa de Madera, Papel y Carton</value>
+		<value xml:lang="AR">لب ورق وورق مقوى</value>
+		<value xml:lang="JP">????????</value>
+	</key>
+	<key name="ForestryPrimary">
+		<value xml:lang="EN">Roundwood, Sawnwood, Wood-Based Panels</value>
+		<value xml:lang="CN">圆木，成材及木质板</value>
+		<value xml:lang="FR">Bois rond, sciages, panneaux à base de bois</value>
+		<value xml:lang="ES">Madera en Rollo y Aserrada, Tableros de Madera</value>
+		<value xml:lang="AR">أخشاب مستديرة، أخشاب منشورة، ألواح خشبية</value>
+		<value xml:lang="JP">???????????</value>
+	</key>
+	<key name="French">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">法语</value>
+		<value xml:lang="FR">Français</value>
+		<value xml:lang="ES">Francés</value>
+		<value xml:lang="AR">الفرنسية</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="GroupDef">
+		<value xml:lang="EN">Group Definition and Criteria</value>
+		<value xml:lang="CN">Group Definition and Criteria</value>
+		<value xml:lang="FR">Définition et Critères du Groupe</value>
+		<value xml:lang="ES">Definición y Criterios del Grupo</value>
+		<value xml:lang="AR">Group Definition and Criteria</value>
+		<value xml:lang="JP">Group Definition and Criteria</value>
+	</key>
+	<key name="Hard Fibres">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Hard Fibres</value>
+		<value xml:lang="FR">Hard Fibres</value>
+		<value xml:lang="ES">Hard Fibres</value>
+		<value xml:lang="AR">Hard Fibres</value>
+		<value xml:lang="JP">Hard Fibres</value>
+	</key>
+	<key name="Hard Fibres products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Hard Fibres products</value>
+		<value xml:lang="FR">Hard Fibres products</value>
+
+		<value xml:lang="AR">Hard Fibres products</value>
+		<value xml:lang="JP">Hard Fibres products</value>
+	</key>
+	<key name="Hard Fibres raw">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Hard Fibres raw</value>
+		<value xml:lang="FR">Hard Fibres raw</value>
+		<value xml:lang="ES">Hard Fibres raw</value>
+		<value xml:lang="AR">Hard Fibres raw</value>
+		<value xml:lang="JP">Hard Fibres raw</value>
+	</key>
+	<key name="Help">
+		<value xml:lang="EN">Help</value>
+		<value xml:lang="CN">帮助</value>
+		<value xml:lang="FR">Aide</value>
+		<value xml:lang="ES">Ayuda</value>
+		<value xml:lang="AR">مساعدة</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Hides Skins">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Hides Skins</value>
+		<value xml:lang="FR">Hides Skins</value>
+		<value xml:lang="ES">Hides Skins</value>
+		<value xml:lang="AR">Hides Skins</value>
+		<value xml:lang="JP">Hides Skins</value>
+	</key>
+	<key name="HowToNetscape">
+		<value xml:lang="EN">How to set this up in Netscape</value>
+		<value xml:lang="CN">怎样在Netscape 里设置该项功能</value>
+		<value xml:lang="FR">Comment configuer pour Netscape</value>
+		<value xml:lang="ES">Como configurar el browser en Netscape</value>
+		<value xml:lang="AR">كيف تضع ذلك على متصفح Netscape</value>
+		<value xml:lang="JP">????????????????</value>
+	</key>
+	<key name="IfUnsuccessful">
+		<value xml:lang="EN">If this query was unsuccessful, you can submit a</value>
+		<value xml:lang="CN">如果该查询不成功，你可以提交一份</value>
+		<value xml:lang="FR">Si votre interrogation n'a pas eu de réponse vous pouvez soumettre un</value>
+		<value xml:lang="ES">Si su consulta no tuvo éxito, puede mandarnos</value>
+		<value xml:lang="AR">اذا فشل هذا الاستفسار، يمكن أن تقدم</value>
+		<value xml:lang="JP">????????????????????????????</value>
+	</key>
+	<key name="Irrigation">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">灌溉</value>
+		<value xml:lang="FR">Irrigation</value>
+		<value xml:lang="ES">Riego</value>
+		<value xml:lang="AR">الرى</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Item">
+		<value xml:lang="EN">Item</value>
+		<value xml:lang="CN">项目</value>
+		<value xml:lang="FR">Produit</value>
+		<value xml:lang="ES">Producto</value>
+		<value xml:lang="AR">البند</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="ItemCodes">
+		<value xml:lang="EN">Unless otherwise shown, the default multiplication factor for aggregate components is valid for all elements. Exceptions are displayed where they exist.</value>
+		<value xml:lang="CN">除非另外显示，所有指标合成成份的默认增加因子有效。如有例外则显示。</value>
+		<value xml:lang="FR">Sauf indiqué, le facteur de multiplication par défaut pour les composantes agrégées est valide pour tous les éléments. Les exceptions sont affichées où disponibles.</value>
+		<value xml:lang="ES">El factor de multiplicación para agregados atribuido automáticamente por el sistema es válido para todos los elementos.  Se hará nota de las excepciones.</value>
+		<value xml:lang="AR">Unless otherwise shown, the default multiplication factor for aggregate components is valid for all elements. Exceptions are displayed where they exist.</value>
+		<value xml:lang="JP">Unless otherwise shown, the default multiplication factor for aggregate components is valid for all elements. Exceptions are displayed where they exist.</value>
+	</key>
+	<key name="Items">
+		<value xml:lang="EN">Items</value>
+		<value xml:lang="CN">项目</value>
+		<value xml:lang="FR">Produits</value>
+		<value xml:lang="ES">Productos</value>
+		<value xml:lang="AR">البنود</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Jute">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Jute</value>
+		<value xml:lang="FR">Jute</value>
+		<value xml:lang="ES">Jute</value>
+		<value xml:lang="AR">Jute</value>
+		<value xml:lang="JP">Jute</value>
+	</key>
+	<key name="Jute products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Jute products</value>
+		<value xml:lang="FR">Jute products</value>
+		<value xml:lang="ES">Jute products</value>
+		<value xml:lang="AR">Jute products</value>
+		<value xml:lang="JP">Jute products</value>
+	</key>
+	<key name="Jute raw">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Jute raw</value>
+		<value xml:lang="FR">Jute raw</value>
+		<value xml:lang="ES">Jute raw</value>
+		<value xml:lang="AR">Jute raw</value>
+		<value xml:lang="JP">Jute raw</value>
+	</key>
+	<key name="Land">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">土地</value>
+		<value xml:lang="FR">Terres</value>
+		<value xml:lang="ES">Tierras</value>
+		<value xml:lang="AR">الأراضى</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Land Use">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">土地利用</value>
+		<value xml:lang="FR">Utilisation des terres</value>
+		<value xml:lang="ES">Aprovechamiento de Tierras</value>
+		<value xml:lang="AR">استخدام الأراضى</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Last Updated">
+		<value xml:lang="EN">Last Update</value>
+		<value xml:lang="CN">最近更新日期</value>
+		<value xml:lang="FR">Dernière mise à jour</value>
+		<value xml:lang="ES">Ultima Modificación</value>
+		<value xml:lang="AR">تم تحديثها آخر مرة فى</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Live Animals">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">活动物</value>
+		<value xml:lang="FR">Animaux vivants</value>
+		<value xml:lang="ES">Animales Vivos</value>
+		<value xml:lang="AR">حيوانات حية</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Livestock">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">家畜</value>
+		<value xml:lang="FR">Élevage</value>
+		<value xml:lang="ES">Ganado</value>
+		<value xml:lang="AR">المنتجات الحيوانية</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Livestock &amp; Fish">
+		<value xml:lang="EN">Livestock &amp; Fish Primary and Equivalent</value>
+		<value xml:lang="CN">畜产品和水产品，初级及相当于初级的</value>
+		<value xml:lang="FR">Élevage et produits halieutiques primaires, équivalent</value>
+		<value xml:lang="ES">Ganado y Productos de Pesca Primarios Equivalentes</value>
+		<value xml:lang="AR">المنتجات الحيوانية و السمكيةالاولية و معادلاتها</value>
+		<value xml:lang="JP">????????????????</value>
+	</key>
+	<key name="Livestock and Fish Primary Equivalent">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">畜产品，相当于初级的</value>
+		<value xml:lang="FR">Élevage primaire, équivalent</value>
+		<value xml:lang="ES">Ganado Primario Equivalente</value>
+		<value xml:lang="AR">معادل المنتجات الحيوانية والسمكية الأولية</value>
+		<value xml:lang="JP">??????????????</value>
+	</key>
+	<key name="Livestock Derived Fish">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Livestock Derived Fish</value>
+		<value xml:lang="FR">Livestock Derived Fish</value>
+		<value xml:lang="ES">Livestock Derived Fish</value>
+		<value xml:lang="AR">Livestock Derived Fish</value>
+		<value xml:lang="JP">Livestock Derived Fish</value>
+	</key>
+	<key name="Livestock Primary">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">畜产品，初级的</value>
+		<value xml:lang="FR">Élevage primaire</value>
+		<value xml:lang="ES">Ganado Primario</value>
+		<value xml:lang="AR">المنتجات الحيوانية الأولية</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Livestock Primary Fish">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Livestock Primary Fish</value>
+		<value xml:lang="FR">Livestock Primary Fish</value>
+		<value xml:lang="ES">Livestock Primary Fish</value>
+		<value xml:lang="AR">Livestock Primary Fish</value>
+		<value xml:lang="JP">Livestock Primary Fish</value>
+	</key>
+	<key name="Livestock Processed">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">畜产品，加工的</value>
+		<value xml:lang="FR">Animaux Transformés</value>
+		<value xml:lang="ES">Ganado Derivado</value>
+		<value xml:lang="AR">المنتجات الحيوانية مصنع</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Local Currency">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">当地货币</value>
+		<value xml:lang="FR">Local Currency</value>
+		<value xml:lang="ES">Local Currency</value>
+		<value xml:lang="AR">Local Currency</value>
+		<value xml:lang="JP">Local Currency</value>
+	</key>
+	<key name="Long-Term Indicators">
+		<value xml:lang="EN">Long-term Series (decennial) Agricultural Population &amp; Economically Active Population</value>
+		<value xml:lang="CN">长期指标</value>
+		<value xml:lang="FR">Séries à long terme (décennal) Population Agricole et Population Active</value>
+		<value xml:lang="ES">Series de largo plazo (decenal) Población Agrícola y Económicamente Activa</value>
+		<value xml:lang="AR">السلسلة طويلة الأجل (عشر سنوات) للسكان الزراعيين والسكان النشطين اقتصاديا</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Long-Term Series">
+		<value xml:lang="EN">Long-term Series (quinquennial) Total/Rural/Urban Population</value>
+		<value xml:lang="CN">长期序列</value>
+		<value xml:lang="FR">Séries à long terme (quinquennal) Population Totale/Rurale/Urbaine</value>
+		<value xml:lang="ES">Series de largo plazo (quinquenal) Población Total/Rural/Urbana</value>
+		<value xml:lang="AR">السلسلة طويلة الأجل (خمس سنوات) لمجموع السكان وسكان الريف والحضر</value>
+		<value xml:lang="JP">??????5????/??/????</value>
+	</key>
+	<key name="Machinery">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">机械</value>
+		<value xml:lang="FR">Machines agricoles</value>
+		<value xml:lang="ES">Maquinaria Agricola</value>
+		<value xml:lang="AR">آلات</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="MacroPanel">
+		<value xml:lang="EN">Go To Macro Panel</value>
+		<value xml:lang="CN">转去宏面板</value>
+		<value xml:lang="FR">Aller sur le panneau macro</value>
+		<value xml:lang="ES">Ir a la página Macro</value>
+		<value xml:lang="AR">اذهب الى اللوحة الكبرى</value>
+		<value xml:lang="JP">?????????</value>
+	</key>
+	<key name="Maximum Residue Limits">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">最大残留量限制</value>
+		<value xml:lang="FR">Limites maximales de résidus</value>
+		<value xml:lang="ES">Límites Máximos de Residuos</value>
+		<value xml:lang="AR">حدود المخلفات القصوى</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Maximum Residue Limits. Extraneous Maximum Residue Limits">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">最大残留量限制 外来的最大残留量限制</value>
+		<value xml:lang="FR">Limites Maximales de résidus. Limites maximales de résidus d' origine étrangère.</value>
+		<value xml:lang="ES">Límites Máximos de Residuos. Límites Máximos de Residuos Extraños</value>
+		<value xml:lang="AR">الحدود القصوى لمخلفات المبيدات فى الأغذية</value>
+		<value xml:lang="JP">????????????????</value>
+	</key>
+	<key name="MaxRecs">
+		<value xml:lang="EN">Max. Records:</value>
+		<value xml:lang="CN">�?疃� 记录条数</value>
+		<value xml:lang="FR">Nombre de fichiers maximum</value>
+		<value xml:lang="ES">Número máximo de datos</value>
+		<value xml:lang="AR">حقوق الطبع محفوظة</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Means of Production">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">生产资料</value>
+		<value xml:lang="FR">Moyens de production</value>
+		<value xml:lang="ES">Medios de Producción</value>
+		<value xml:lang="AR">وسائل الانتاج</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Meat">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Meat</value>
+		<value xml:lang="FR">Meat</value>
+		<value xml:lang="ES">Meat</value>
+		<value xml:lang="AR">Meat</value>
+		<value xml:lang="JP">Meat</value>
+	</key>
+	<key name="MetricTonnes">
+		<value xml:lang="EN">Metric&amp;nbsp;Tonnes</value>
+		<value xml:lang="CN">公制&amp;nbsp;公吨</value>
+		<value xml:lang="FR">Tonne métrique</value>
+		<value xml:lang="ES">Tonelada métrica</value>
+		<value xml:lang="AR">طن مترى</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="MT">
+		<value xml:lang="EN">MT=Metric&amp;nbsp;Tonnes</value>
+		<value xml:lang="CN">MT=公制&amp;nbsp;公吨</value>
+		<value xml:lang="FR">MT=Tonne métrique</value>
+		<value xml:lang="ES">MT=Tonelada métrica</value>
+		<value xml:lang="AR">MT=طن مترى</value>
+		<value xml:lang="JP">MT=??????</value>
+	</key>
+	<key name="Name">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">名字</value>
+		<value xml:lang="FR">Nom</value>
+		<value xml:lang="ES">Nombre</value>
+		<value xml:lang="AR">الاسم</value>
+		<value xml:lang="JP">Name</value>
+	</key>
+	<key name="Next Updated">
+		<value xml:lang="EN">Next Update</value>
+		<value xml:lang="CN">Next Update</value>
+		<value xml:lang="FR">Après mise à jour</value>
+		<value xml:lang="ES">Después Modificación</value>
+		<value xml:lang="AR">Next Update</value>
+		<value xml:lang="JP">Next Update</value>
+	</key>
+	<key name="Notes">
+		<value xml:lang="EN">Notes</value>
+		<value xml:lang="CN">注释</value>
+		<value xml:lang="FR">Notes</value>
+		<value xml:lang="ES">Notas</value>
+		<value xml:lang="AR">مذكرات</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="NumAccesses">
+		<value xml:lang="EN">Number of Database Accesses</value>
+		<value xml:lang="CN">数据库访问次数</value>
+		<value xml:lang="FR">Nombre d'accès à la base de données</value>
+		<value xml:lang="ES">Número de accesos a la base de datos FAOSTAT</value>
+		<value xml:lang="AR">عدد الاستفسارات من قاعدة البيانات</value>
+		<value xml:lang="JP">?????????????</value>
+	</key>
+	<key name="OilSeeds">
+		<value xml:lang="EN">Oilseeds</value>
+		<value xml:lang="CN">Oilseeds</value>
+		<value xml:lang="FR">Oilseeds</value>
+		<value xml:lang="ES">Oilseeds</value>
+		<value xml:lang="AR">Oilseeds</value>
+		<value xml:lang="JP">Oilseeds</value>
+	</key>
+	<key name="Oilseeds Oils Fats">
+		<value xml:lang="EN">Oilseeds, Oils, Fats, Cakes and Meals</value>
+		<value xml:lang="CN">Oilseeds, Oils, Fats, Cakes and Meals</value>
+		<value xml:lang="FR">Oilseeds, Oils, Fats, Cakes and Meals</value>
+		<value xml:lang="ES">Oilseeds, Oils, Fats, Cakes and Meals</value>
+		<value xml:lang="AR">Oilseeds, Oils, Fats, Cakes and Meals</value>
+		<value xml:lang="JP">Oilseeds, Oils, Fats, Cakes and Meals</value>
+	</key>
+	<key name="Options">
+		<value xml:lang="EN">Options</value>
+		<value xml:lang="CN">可选项</value>
+		<value xml:lang="FR">Options</value>
+		<value xml:lang="ES">Opciones</value>
+		<value xml:lang="AR">الخيارات</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="OptionsSort">
+		<value xml:lang="EN">FAO Yearbook Country Sort Order</value>
+		<value xml:lang="CN">FAO 年鉴国家排列顺序</value>
+		<value xml:lang="FR">Liste des pays selon l'annuaire de la FAO</value>
+		<value xml:lang="ES">Países ordenados como en Anuario FAO</value>
+		<value xml:lang="AR">الطلب القطرى للكتاب السنوى للمنظمة</value>
+		<value xml:lang="JP">FAO?????</value>
+	</key>
+	<key name="OptionsSymbols">
+		<value xml:lang="EN">FAO DataSymbols</value>
+		<value xml:lang="CN">FAO 数据标识符</value>
+		<value xml:lang="FR">Signes de la FAO</value>
+		<value xml:lang="ES">Símbolos FAO</value>
+		<value xml:lang="AR">رموز البيانات فى المنظمة</value>
+		<value xml:lang="JP">FAO???????</value>
+	</key>
+	<key name="or">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">or</value>
+		<value xml:lang="FR">ou</value>
+		<value xml:lang="ES">o</value>
+		<value xml:lang="AR">or</value>
+		<value xml:lang="JP">or</value>
+	</key>
+	<key name="Our Home Page">
+		<value xml:lang="EN">FAOSTAT Home</value>
+		<value xml:lang="CN">FAOSTAT主页</value>
+		<value xml:lang="FR">Page d'accueil de FAOSTAT</value>
+		<value xml:lang="ES">Página Principal FAOSTAT</value>
+		<value xml:lang="AR">موقع قاعدة بيانات المعلومات الاحصائية</value>
+		<value xml:lang="JP">FAOSTAT??????</value>
+	</key>
+	<key name="Our Home Page-ESCR">
+		<value xml:lang="EN">Commodities and Trade Home Page</value>
+		<value xml:lang="CN">主页</value>
+		<value xml:lang="FR">Page d'accueil de Commodity</value>
+		<value xml:lang="ES">Página Principal Commodity</value>
+		<value xml:lang="AR">موقع قاعدة بيانات المعلومات الاحصائية</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Output">
+		<value xml:lang="EN">Output</value>
+		<value xml:lang="CN">输出格式</value>
+		<value xml:lang="FR">Sortie</value>
+		<value xml:lang="ES">Salida</value>
+		<value xml:lang="AR">مخرجات</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="OutputBar">
+		<value xml:lang="EN">Bar Chart</value>
+		<value xml:lang="CN">条形图</value>
+		<value xml:lang="FR">Diagramme à colonnes</value>
+		<value xml:lang="ES">Gráfico de Barras</value>
+		<value xml:lang="AR">شكل بيانى على أعمدة</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="OutputCSV">
+		<value xml:lang="EN">CSV File</value>
+		<value xml:lang="CN">CSV 文件</value>
+		<value xml:lang="FR">Fichier CSV</value>
+		<value xml:lang="ES">Archivos CSV</value>
+		<value xml:lang="AR">ملف قيم منفصلة، بالفاصلات</value>
+		<value xml:lang="JP">CSV????</value>
+	</key>
+	<key name="OutputLine">
+		<value xml:lang="EN">Line Chart</value>
+		<value xml:lang="CN">曲线图</value>
+		<value xml:lang="FR">Diagramme linéaire</value>
+		<value xml:lang="ES">Gráfico de Líneas</value>
+		<value xml:lang="AR">شكل بيانى مخطط</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="OutputPrint">
+		<value xml:lang="EN">Print</value>
+		<value xml:lang="CN">打印</value>
+		<value xml:lang="FR">Impression</value>
+		<value xml:lang="ES">Impresión</value>
+		<value xml:lang="AR">اطبع</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Parameters">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">参数</value>
+		<value xml:lang="FR">Paramètres</value>
+		<value xml:lang="ES">Parámetros</value>
+		<value xml:lang="AR">البارامترات</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Pearls corals and sponges">
+		<value xml:lang="EN">Pearls, corals and sponges</value>
+		<value xml:lang="CN">珍珠，珊瑚和海绵类</value>
+		<value xml:lang="FR">Perles, coraux et éponges</value>
+		<value xml:lang="ES">Perlas, corales y esponjas</value>
+		<value xml:lang="AR">اللؤلؤ والمرجان والاسفنج</value>
+		<value xml:lang="JP">??????????</value>
+	</key>
+	<key name="Pesticides">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农药</value>
+		<value xml:lang="FR">Pesticides</value>
+		<value xml:lang="ES">Plaguicidas</value>
+		<value xml:lang="AR">مبيدات</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Pesticides Consumption">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农药消费</value>
+		<value xml:lang="FR">Consommation de pesticides</value>
+		<value xml:lang="ES">Consumo de Plaguicidas</value>
+		<value xml:lang="AR">استهلاك المبيدات</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Pesticides Trade">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">农药贸易</value>
+		<value xml:lang="FR">Commerce de pesticides</value>
+		<value xml:lang="ES">Comercio de Plaguicidas</value>
+		<value xml:lang="AR">تجارة المبيدات</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Please Note">
+		<value xml:lang="EN">Please Note: The FAOSTAT Database is unavailable from 21:00 Sunday to 00:00 Monday Central European Time</value>
+		<value xml:lang="CN">请注意：欧洲中部时间星期日晚21:00至星期一早00:00FAOSTAT不提供查询服务</value>
+		<value xml:lang="FR">NB: La Base de Données FAOSTAT ne peut pas être consultée de 21.00 le dimanche à 00.00 le lundi, heure Centre-Européenne</value>
+		<value xml:lang="ES">Avisamos que FAOSTAT no es disponible a partir de los domingos a las 21.00 hasta los lunes a las 00.00 ora de Europa Central.</value>
+		<value xml:lang="AR">يرجى ملاحظة أن قاعدة البيانات غير متاحة من الساعة 21.00 يوم الأحد الى 0.00 يوم الاثنين</value>
+		<value xml:lang="JP">??: FAOSTAT????????????????22:30?????5:30?????????</value>
+	</key>
+	<key name="Please Note-ESCR">
+		<value xml:lang="EN">Please Note: The Database is unavailable from 21:00 Sunday to 00:00 Monday Central European Time</value>
+		<value xml:lang="CN">请注意：欧洲中部时间星期日晚21:00至星期一早00:00不提供查询服务</value>
+		<value xml:lang="FR">NB: La Base de Données ne peut pas être consultée de 21.00 le dimanche à 00.00 le lundi, heure Centre-Européenne</value>
+		<value xml:lang="ES">Avisamos que no es disponible a partir de los domingos a las 21.00 hasta los lunes a las 00.00 ora de Europa Central.</value>
+		<value xml:lang="AR">يرجى ملاحظة أن قاعدة البيانات غير متاحة من الساعة 21.00 يوم الأحد الى 0.00 يوم الاثنين</value>
+		<value xml:lang="JP">??: ????????????????22:30?????5:30?????????</value>
+	</key>
+	<key name="Population">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">人口</value>
+		<value xml:lang="FR">Population</value>
+		<value xml:lang="ES">Población</value>
+		<value xml:lang="AR">السكان</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Preliminary">
+		<value xml:lang="EN">Preliminary 1997 Data Now Available</value>
+		<value xml:lang="CN">1997年初步数据目前可供查询</value>
+		<value xml:lang="FR">Les données préliminaires pour l'année 1997 sont maintenant disponibles</value>
+		<value xml:lang="ES">Datos Preliminares 1997 Ahora Disponibles</value>
+		<value xml:lang="AR">بيانات 1997 الأولية متوافرة الآن</value>
+		<value xml:lang="JP">1997????????????</value>
+	</key>
+	<key name="Primary">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">初级的</value>
+		<value xml:lang="FR">Primaire</value>
+		<value xml:lang="ES">Primarios</value>
+		<value xml:lang="AR">الأولية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Primary &amp; Derived">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">初级及加工的</value>
+		<value xml:lang="FR">Primaires et transformés</value>
+		<value xml:lang="ES">Primarios y Derivados</value>
+		<value xml:lang="AR">أولية ومستمدة</value>
+		<value xml:lang="JP">????????</value>
+	</key>
+	<key name="Primary Products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">初级产品</value>
+		<value xml:lang="FR">Produits primaires</value>
+		<value xml:lang="ES">Productos Primarios</value>
+		<value xml:lang="AR">منتجات أولية</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Problem Report">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">出错报告</value>
+		<value xml:lang="FR">Compte rendu des problèmes</value>
+		<value xml:lang="ES">un informe sobre el problema.</value>
+		<value xml:lang="AR">تقرير عن مشكلة</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Processed Products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">加工产品</value>
+		<value xml:lang="FR">Produits transformés</value>
+		<value xml:lang="ES">Productos Elaborados</value>
+		<value xml:lang="AR">منتجات مصنعة</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Producer Prices">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">生产者价格</value>
+		<value xml:lang="FR">Prix à la production</value>
+		<value xml:lang="ES">Precios del Productor</value>
+		<value xml:lang="AR">أسعار المنتجات</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Production">
+		<value xml:lang="EN">Agricultural Production</value>
+		<value xml:lang="CN">农业生产</value>
+		<value xml:lang="FR">Production Agricole</value>
+		<value xml:lang="ES">Producción</value>
+		<value xml:lang="AR">الانتاج الزراعى</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Production Indices">
+		<value xml:lang="EN">Agricultural Production Indices</value>
+		<value xml:lang="CN">农业生产指数</value>
+		<value xml:lang="FR">Indices de la production agricole</value>
+		<value xml:lang="ES">Indices de la Producción</value>
+		<value xml:lang="AR">الأرقام القياسية للانتاج الزراعى</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Production Values">
+		<value xml:lang="EN">Production Values (Constant National Currency)</value>
+		<value xml:lang="CN">Production Values (Constant National Currency)</value>
+		<value xml:lang="FR">Production Values (Constant National Currency)</value>
+		<value xml:lang="ES">Production Values (Constant National Currency)</value>
+		<value xml:lang="AR">Production Values (Constant National Currency)</value>
+		<value xml:lang="JP">Production Values (Constant National Currency)</value>
+	</key>
+	<key name="Products">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Products</value>
+		<value xml:lang="FR">Products</value>
+		<value xml:lang="ES">Products</value>
+		<value xml:lang="AR">Products</value>
+		<value xml:lang="JP">Products</value>
+	</key>
+	<key name="Provisional Forestry">
+		<value xml:lang="EN">Preliminary 2003 Data Now Available For Selected Countries And Products</value>
+		<value xml:lang="CN">最新提供一些国家和产品的2003年初步数据</value>
+		<value xml:lang="FR">Données préliminaires  2003 disponibles actuellement pour pays et produits sélectionnés</value>
+		<value xml:lang="ES">Datos  Preliminares para el 2003 Actualmente Disponibles Por Países Y Productos Seleccionados</value>
+		<value xml:lang="AR">اللارقام المؤقتة لعام 2003 متوفرة اللآن لبلدان ومنتجات مختارة</value>
+		<value xml:lang="JP">Preliminary 2003 Data Now Available For Selected Countries And Products</value>
+	</key>
+	<key name="Provisional Forestry TF">
+		<value xml:lang="EN">Forestry Trade Flow Provisional Data</value>
+		<value xml:lang="CN">森林贸易流量初步数据</value>
+		<value xml:lang="FR">Données provisoires des flux commerciaux des produits forestiers</value>
+		<value xml:lang="ES">Datos Provisorios sobre el Flujo del Comercio de Productos Forestales</value>
+		<value xml:lang="AR">اللارقام المؤقتة لتجارة المنتجات الحرجية</value>
+		<value xml:lang="JP">Forestry Trade Flow Provisional Data</value>
+	</key>
+	<key name="Provisional Production">
+		<value xml:lang="EN">Provisional 2003 Production and Production Indices Data</value>
+		<value xml:lang="CN">2003年生产和生产指数初步数据</value>
+		<value xml:lang="FR">Les données ainsi que les indices de production sont préliminaires pour l'année 2003</value>
+		<value xml:lang="ES">Datos Provisionales 2003 de Producción e Indices de la Producción</value>
+		<value xml:lang="AR">أرقام الانتاج المؤقتة فى 2003 وبيانات الأرقام القياسية</value>
+		<value xml:lang="JP">2003?????????????</value>
+	</key>
+	<key name="Provisional Trade">
+		<value xml:lang="EN">Provisional 1999 Trade Data</value>
+		<value xml:lang="CN">1999年贸易初步数据</value>
+		<value xml:lang="FR">Les données du commerce sont préliminaires pour l'année 1999</value>
+		<value xml:lang="ES">Datos Provisionales 1999 de Comercio</value>
+		<value xml:lang="AR">بيانات التجارة  المؤقتة فى 1999</value>
+		<value xml:lang="JP">Provisional 1999 Trade Data</value>
+	</key>
+	<key name="Raw">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Raw</value>
+		<value xml:lang="FR">Raw</value>
+		<value xml:lang="ES">Raw</value>
+		<value xml:lang="AR">Raw</value>
+		<value xml:lang="JP">Raw</value>
+	</key>
+	<key name="Recipient Country">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">接纳国</value>
+		<value xml:lang="FR">Pays bénéficiaires</value>
+		<value xml:lang="ES">País Beneficiario</value>
+		<value xml:lang="AR">البلد المستفيد</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Records">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">记录</value>
+		<value xml:lang="FR">Données</value>
+		<value xml:lang="ES">Datos</value>
+		<value xml:lang="AR">تسجيلات</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Reset">
+		<value xml:lang="EN">Reset</value>
+		<value xml:lang="CN">重置</value>
+		<value xml:lang="FR">Re-initier</value>
+		<value xml:lang="ES">Reinicio</value>
+		<value xml:lang="AR">ابدأ من جديد</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Return to">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">返回</value>
+		<value xml:lang="FR">Retour à</value>
+		<value xml:lang="ES">Volver a Página anterior</value>
+		<value xml:lang="AR">العودة الى</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Rice">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Rice</value>
+		<value xml:lang="FR">Rice</value>
+		<value xml:lang="ES">Rice</value>
+		<value xml:lang="AR">Rice</value>
+		<value xml:lang="JP">Rice</value>
+	</key>
+	<key name="Select">
+		<value xml:lang="EN">Select</value>
+		<value xml:lang="CN">选择</value>
+		<value xml:lang="FR">Sélectionner</value>
+		<value xml:lang="ES">Especifique</value>
+		<value xml:lang="AR">اختر</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Shipments">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">运送量</value>
+		<value xml:lang="FR">Expéditions</value>
+		<value xml:lang="ES">Envíos</value>
+		<value xml:lang="AR">شحنات</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Size">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">文件大小</value>
+		<value xml:lang="FR">Dimension</value>
+		<value xml:lang="ES">Tamaño</value>
+		<value xml:lang="AR">الحجم</value>
+		<value xml:lang="JP">???</value>
+	</key>
+	<key name="Spanish">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">西班牙语</value>
+		<value xml:lang="FR">Espagnol</value>
+		<value xml:lang="ES">Español</value>
+		<value xml:lang="AR">الاسبانية</value>
+		<value xml:lang="JP">?????</value>
+	</key>
+	<key name="Split Year Blurb (ExpByDest)">
+		<value xml:lang="EN">(July/June trade beginning in year shown except for rice which is calendar)</value>
+		<value xml:lang="CN">拢篓7谩泵?/6谩泵? 氓V鲁谩��?谩G冒氓A录谩懊�F�?霉氓A戮谩B锚拢卢�?媒�?芒拢潞麓贸氓V�?氓A鹿谩懊�V鹿芦�?煤谩B锚拢漏</value>
+		<value xml:lang="FR">(Commerce de juillet de l'année sélectionnée à  juin de l'année suivante, à  l'exception des données concernant le riz pour lesquelles il s'agit de l'année civile)</value>
+		<value xml:lang="ES">(Los datos de comercio se indican con referencia al año comercial general julio/junio, excepto los datos sobre el arroz cuyo período de referencia es el año civil).</value>
+		<value xml:lang="AR">(أ?أ،أ?أ?أ?أ?أ? أ­أ¦أ،أ­أ¦/أ?أ£أ¦أ? أ¦أ?أ?أ?أ? أ?أ?أ،أ?أ¤أ? أ?أ،أ£أ?أ­أ¤أ? أ?أ­أ£أ? أ?أ?أ? أ?أ،أ?أ?أ? أ?أ،أ?أ¬ أ­أ?أ­أ? أ?أ?أ? أ?أ،أ?أ¤أ? أ?أ،أ?أ?أ¦أ­أ£أ­أ?)</value>
+		<value xml:lang="JP">?????6??????????????????????????????????????????????</value>
+	</key>
+	<key name="Split Year Blurb (Food Aid)">
+		<value xml:lang="EN">(For Cereals, July/June, beginning in year shown)</value>
+		<value xml:lang="CN">（对于谷物，7月/6月,从显示年份开始）</value>
+		<value xml:lang="FR">(Les expéditions d'aide alimentaire céréalière on été effectué de juillet de l'année indiquée à juin de l'année suivante)</value>
+		<value xml:lang="ES">(Los cereals se indican con referencia al año comercial general julio/junio).</value>
+		<value xml:lang="AR">(بالنسبة للحبوب يوليو/ تموز، تبدأ من السنة الموضحة)</value>
+		<value xml:lang="JP">?????7?/6?????????????</value>
+	</key>
+	<key name="Start Year">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">起始年份</value>
+		<value xml:lang="FR">Année début</value>
+		<value xml:lang="ES">Año inicial</value>
+		<value xml:lang="AR">سنة البدء</value>
+		<value xml:lang="JP">Start Year</value>
+	</key>
+	<key name="Statistics Division">
+		<value xml:lang="EN">The Statistics Division</value>
+		<value xml:lang="CN">统计司</value>
+		<value xml:lang="FR">La Division Statistique</value>
+		<value xml:lang="ES">La Dirección de Estadística</value>
+		<value xml:lang="AR">قسم الإحصاء</value>
+		<value xml:lang="JP">The Statistics Division</value>
+	</key>
+	<key name="Submit To Database">
+		<value xml:lang="EN">Submit To Database</value>
+		<value xml:lang="CN">执行数据库查询</value>
+		<value xml:lang="FR">Envoyer au serveur</value>
+		<value xml:lang="ES">Enviar al Servidor</value>
+		<value xml:lang="AR">قدم لقاعدة البيانات</value>
+		<value xml:lang="JP">????????</value>
+	</key>
+	<key name="Supply Utilisation Account">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">供给利用帐目</value>
+		<value xml:lang="FR">Comptes de l'utilisation des disponibilités</value>
+		<value xml:lang="ES">Cuentas de Suministro y Utilización</value>
+		<value xml:lang="AR">حساب العرض والاستخدام</value>
+		<value xml:lang="JP">??????</value>
+	</key>
+	<key name="Supply Utilization Account">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Supply Utilization Account</value>
+		<value xml:lang="FR">Supply Utilization Account</value>
+		<value xml:lang="ES">Supply Utilization Account</value>
+		<value xml:lang="AR">Supply Utilization Account</value>
+		<value xml:lang="JP">Supply Utilization Account</value>
+	</key>
+	<key name="Symbols and Abbreviations">
+		<value xml:lang="EN">Symbols and Abbreviations</value>
+		<value xml:lang="CN">Symbols and Abbreviations</value>
+		<value xml:lang="FR">Signes conventionneles et Abréviations</value>
+		<value xml:lang="ES">Símbolos y Abreviaturas</value>
+		<value xml:lang="AR">Symbols and Abbreviations</value>
+		<value xml:lang="JP">Symbols and Abbreviations</value>
+	</key>
+	<key name="Table">
+		<value xml:lang="EN">Table</value>
+		<value xml:lang="CN">表格</value>
+		<value xml:lang="FR">Tableau</value>
+		<value xml:lang="ES">Cuadro</value>
+		<value xml:lang="AR">جدول</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="Tea">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">Tea</value>
+		<value xml:lang="FR">Tea</value>
+		<value xml:lang="ES">Tea</value>
+		<value xml:lang="AR">Tea</value>
+		<value xml:lang="JP">Tea</value>
+	</key>
+	<key name="TIN">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">贸易指数</value>
+		<value xml:lang="FR">Indices FAO du commerce des produits agricoles</value>
+		<value xml:lang="ES">Indices FAO del Comercio de Productos Agropecuarios</value>
+		<value xml:lang="AR">الرقم الدليلى للتجارة</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="ToDefine">
+		<value xml:lang="EN">to define your query</value>
+		<value xml:lang="CN">定义查询</value>
+		<value xml:lang="FR">Pour définir votre interrogation</value>
+		<value xml:lang="ES">para definir su consulta.</value>
+		<value xml:lang="AR">لتحديد سؤالك</value>
+		<value xml:lang="JP">??????????</value>
+	</key>
+	<key name="Trade">
+		<value xml:lang="EN">Agriculture &amp; Food Trade</value>
+		<value xml:lang="CN">农产品和食品贸易</value>
+		<value xml:lang="FR">Agriculture &amp; Commerce des produits agricoles</value>
+		<value xml:lang="ES">Comercio</value>
+		<value xml:lang="AR">التجارة بالسلع الزراعية والغذائية</value>
+		<value xml:lang="JP">???????</value>
+	</key>
+	<key name="Trade Flow Data">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">�h�l�Xμ贸易流量</value>
+		<value xml:lang="FR">Flux commerciaux des produits</value>
+		<value xml:lang="ES">Flujo del Comercio de Productos</value>
+		<value xml:lang="AR">تدفق التجارة الحرجية</value>
+		<value xml:lang="JP">????????</value>
+	</key>
+	<key name="Trade Flow Report Data">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">�h�l�Xμ贸易流量 (Report)</value>
+		<value xml:lang="FR">Flux commerciaux des produits (Report)</value>
+		<value xml:lang="ES">Flujo del Comercio de Productos (Report)</value>
+		<value xml:lang="AR">تدفق التجارة الحرجية  (Report)</value>
+		<value xml:lang="JP">???????? (Report)</value>
+	</key>
+	<key name="Trade Flow Source Data">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">�h�l�Xμ贸易流量 (Source)</value>
+		<value xml:lang="FR">Flux commerciaux des produits (Source)</value>
+		<value xml:lang="ES">Flujo del Comercio de Productos (Source)</value>
+		<value xml:lang="AR">تدفق التجارة الحرجية  (Source)</value>
+		<value xml:lang="JP">???????? (Source)</value>
+	</key>
+	<key name="Trade Flow Valid Data">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">�h�l�Xμ贸易流量 (Valid)</value>
+		<value xml:lang="FR">Flux commerciaux des produits (Valid)</value>
+		<value xml:lang="ES">Flujo del Comercio de Productos (Valid)</value>
+		<value xml:lang="AR">تدفق التجارة الحرجية (Valid)</value>
+		<value xml:lang="JP">???????? (Valid)</value>
+	</key>
+	<key name="Trade Indices">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">贸易指数</value>
+		<value xml:lang="FR">Indices du commerce</value>
+		<value xml:lang="ES">Indices de Comercio</value>
+		<value xml:lang="AR">الأرقام القياسية للتجارة</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="Updated">
+		<value xml:lang="EN">*</value>
+		<value xml:lang="CN">已更新的</value>
+		<value xml:lang="FR">Mis à jour</value>
+		<value xml:lang="ES">Ultima actualización</value>
+		<value xml:lang="AR">محدث</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="Warning">
+		<value xml:lang="EN">Warning</value>
+		<value xml:lang="CN">警告</value>
+		<value xml:lang="FR">Avertissement</value>
+		<value xml:lang="ES">Atención</value>
+		<value xml:lang="AR">Warning</value>
+		<value xml:lang="JP">??</value>
+	</key>
+	<key name="WhatsNew">
+		<value xml:lang="EN">What's New</value>
+		<value xml:lang="CN">最新动态</value>
+		<value xml:lang="FR">Nouveautés</value>
+		<value xml:lang="ES">Novedades</value>
+		<value xml:lang="AR">ما هو الجديد</value>
+		<value xml:lang="JP">????</value>
+	</key>
+	<key name="X-axis">
+		<value xml:lang="EN">X-axis</value>
+		<value xml:lang="CN">X 轴</value>
+		<value xml:lang="FR">axe des X</value>
+		<value xml:lang="ES">eje-X</value>
+		<value xml:lang="AR">محور X</value>
+		<value xml:lang="JP">X?</value>
+	</key>
+	<key name="Y-axis">
+		<value xml:lang="EN">Y-axis</value>
+		<value xml:lang="CN">Y 轴</value>
+		<value xml:lang="FR">axe des Y</value>
+		<value xml:lang="ES">eje-Y</value>
+		<value xml:lang="AR">محور Y</value>
+		<value xml:lang="JP">Y?</value>
+	</key>
+	<key name="Year">
+		<value xml:lang="EN">Year</value>
+		<value xml:lang="CN">年份</value>
+		<value xml:lang="FR">Année</value>
+		<value xml:lang="ES">Año</value>
+		<value xml:lang="AR">السنة</value>
+		<value xml:lang="JP"/>
+	</key>
+	<key name="Years">
+		<value xml:lang="EN">Years</value>
+		<value xml:lang="CN">年份</value>
+		<value xml:lang="FR">Années</value>
+		<value xml:lang="ES">Años</value>
+		<value xml:lang="AR">السنوات</value>
+		<value xml:lang="JP"/>
+	</key>
+</xlate>

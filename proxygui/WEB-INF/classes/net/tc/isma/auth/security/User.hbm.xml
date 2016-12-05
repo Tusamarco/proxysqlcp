@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="net.tc.isma.auth.security.UserBase" table="ISMA_USER">
+    <id column="USERNAME" name="id" type="java.lang.String">
+      <generator class="assigned"/>
+    </id>
+
+
+    <property column="PASSWORD" length="50" name="password" type="java.lang.String"/>
+    <property column="SURNAME" length="50" name="surname" type="java.lang.String"/>
+    <property column="NAME" length="50" name="name" type="java.lang.String"/>
+    <property column="EMAIL" length="4000" name="email" type="java.lang.String"/>
+    <property column="NOACT_DATE" length="7" name="noactDate" type="java.util.Date"/>
+
+    <set name="group" table="ISMA_USER_X_GROUP" lazy="false" >
+      <key column="UNAME"/>
+      <many-to-many column="GNAME" class="net.tc.isma.auth.security.Group"/>
+    </set>
+  </class>
+</hibernate-mapping>

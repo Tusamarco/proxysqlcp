@@ -1,0 +1,13 @@
+[PropertyInfo]
+actions,Object[][],false,false, , ,true,<default>
+active,boolean,false,false,active,active,true,<default>
+execOrder,int,false,false,execOrder,execOrder,true,<default>
+name,String,false,false,name,name,true,<default>
+results,org.fao.faostat.actions.Results,false,false, , ,true,<default>
+view,org.fao.faostat.views.View,false,false, , ,true,<default>
+security,String,false,false,security,security,true,<default>
+[IconNames]
+
+
+
+

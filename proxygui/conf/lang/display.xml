@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xlate>
+	<key name="English">
+		<value xml:lang="EN">English</value>
+		<value xml:lang="FR">Anglais</value>
+		<value xml:lang="ES">Inglés</value>
+		<value xml:lang="AR">الانجليزية</value>
+		<value xml:lang="ZH">英语</value>
+	</key>
+	<key name="French">
+		<value xml:lang="EN">French</value>
+		<value xml:lang="FR">Français</value>
+		<value xml:lang="ES">Francés</value>
+		<value xml:lang="AR">الفرنسية</value>
+		<value xml:lang="ZH">法语</value>
+	</key>
+	<key name="Spanish">
+		<value xml:lang="EN">Spanish</value>
+		<value xml:lang="FR">Espagnol</value>
+		<value xml:lang="ES">Español</value>
+		<value xml:lang="AR">الاسبانية</value>
+		<value xml:lang="ZH">西班牙语</value>
+	</key>
+	<key name="Arabic">
+		<value xml:lang="EN">Arabic</value>
+		<value xml:lang="FR">[Arabic]</value>
+		<value xml:lang="ES">[Arabic]</value>
+		<value xml:lang="AR">[Arabic]</value>
+		<value xml:lang="ZH">[Arabic]</value>
+	</key>
+	<key name="Chinese">
+		<value xml:lang="EN">Chinese</value>
+		<value xml:lang="FR">[Chinese]</value>
+		<value xml:lang="ES">[Chinese]</value>
+		<value xml:lang="AR">[Chinese]</value>
+		<value xml:lang="ZH">[Chinese]</value>
+	</key>
+	<key name="home">
+		<value xml:lang="EN">Home page</value>
+		<value xml:lang="FR">Page d'accueil</value>
+		<value xml:lang="ES">Portada</value>
+		<value xml:lang="AR">ﺎﻤﺳﻷﺍ ﺪﻳﺎﺼﻣ ﺔﺤﻔﺻ</value>
+		<value xml:lang="ZH">主页]</value>
+	</key>
+	<key name="contacts">
+		<value xml:lang="EN">Contacts</value>
+		<value xml:lang="FR">Contacts</value>
+		<value xml:lang="ES">Contactos</value>
+		<value xml:lang="AR">ﺎﺼﺗﻻﺍ ﺔﻬﺟ</value>
+		<value xml:lang="ZH">联系单位</value>
+	</key>
+	<key name="usagestats">
+		<value xml:lang="EN">Usage Statistics</value>
+		<value xml:lang="FR">Statistiques</value>
+		<value xml:lang="ES"> Estadísticas del Uso</value>
+		<value xml:lang="AR">ﺍﺪﺨﺘﺳﻺﻟ ﺕﺍءﺎﺼﺣﺇ </value>
+		<value xml:lang="ZH">访问统计</value>
+	</key>Contactos
+	<key name="datacontrib">
+		<value xml:lang="EN">Data Contributions </value>
+		<value xml:lang="FR">Feuille de graphique</value>
+		<value xml:lang="ES">Sitio de Gráficos</value>
+		<value xml:lang="AR">ﺔﻴﻧﺎﻴﺒﻟﺍ ﻡﻮﺳﺮﻟﺍ ﺽﺮﻌﻣ </value>
+		<value xml:lang="ZH">图表厅</value>
+	</key>
+	<key name="login">
+		<value xml:lang="EN">Login</value>
+		<value xml:lang="FR">[Login]</value>
+		<value xml:lang="ES">[Login]</value>
+		<value xml:lang="AR">[Login]</value>
+		<value xml:lang="ZH">[Login]</value>
+	</key>
+	<key name="logout">
+		<value xml:lang="EN">Logout</value>
+		<value xml:lang="FR">[Logout]</value>
+		<value xml:lang="ES">[Logout]</value>
+		<value xml:lang="AR">[Logout]</value>
+		<value xml:lang="ZH">[Logout]</value>
+	</key>
+
+
+	<key name="agriculture">
+		<value xml:lang="EN">AGRICULTURE</value>
+		<value xml:lang="ZH">农业</value>
+		<value xml:lang="FR">AGRICULTURA</value>
+		<value xml:lang="ES">AGRICULTURE</value>
+		<value xml:lang="AR">ﺔﻋﺍﺭﺯ</value>
+	</key>
+	<key name="nutrition">
+		<value xml:lang="EN">NUTRITION</value>
+		<value xml:lang="ZH">营养</value>
+		<value xml:lang="FR">ALIMENTATION</value>
+		<value xml:lang="ES">NUTRICION</value>
+		<value xml:lang="AR">ﺔﻳﺬﻐﺗ</value>
+	</key>
+	<key name="fishery">
+		<value xml:lang="EN">FISHERIES</value>
+		<value xml:lang="FR">PÊCHES</value>
+		<value xml:lang="ES">PESCA</value>
+		<value xml:lang="AR">ﻙﺎﻤﺳﺃ ﺪﻳﺎﺼﻣ</value>
+		<value xml:lang="ZH">渔业</value>
+	</key>
+	<key name="forestry">
+		<value xml:lang="EN">FORESTRY</value>
+		<value xml:lang="FR">FORETS</value>
+		<value xml:lang="ES">MONTES</value>
+		<value xml:lang="AR">ﺕﺎﺑﺎﻏ</value>
+		<value xml:lang="ZH">林业</value>
+	</key>
+	<key name="foodqualitycontrol">
+		<value xml:lang="EN">FOOD QUALITY CONTROL</value>
+		<value xml:lang="FR">QUALITE DES ALIMENTS</value>
+		<value xml:lang="ES">CALIDAD DE LOS ALIMENTOS</value>
+		<value xml:lang="AR">ﻱﺬﻏﻷﺍ ﺓﺩﻮﺟﺔﺒﻗﺍﺮﻣ</value>
+		<value xml:lang="ZH">食品质量监测</value>
+	</key>
+	<key name="alldatabases">
+		<value xml:lang="EN">ALL DATABASES</value>
+		<value xml:lang="FR">TOUTES DONNEES</value>
+		<value xml:lang="ES">BASES DE DATOS</value>
+		<value xml:lang="AR">ﺕﺎﻧﺎﻴﺒﻟﺍ ﺪﻋﺍﻮﻗ ﻊﻴﻤﺟ</value>
+		<value xml:lang="ZH">所有数据库</value>
+	</key>
+	<key name="datasets">
+		<value xml:lang="EN">Data Sets</value>
+		<value xml:lang="FR">[Data Sets]</value>
+		<value xml:lang="ES">[Data Sets]</value>
+		<value xml:lang="AR">[Data Sets]</value>
+		<value xml:lang="ZH">[Data Sets]</value>
+	</key>
+	<key name="countries">
+		<value xml:lang="EN">Countries</value>
+		<value xml:lang="FR">Pays</value>
+		<value xml:lang="ES">Países</value>
+		<value xml:lang="AR">البلدان</value>
+		<value xml:lang="ZH">国家</value>
+	</key>
+	<key name="selectcountry">
+		<value xml:lang="EN">Select a country</value>
+		<value xml:lang="FR">[Select a country]</value>
+		<value xml:lang="ES">[Select a country]</value>
+		<value xml:lang="AR">[Select a country]</value>
+		<value xml:lang="ZH">[Select a country]</value>
+	</key>
+	<key name="production">
+		<value xml:lang="EN">Production</value>
+		<value xml:lang="FR">Production</value>
+		<value xml:lang="ES">Producción</value>
+		<value xml:lang="AR">ﺎﺘﻧﻹ</value>
+		<value xml:lang="ZH">产量</value>
+	</key>
+	<key name="trade">
+		<value xml:lang="EN">Trade</value>
+		<value xml:lang="FR">Commerce</value>
+		<value xml:lang="ES">Comercio</value>
+		<value xml:lang="AR">ﺓﺭﺎﺠﺘﻟﺍ</value>
+		<value xml:lang="ZH">贸易</value>
+	</key>
+	<key name="fbs">
+		<value xml:lang="EN">Food Balance Sheets</value>
+		<value xml:lang="FR">Bilan Alimentaire</value>
+		<value xml:lang="ES">Balance Alimentario</value>
+		<value xml:lang="AR">ﺔﻴﺋﺍﺬﻐﻟﺍ ﺕﺎﻧﺯﺍﻮﻤﻟﺍ ﻒﺋﺎﺤﺻ</value>
+		<value xml:lang="ZH">食物平衡表</value>
+	</key>
+	<key name="producerprices">
+		<value xml:lang="EN">Producer Prices</value>
+		<value xml:lang="FR">Prix à la production</value>
+		<value xml:lang="ES">Precios del Productor</value>
+		<value xml:lang="AR">ﺔﻴﺟﺮﺤﻟﺍ ﺓﺭﺎﺠﺘﻟﺍ ﻖﻓﺪﺗ</value>
+		<value xml:lang="ZH">μ贸易流量</value>
+	</key>
+	<key name="fotrade">
+		<value xml:lang="EN">Forestry Trade Flow</value>
+		<value xml:lang="FR">Flux commerciaux des produits forestiers</value>
+		<value xml:lang="ES">Flujo del Comercio de Productos Forestales</value>
+		<value xml:lang="AR">ﺕﺎﺠﺘﻨﻤﻟﺍ ﺭﺎﻌﺳﺃ</value>
+		<value xml:lang="ZH">生产者价格</value>
+	</key>
+	<key name="landuseandirrigation">
+		<value xml:lang="EN">Land Use and Irrigation</value>
+		<value xml:lang="FR">Utlilisation des Terres</value>
+		<value xml:lang="ES">Aprovechamiento de Tierras e Irrigación</value>
+		<value xml:lang="AR">ﺕﺍﺪﻴﺒﻤﻟﺍﻭ ﺓﺪﻤﺳﻷﺍ</value>
+		<value xml:lang="ZH">化肥和农药</value>
+	</key>
+	<key name="foproduct">
+		<value xml:lang="EN">Forest Products</value>
+		<value xml:lang="FR">Produits Forestiers</value>
+		<value xml:lang="ES">Productos Forestales</value>
+		<value xml:lang="AR">ﻱﺮﻟﺍﻭ ﻲﺿﺍﺭﻷﺍ ﻡﺍﺪﺨﺘﺳﺇ</value>
+		<value xml:lang="ZH">土地利用和灌溉</value>
+	</key>
+	<key name="fiproduct">
+		<value xml:lang="EN">Fishery Products</value>
+		<value xml:lang="FR">Produits Pêche</value>
+		<value xml:lang="ES">Productos de Pesca</value>
+		<value xml:lang="AR">ﺔﻴﺟﺮﺤﻟﺍ ﺕﺎﺠﺘﻨﻤﻟﺍ</value>
+		<value xml:lang="ZH">林产品</value>
+	</key>
+	<key name="population">
+		<value xml:lang="EN">Population</value>
+		<value xml:lang="FR">Population</value>
+		<value xml:lang="ES">Población </value>
+		<value xml:lang="AR">ﺔﻴﻜﻤﺴﻟﺍ ﺕﺎﺠﺘﻨﻤﻟﺍ</value>
+		<value xml:lang="ZH">渔产品</value>
+	</key>
+	<key name="codexalim">
+		<value xml:lang="EN">Codex Alimentarius Food Quality Control</value>
+		<value xml:lang="FR">Codex Alimentarius</value>
+		<value xml:lang="ES">Codex Alimentarius</value>
+		<value xml:lang="AR">ﻰﺋﺍﺬﻐﻟﺍ ﺭﻮﺘﺳﺪﻟﺍ</value>
+		<value xml:lang="ZH">食物标准：食物中的兽药残留物</value>
+	</key>
+	<key name="fertilizerpesticide">
+		<value xml:lang="EN">Fertilizer and Pesticides</value>
+		<value xml:lang="FR">Fertilisants et Pesticides</value>
+		<value xml:lang="ES">Fertilizantes y Plaguicidas</value>
+		<value xml:lang="AR">ﻥﺎﻜﺴﻟﺍ</value>
+		<value xml:lang="ZH">人口</value>
+	</key>
+	<key name="agricmachinery">
+		<value xml:lang="EN">Agricultural Machinery</value>
+		<value xml:lang="FR">Machines agricoles</value>
+		<value xml:lang="ES">Maquinarias Agricola</value>
+		<value xml:lang="AR">ﺔﻴﻋﺍﺭﺰﻟﺍ ﺔﻨﻜﻴﻤﻟﺍ</value>
+		<value xml:lang="ZH">农业机械</value>
+	</key>
+	<key name="foodaidshipments">
+		<value xml:lang="EN">Food Aid Shipments</value>
+		<value xml:lang="FR">L'Aide Alimentaire</value>
+		<value xml:lang="ES">Ayuda Alimentaria</value>
+		<value xml:lang="AR">ﺔﻴﺋﺍﺬﻐﻟﺍ ﺔﻧﻮﻌﻤﻟﺍ ﺕﺎﻨﺤﺷ</value>
+		<value xml:lang="ZH">食物援助</value>
+	</key>
+	<key name="exportbydest">
+		<value xml:lang="EN">Exports by Destination</value>
+		<value xml:lang="FR">Exportation de céréales par pays donateur et de destination</value>
+		<value xml:lang="ES">Exportación por País de Destino</value>
+		<value xml:lang="AR">ﺪﺼﻘﻤﻟﺍ ﺪﻠﺑﻭ ﺭﺪﺼﻤﻟﺍ ﺪﻠﺑ ﺐﺴﺤﺑ ﺏﻮﺒﺤﻟﺍ ﺕﺍﺭﺩﺎﺻ</value>
+		<value xml:lang="ZH">谷物出口（到岸，离岸）</value>
+	</key>
+	<key name="datareleases">
+		<value xml:lang="EN">Data releases</value>
+		<value xml:lang="FR">[Data releases]</value>
+		<value xml:lang="ES">[Data releases]</value>
+		<value xml:lang="AR">[Data releases]</value>
+		<value xml:lang="ZH">[Data releases]</value>
+	</key>
+	<key name="news">
+		<value xml:lang="EN">news</value>
+		<value xml:lang="FR"> nouvelle</value>
+		<value xml:lang="ES">noticia</value>
+		<value xml:lang="AR">[news]</value>
+		<value xml:lang="ZH">[news]</value>
+	</key>
+	<key name="error_nosubset">
+		<value xml:lang="EN">No subset available with the choosen ID</value>
+		<value xml:lang="FR">[No subset available with the choosen ID]</value>
+		<value xml:lang="ES">[No subset available with the choosen ID]</value>
+		<value xml:lang="AR">[No subset available with the choosen ID]</value>
+		<value xml:lang="ZH">[No subset available with the choosen ID]</value>
+	</key>
+	<key name="reports">
+		<value xml:lang="EN">Reports</value>
+		<value xml:lang="FR">[Reports]</value>
+		<value xml:lang="ES">[Reports]</value>
+		<value xml:lang="AR">[Reports]</value>
+		<value xml:lang="ZH">[Reports]</value>
+	</key>
+
+	<key name="ALL">
+		<value xml:lang="EN">ALL</value>
+		<value xml:lang="FR">[ALL]</value>
+		<value xml:lang="ES">[ALL]</value>
+		<value xml:lang="AR">[ALL]</value>
+		<value xml:lang="ZH">[ALL]</value>
+	</key>
+	<key name="addtomultirequest">
+		<value xml:lang="EN">Add to Multi Request set</value>
+		<value xml:lang="FR">[Add to Multi Request set]</value>
+		<value xml:lang="ES">[Add to Multi Request set]</value>
+		<value xml:lang="AR">[Add to Multi Request set]</value>
+		<value xml:lang="ZH">[Add to Multi Request set]</value>
+	</key>
+	<key name="datasetname">
+		<value xml:lang="EN">dataset name</value>
+		<value xml:lang="FR">[dataset name]</value>
+		<value xml:lang="ES">[dataset name]</value>
+		<value xml:lang="AR">[dataset name]</value>
+		<value xml:lang="ZH">[dataset name]</value>
+	</key>
+	<key name="style">
+		<value xml:lang="EN">Style</value>
+		<value xml:lang="FR">[Style]</value>
+		<value xml:lang="ES">[Style]</value>
+		<value xml:lang="AR">[Style]</value>
+		<value xml:lang="ZH">[Style]</value>
+	</key>
+	<key name="note">
+		<value xml:lang="EN">Note</value>
+		<value xml:lang="FR">[Note]</value>
+		<value xml:lang="ES">[Note]</value>
+		<value xml:lang="AR">[Note]</value>
+		<value xml:lang="ZH">[Note]</value>
+	</key>
+	<key name="comments">
+		<value xml:lang="EN">Comments</value>
+		<value xml:lang="FR">[Comments]</value>
+		<value xml:lang="ES">[Comments]</value>
+		<value xml:lang="AR">[Comments]</value>
+		<value xml:lang="ZH">[Comments]</value>
+	</key>
+	<key name="deleterecset">
+		<value xml:lang="EN">Delete current recordset</value>
+		<value xml:lang="FR">[Delete current recordset]</value>
+		<value xml:lang="ES">[Delete current recordset]</value>
+		<value xml:lang="AR">[Delete current recordset]</value>
+		<value xml:lang="ZH">[Delete current recordset]</value>
+	</key>
+
+       	<key name="reset">
+		<value xml:lang="EN">Reset</value>
+		<value xml:lang="FR">[Reset]</value>
+		<value xml:lang="ES">[Reset]</value>
+		<value xml:lang="AR">[Reset]</value>
+		<value xml:lang="ZH">[Reset]</value>
+	</key>
+	<key name="submit">
+		<value xml:lang="EN">Submit</value>
+		<value xml:lang="FR">[Submit]</value>
+		<value xml:lang="ES">[Submit]</value>
+		<value xml:lang="AR">[Submit]</value>
+		<value xml:lang="ZH">[Submit]</value>
+	</key>
+	<key name="delete">
+		<value xml:lang="EN">Delete</value>
+		<value xml:lang="FR">[Delete]</value>
+		<value xml:lang="ES">[Delete]</value>
+		<value xml:lang="AR">[Delete]</value>
+		<value xml:lang="ZH">[Delete]</value>
+	</key>
+
+	<key name="deletefile">
+		<value xml:lang="EN">Delete current file</value>
+		<value xml:lang="FR">[Delete current file]</value>
+		<value xml:lang="ES">[Delete current file]</value>
+		<value xml:lang="AR">[Delete current file]</value>
+		<value xml:lang="ZH">[Delete current file]</value>
+	</key>
+
+	<key name="language">
+		<value xml:lang="EN">Language</value>
+		<value xml:lang="FR">[Language]</value>
+		<value xml:lang="ES">[Language]</value>
+		<value xml:lang="AR">[Language]</value>
+		<value xml:lang="ZH">[Language]</value>
+	</key>
+	<key name="textname">
+		<value xml:lang="EN">Report's Object Name</value>
+		<value xml:lang="FR">[Report's Object Name]</value>
+		<value xml:lang="ES">[Report's Object Name]</value>
+		<value xml:lang="AR">[Report's Object Name]</value>
+		<value xml:lang="ZH">[Report's Object Name]</value>
+	</key>
+
+	<key name="text">
+		<value xml:lang="EN">Text Block Value</value>
+		<value xml:lang="FR">[Text Block Value]</value>
+		<value xml:lang="ES">[Text Block Value]</value>
+		<value xml:lang="AR">[Text Block Value]</value>
+		<value xml:lang="ZH">[Text Block Value]</value>
+	</key>
+
+
+</xlate>

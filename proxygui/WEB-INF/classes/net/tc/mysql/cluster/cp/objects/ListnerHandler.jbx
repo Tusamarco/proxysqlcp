@@ -1,0 +1,25 @@
+[PropertyInfo]
+action_error,String,false,false,action_error,action_error,true,<default>
+action_warning,String,false,false,action_warning,action_warning,true,<default>
+active,boolean,false,false,active,active,true,<default>
+category,String,false,false,category,category,true,<default>
+clazz,String,false,false,clazz,clazz,true,<default>
+key,String,false,false,key,key,true,<default>
+listnerEvents,java.util.Map,false,false, , ,true,<default>
+message_error,String,false,false,message_error,message_error,true,<default>
+message_ok,String,false,false,message_ok,message_ok,true,<default>
+message_warning,String,false,false,message_warning,message_warning,true,<default>
+name,String,false,false,name,name,true,<default>
+order,int,false,false,order,order,true,<default>
+packagename,String,false,false,packagename,packagename,true,<default>
+status,int,false,false,status,status,true,<default>
+type,String,false,false,type,type,true,<default>
+value_error,Object,false,false,value_error,value_error,true,<default>
+value_ok,Object,false,false,Value_ok,Value_ok,true,<default>
+value_warning,Object,false,false,value_warning,value_warning,true,<default>
+override,int,false,false,override,override,true,<default>
+[IconNames]
+
+
+
+
