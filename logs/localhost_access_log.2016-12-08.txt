@@ -1,0 +1,11 @@
+127.0.0.1 - - [08/Dec/2016:23:52:48 -0500] "GET /proxygui/proxycp?ac=testcp HTTP/1.1" 200 1763
+127.0.0.1 - - [08/Dec/2016:23:52:48 -0500] "GET /proxygui/css/ncp.css HTTP/1.1" 404 1032
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/display/css/ncp.css HTTP/1.1" 200 11793
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/img2/icons/24x24/actions/button_cancel.png HTTP/1.1" 404 1094
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/img2/icons/24x24/actions/button_ok.png HTTP/1.1" 404 1086
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/display/img2/caution.png HTTP/1.1" 200 2015
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/img2/caution.png HTTP/1.1" 404 1042
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/display/img2/icons/24x24/actions/button_cancel.png HTTP/1.1" 200 743
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /proxygui/display/img2/icons/24x24/actions/button_ok.png HTTP/1.1" 200 646
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [08/Dec/2016:23:52:49 -0500] "GET /favicon.ico HTTP/1.1" 404 -

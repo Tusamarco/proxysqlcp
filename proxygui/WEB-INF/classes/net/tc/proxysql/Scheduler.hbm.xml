@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-Dec-2016 2:36:44 PM by Hibernate Tools 5.2.0.CR1 -->
+<hibernate-mapping>
+    <class name="net.tc.proxysql.Scheduler" table="scheduler" catalog="" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="active" type="int">
+            <column name="active" not-null="true" />
+        </property>
+        <property name="intervalMs" type="int">
+            <column name="interval_ms" not-null="true" />
+        </property>
+        <property name="filename" type="string">
+            <column name="filename" length="100" not-null="true" />
+        </property>
+        <property name="arg1" type="string">
+            <column name="arg1" length="100" />
+        </property>
+        <property name="arg2" type="string">
+            <column name="arg2" length="100" />
+        </property>
+        <property name="arg3" type="string">
+            <column name="arg3" length="100" />
+        </property>
+        <property name="arg4" type="string">
+            <column name="arg4" length="100" />
+        </property>
+        <property name="arg5" type="string">
+            <column name="arg5" length="100" />
+        </property>
+        <property name="comment" type="string">
+            <column name="comment" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

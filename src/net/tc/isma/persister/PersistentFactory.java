@@ -125,6 +125,16 @@ public class PersistentFactory
                                   else
                                       IsmaPersister.setUsehibernate(false);
                             
+
+                            if(IsmaPersister.getConfigParameterValueString("isma_configuration.hibernate_conf") != null
+                                    && !IsmaPersister.getConfigParameterValueString("isma_configuration.hibernate_conf").equals("")
+                                  )
+                                  {
+                                      IsmaPersister.setHibernatConfigFile(IsmaPersister.getConfigParameterValueString("isma_configuration.hibernate_conf"));
+                                  }
+                                  else
+                                      IsmaPersister.setHibernatConfigFile(null);
+                            
                             
                             
 
@@ -144,6 +154,16 @@ public class PersistentFactory
 
                             }
                             IsmaController.logEntry(System.out, configMap);
+                            
+                            if(IsmaPersister.isUsehibernate() 
+                            	&& IsmaPersister.getConfigParameterValueString("isma_configuration.hibernate_conf") != null
+                            	&& !IsmaPersister.getConfigParameterValueString("isma_configuration.hibernate_conf").equals("")){
+                            	
+                            	
+                            	
+                            }
+                            
+                            
                         }
                         /**
                          * This section will load Hibernate and all related maps

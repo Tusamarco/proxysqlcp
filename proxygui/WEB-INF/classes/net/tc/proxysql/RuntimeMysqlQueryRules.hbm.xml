@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-Dec-2016 2:36:44 PM by Hibernate Tools 5.2.0.CR1 -->
+<hibernate-mapping>
+    <class name="net.tc.proxysql.RuntimeMysqlQueryRules" table="runtime_mysql_query_rules" catalog="" optimistic-lock="version">
+        <id name="ruleId" type="java.lang.Integer">
+            <column name="rule_id" />
+            <generator class="identity" />
+        </id>
+        <property name="active" type="int">
+            <column name="active" not-null="true" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" length="100" />
+        </property>
+        <property name="schemaname" type="string">
+            <column name="schemaname" length="100" />
+        </property>
+        <property name="flagIn" type="int">
+            <column name="flagIN" not-null="true" />
+        </property>
+        <property name="clientAddr" type="string">
+            <column name="client_addr" length="100" />
+        </property>
+        <property name="proxyAddr" type="string">
+            <column name="proxy_addr" length="100" />
+        </property>
+        <property name="proxyPort" type="java.lang.Integer">
+            <column name="proxy_port" />
+        </property>
+        <property name="digest" type="string">
+            <column name="digest" length="100" />
+        </property>
+        <property name="matchDigest" type="string">
+            <column name="match_digest" length="100" />
+        </property>
+        <property name="matchPattern" type="string">
+            <column name="match_pattern" length="100" />
+        </property>
+        <property name="negateMatchPattern" type="int">
+            <column name="negate_match_pattern" not-null="true" />
+        </property>
+        <property name="reModifiers" type="string">
+            <column name="re_modifiers" length="100" />
+        </property>
+        <property name="flagOut" type="java.lang.Integer">
+            <column name="flagOUT" />
+        </property>
+        <property name="replacePattern" type="string">
+            <column name="replace_pattern" length="100" />
+        </property>
+        <property name="destinationHostgroup" type="java.lang.Integer">
+            <column name="destination_hostgroup" />
+        </property>
+        <property name="cacheTtl" type="java.lang.Integer">
+            <column name="cache_ttl" />
+        </property>
+        <property name="reconnect" type="java.lang.Integer">
+            <column name="reconnect" />
+        </property>
+        <property name="timeout" type="java.lang.Integer">
+            <column name="timeout" />
+        </property>
+        <property name="retries" type="java.lang.Integer">
+            <column name="retries" />
+        </property>
+        <property name="delay" type="java.lang.Integer">
+            <column name="delay" />
+        </property>
+        <property name="mirrorFlagOut" type="java.lang.Integer">
+            <column name="mirror_flagOUT" />
+        </property>
+        <property name="mirrorHostgroup" type="java.lang.Integer">
+            <column name="mirror_hostgroup" />
+        </property>
+        <property name="errorMsg" type="string">
+            <column name="error_msg" length="100" />
+        </property>
+        <property name="stickyConn" type="java.lang.Integer">
+            <column name="sticky_conn" />
+        </property>
+        <property name="multiplex" type="java.lang.Integer">
+            <column name="multiplex" />
+        </property>
+        <property name="log" type="java.lang.Integer">
+            <column name="log" />
+        </property>
+        <property name="apply" type="int">
+            <column name="apply" not-null="true" />
+        </property>
+        <property name="comment" type="string">
+            <column name="comment" length="100" />
+        </property>
+    </class>
+</hibernate-mapping>

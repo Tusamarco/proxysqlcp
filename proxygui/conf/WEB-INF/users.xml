@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-security >
+	<users>
+		<user name="chinese1" password="chinese1" fullname="China Admin User" language="ch" email=" " />
+		<user name="chinese2" password="" fullname="China Biophysical Layer Editor" language="ch" email=" " />
+		<user name="afontes" password="adhemar" fullname="Adhemar Fontes" language="en" email="adhemar.fontes@fao.org" />
+		<user name="chinese3" password="" fullname="China Livestock Population Editor" language="ch" email=" " />
+		<user name="jgeromo" password="jacky" fullname="Jacqueline Geromo" language="en" email="jacqueline.geromo@fao.org" />
+		<user name="asafarnejad" password="ali" fullname="Ali Safarnejad" language="en" email="ali.safarnejad@fao.org" />
+		<user name="admin" password="admin" fullname="Administrator" language="en" email="glipha_admin@fao.org" />
+		<user name="asian_admin" password="asian" fullname="Administrator for Asia Project" language="en" email=" " />
+		<user name="guest" password="guest" fullname="Guest" language="en" email=" " />
+	</users>
+	<roles>
+		<role name="developer" />
+		<role name="administrator" />
+		<role name="manager" />
+		<role name="guest" />
+	</roles>
+	<groups>
+		<group name="developers" />
+		<group name="everyone" />
+		<group name="managers" />
+	</groups>
+	<role-user-refs>
+		<role-user-ref user="guest" role="guest" project="All" layer="All" dataset="All" />
+		<role-user-ref user="admin" role="administrator" project="All" layer="All" dataset="All" />
+		<role-user-ref user="chinese3" role="manager" project="China" layer="Livestock Pop. &amp; Prod" dataset="Livestock Population" />
+		<role-user-ref user="chinese1" role="manager" project="China" layer="All" dataset="All" />
+		<role-user-ref user="chinese2" role="manager" project="China" layer="Biophysical Resources" dataset="All" />
+	</role-user-refs>
+	<role-group-refs>
+		<role-group-ref group="everyone" role="guest" project="All" layer="All" dataset="All" />
+		<role-group-ref group="developers" role="developer" project="All" layer="All" dataset="All" />
+		<role-group-ref group="managers" role="manager" project="All" layer="All" dataset="All" />
+	</role-group-refs>
+	<group-user-refs>
+		<group-user-ref user="afontes" group="developers" />
+		<group-user-ref user="jgeromo" group="developers" />
+		<group-user-ref user="asafarnejad" group="developers" />
+	</group-user-refs>
+</xml-security>

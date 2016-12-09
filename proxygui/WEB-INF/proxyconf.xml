@@ -20,8 +20,9 @@ tohandleas
     <!-- IMPORTANT !!!!! the setting below MUST be the name given in the webXML to the main controller -->
     <httpcontroller>/proxycp</httpcontroller>
     <usedatabase>true</usedatabase>
-    <usehibernate>false</usehibernate>
-
+    <usehibernate>true</usehibernate>
+    <hibernate_conf>/WEB-INF/hibernate.cfg.xml</hibernate_conf>
+    
     <proxycpautostart>1</proxycpautostart>
     <!-- ndbmgmhost>138.132.171.68,138.132.171.63</ndbmgmhost>
     <ndbmgmport>1188</ndbmgmport -->

@@ -3524,3 +3524,1235 @@
 [SYSTEM - INFO] 03 Dec 2016 11:47:59,375:SYSTEM =  REFERENCE INIZIALIZATION COMPLETED [YES|NO] = true
 [SYSTEM - INFO] 03 Dec 2016 11:47:59,375:SYSTEM = Retrieving net.tc.isma.actions.generic.actionFactoryImpl|class net.tc.isma.actions.generic.actionFactoryImpl
 [SYSTEM - INFO] 03 Dec 2016 11:47:59,375:SYSTEM = Retrieving net.tc.isma.actions.generic.actionFactoryImpl|class net.tc.isma.actions.generic.actionFactoryImpl
+[SYSTEM - INFO] 08 Dec 2016 20:07:58,451:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:07:58,451:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:07:58,501:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 20:07:58,501:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 20:07:58,669:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 20:07:58,697:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 20:10:12,956:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:10:12,956:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:10:13,259:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 20:10:13,259:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 20:10:13,302:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 20:10:13,310:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 20:53:58,798:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:53:58,798:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:53:58,992:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 20:53:58,992:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 20:53:59,017:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 20:53:59,021:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 20:59:08,996:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:59:08,996:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 20:59:09,216:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 20:59:09,216:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 20:59:09,256:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 20:59:09,259:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 21:00:49,526:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:00:49,526:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:00:49,763:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 21:00:49,763:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 21:00:49,794:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 21:00:49,803:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 21:07:46,085:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:07:46,085:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:07:46,364:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 21:07:46,364:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 21:07:46,398:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 21:07:46,404:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - ERROR] 08 Dec 2016 21:09:44,431:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 21:17:49,484:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:17:49,484:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:17:49,756:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 21:17:49,756:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 21:17:54,411:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 21:18:14,796:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 21:23:16,959:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:23:16,959:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 21:23:17,211:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 21:23:17,211:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 08 Dec 2016 21:23:24,905:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.inizializeReference(IsmaController.java:153)
+	at net.tc.isma.IsmaController.service(IsmaController.java:129)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 37 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 49 more
+
+[SYSTEM - ERROR] 08 Dec 2016 21:23:30,386:VISUALIZER = org.apache.jasper.JasperException: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:565)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:726)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:592)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:526)
+	at net.tc.isma.views.generic.viewImpl.render(viewImpl.java:160)
+	at net.tc.isma.actions.generic.executionerImpl.showView(executionerImpl.java:178)
+	at net.tc.isma.actions.generic.executionerImpl.runChain(executionerImpl.java:147)
+	at net.tc.isma.actions.generic.executionerImpl.execute(executionerImpl.java:86)
+	at net.tc.isma.IsmaController.service(IsmaController.java:136)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:789)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.servlet.ServletException: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:190)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	... 36 more
+Caused by: javax.el.ELException: Provider com.sun.el.ExpressionFactoryImpl not found
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:97)
+	at javax.el.FactoryFinder.find(FactoryFinder.java:193)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:185)
+	at javax.el.ExpressionFactory.newInstance(ExpressionFactory.java:156)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.<init>(JspApplicationContextImpl.java:46)
+	at org.apache.jasper.runtime.JspApplicationContextImpl.getInstance(JspApplicationContextImpl.java:76)
+	at org.apache.jasper.runtime.PageContextImpl.initialize(PageContextImpl.java:133)
+	at org.apache.jasper.runtime.JspFactoryImpl.internalGetPageContext(JspFactoryImpl.java:109)
+	at org.apache.jasper.runtime.JspFactoryImpl.getPageContext(JspFactoryImpl.java:60)
+	at org.apache.jsp.display.startcp_jsp._jspService(startcp_jsp.java:100)
+	... 39 more
+Caused by: java.lang.ClassNotFoundException: com.sun.el.ExpressionFactoryImpl
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at javax.el.FactoryFinder.newInstance(FactoryFinder.java:83)
+	... 48 more
+
+[SYSTEM - INFO] 08 Dec 2016 23:52:41,948:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 23:52:41,948:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 08 Dec 2016 23:52:42,223:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 08 Dec 2016 23:52:42,223:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 09 Dec 2016 00:09:10,070:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : null : origin(null)
+[SYSTEM - INFO] 09 Dec 2016 00:09:10,072:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 09 Dec 2016 00:09:10,072:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 09 Dec 2016 00:09:10,324:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - INFO] 09 Dec 2016 00:09:10,324:CONTROLLER = Executing action chain initall [END] 
+[SYSTEM - ERROR] 09 Dec 2016 12:33:42,887:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : null : origin(null)
+[SYSTEM - INFO] 09 Dec 2016 12:33:42,888:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 09 Dec 2016 12:33:42,888:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - ERROR] 09 Dec 2016 12:34:03,971:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : null : origin(null)
+[SYSTEM - ERROR] 09 Dec 2016 12:34:06,060:DATAACCESS = java.lang.NullPointerException
+[SYSTEM - ERROR] 09 Dec 2016 12:36:14,573:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : null : origin(null)
+[SYSTEM - INFO] 09 Dec 2016 12:36:14,575:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - INFO] 09 Dec 2016 12:36:14,575:CONTROLLER = Executing action chain initall [START] 
+[SYSTEM - ERROR] 09 Dec 2016 12:41:12,930:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : null : origin(null)
+[SYSTEM - ERROR] 09 Dec 2016 12:47:42,070:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : hibernate.cfg.xml : origin(hibernate.cfg.xml)
+[SYSTEM - ERROR] 09 Dec 2016 12:48:05,762:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : hibernate.cfg.xml : origin(hibernate.cfg.xml)
+[SYSTEM - ERROR] 09 Dec 2016 12:48:05,762:DATAACCESS = java.lang.NullPointerException
+[SYSTEM - ERROR] 09 Dec 2016 13:03:14,277:DATAACCESS = java.lang.NoClassDefFoundError: antlr/RecognitionException
+[SYSTEM - ERROR] 09 Dec 2016 13:12:51,239:root = Log PROXYSYSTEM NOT FOUND in configuration file use ROOT log
+[SYSTEM - ERROR] 09 Dec 2016 13:16:08,026:root = Log PROXYSYSTEM NOT FOUND in configuration file use ROOT log
+[SYSTEM - INFO] 09 Dec 2016 13:24:33,057:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:24:44,214:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@1ea4245d
+[SYSTEM - INFO] 09 Dec 2016 13:24:44,215:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@4f29e769
+[SYSTEM - INFO] 09 Dec 2016 13:24:44,215:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@39890fd4
+[SYSTEM - INFO] 09 Dec 2016 13:24:44,215:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@469256ef
+[SYSTEM - INFO] 09 Dec 2016 13:24:44,215:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@33e83224
+[SYSTEM - INFO] 09 Dec 2016 13:24:44,215:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 13:36:17,861:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:36:18,176:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@58b0b390
+[SYSTEM - INFO] 09 Dec 2016 13:36:18,176:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@2586b8ef
+[SYSTEM - INFO] 09 Dec 2016 13:36:18,176:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@32430144
+[SYSTEM - INFO] 09 Dec 2016 13:36:18,176:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@6c1cd215
+[SYSTEM - INFO] 09 Dec 2016 13:36:18,176:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@296c42fc
+[SYSTEM - INFO] 09 Dec 2016 13:36:18,177:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 13:37:37,839:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:37:38,290:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@5aed2aeb
+[SYSTEM - INFO] 09 Dec 2016 13:37:38,291:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@4a73c390
+[SYSTEM - INFO] 09 Dec 2016 13:37:38,291:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@3dee1bb
+[SYSTEM - INFO] 09 Dec 2016 13:37:38,291:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@9a72093
+[SYSTEM - INFO] 09 Dec 2016 13:37:38,291:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@2055cea5
+[SYSTEM - INFO] 09 Dec 2016 13:37:38,292:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,219:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,612:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@4ebf35a2
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,612:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@25a2e6f2
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,612:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@244c664b
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,613:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@2e5b9c4d
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,613:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@269ec48
+[SYSTEM - INFO] 09 Dec 2016 13:44:39,613:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 13:46:50,803:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:46:51,432:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@2c2a0f02
+[SYSTEM - INFO] 09 Dec 2016 13:46:51,432:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@3968ad4a
+[SYSTEM - INFO] 09 Dec 2016 13:46:51,432:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@462ca82
+[SYSTEM - INFO] 09 Dec 2016 13:46:51,432:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@4b50b391
+[SYSTEM - INFO] 09 Dec 2016 13:46:51,433:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@39a32b94
+[SYSTEM - INFO] 09 Dec 2016 13:46:51,437:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - ERROR] 09 Dec 2016 13:47:32,967:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = No operations allowed after connection closed.
+[SYSTEM - INFO] 09 Dec 2016 13:47:56,891:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:47:57,319:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@a7af9f4
+[SYSTEM - INFO] 09 Dec 2016 13:47:57,320:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@75a17d08
+[SYSTEM - INFO] 09 Dec 2016 13:47:57,320:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@6eff06cb
+[SYSTEM - INFO] 09 Dec 2016 13:47:57,320:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@74ba270e
+[SYSTEM - INFO] 09 Dec 2016 13:47:57,320:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@103221c1
+[SYSTEM - INFO] 09 Dec 2016 13:47:57,320:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - ERROR] 09 Dec 2016 13:48:00,823:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = No operations allowed after connection closed.
+[SYSTEM - INFO] 09 Dec 2016 13:49:27,836:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:49:28,183:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@62969b22
+[SYSTEM - INFO] 09 Dec 2016 13:49:28,184:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@13c1e89d
+[SYSTEM - INFO] 09 Dec 2016 13:49:28,184:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@6fb493e1
+[SYSTEM - INFO] 09 Dec 2016 13:49:28,185:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@703db186
+[SYSTEM - INFO] 09 Dec 2016 13:49:28,185:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@74459f42
+[SYSTEM - INFO] 09 Dec 2016 13:49:28,185:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - ERROR] 09 Dec 2016 13:49:35,591:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = No operations allowed after connection closed.
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,138:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,460:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@641339cc
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,461:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@6c936647
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,461:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@44bbe4be
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,461:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@7d16d33
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,461:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@96b097d
+[SYSTEM - INFO] 09 Dec 2016 13:50:29,463:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - ERROR] 09 Dec 2016 13:50:49,038:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = No operations allowed after connection closed.
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,013:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,318:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@2568df4a
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,318:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@3ff8420e
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,318:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@11c290c4
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,319:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@70179604
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,319:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@66aaa758
+[SYSTEM - INFO] 09 Dec 2016 13:52:42,319:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,481:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,825:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@72f25826
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,825:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@684c31bb
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,825:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@46876d3e
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,825:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@3b1bfd59
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,825:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@48a8f107
+[SYSTEM - INFO] 09 Dec 2016 13:53:35,826:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 14:01:52,854:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - ERROR] 09 Dec 2016 14:01:53,192:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = Table 'main.mysql_servers' doesn't exist
+[SYSTEM - ERROR] 09 Dec 2016 14:01:53,201:DATAACCESS = java.lang.NullPointerException
+[SYSTEM - INFO] 09 Dec 2016 14:04:21,504:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - ERROR] 09 Dec 2016 14:04:21,823:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = Table 'main.mysql_servers' doesn't exist
+[SYSTEM - ERROR] 09 Dec 2016 14:04:21,830:DATAACCESS = java.lang.NullPointerException
+[SYSTEM - INFO] 09 Dec 2016 14:05:39,625:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - ERROR] 09 Dec 2016 14:05:39,948:org.hibernate.engine.jdbc.spi.SqlExceptionHelper = Table 'main.mysql_servers' doesn't exist
+[SYSTEM - ERROR] 09 Dec 2016 14:05:39,952:DATAACCESS = java.lang.NullPointerException
+[SYSTEM - INFO] 09 Dec 2016 14:07:00,988:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 14:07:01,291:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@41065958
+[SYSTEM - INFO] 09 Dec 2016 14:07:01,292:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@7cf62914
+[SYSTEM - INFO] 09 Dec 2016 14:07:01,292:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@5798cc0d
+[SYSTEM - INFO] 09 Dec 2016 14:07:01,292:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@3adff718
+[SYSTEM - INFO] 09 Dec 2016 14:07:01,292:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@7ebbdd72
+[SYSTEM - INFO] 09 Dec 2016 14:07:01,292:PROXYSYSTEM = **** Initializing Servers [End]
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,544:PROXYSYSTEM = **** Initializing Servers [Start]
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,797:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.21_3306] net.tc.proxysql.MysqlServers@224afd3e
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,798:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.22_3306] net.tc.proxysql.MysqlServers@92ac572
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,798:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.23_3306] net.tc.proxysql.MysqlServers@2d67c362
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,798:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.231_3306] net.tc.proxysql.MysqlServers@10997984
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,798:PROXYSYSTEM = **** Initializing Servers [500_192.168.0.5_3306] net.tc.proxysql.MysqlServers@fdca5cd
+[SYSTEM - INFO] 09 Dec 2016 14:10:45,799:PROXYSYSTEM = **** Initializing Servers [End]

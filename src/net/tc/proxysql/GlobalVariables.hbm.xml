@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-Dec-2016 2:36:44 PM by Hibernate Tools 5.2.0.CR1 -->
+<hibernate-mapping>
+    <class name="net.tc.proxysql.GlobalVariables" table="global_variables" catalog="" optimistic-lock="version">
+        <id name="variableName" type="string">
+            <column name="variable_name" length="100" />
+            <generator class="assigned" />
+        </id>
+        <property name="variableValue" type="string">
+            <column name="variable_value" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

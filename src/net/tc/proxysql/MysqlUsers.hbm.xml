@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-Dec-2016 2:36:44 PM by Hibernate Tools 5.2.0.CR1 -->
+<hibernate-mapping>
+    <class name="net.tc.proxysql.MysqlUsers" table="mysql_users" catalog="" optimistic-lock="version">
+        <composite-id name="id" class="net.tc.proxysql.MysqlUsersId">
+            <key-property name="username" type="string">
+                <column name="username" length="100" />
+            </key-property>
+            <key-property name="backend" type="int">
+                <column name="backend" />
+            </key-property>
+        </composite-id>
+        <property name="password" type="string">
+            <column name="password" length="100" />
+        </property>
+        <property name="active" type="int">
+            <column name="active" not-null="true" />
+        </property>
+        <property name="useSsl" type="int">
+            <column name="use_ssl" not-null="true" />
+        </property>
+        <property name="defaultHostgroup" type="int">
+            <column name="default_hostgroup" not-null="true" />
+        </property>
+        <property name="defaultSchema" type="string">
+            <column name="default_schema" length="100" />
+        </property>
+        <property name="schemaLocked" type="int">
+            <column name="schema_locked" not-null="true" />
+        </property>
+        <property name="transactionPersistent" type="int">
+            <column name="transaction_persistent" not-null="true" />
+        </property>
+        <property name="fastForward" type="int">
+            <column name="fast_forward" not-null="true" />
+        </property>
+        <property name="frontend" type="int">
+            <column name="frontend" not-null="true" />
+        </property>
+        <property name="maxConnections" type="int">
+            <column name="max_connections" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

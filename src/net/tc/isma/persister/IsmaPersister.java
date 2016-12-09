@@ -45,7 +45,7 @@ public class IsmaPersister
     private static String[] LogsNames = new String[] {"SYSTEM", "CONTROLLER",
                                         "VISUALIZER", "DATAACCESS",
                                         "XMLXSLTRANSFORMATION", "PERFORMANCE",
-                                        "REMOTEACCESS"};
+                                        "REMOTEACCESS", "PROXYSYSTEM","PROXYLISTENER"};
     private static Map Logs = new HashMap();
 
 
@@ -65,7 +65,9 @@ public class IsmaPersister
     private static boolean usehibernate = false;
     private static String mainIsmaConfigurationFile = null;
     private static Map applicationVariables = new Hashtable<String, Object>();
-
+    private static String hibernatConfigFile = null;
+    
+    
     protected IsmaPersister()
 	{
 	}
@@ -659,7 +661,9 @@ public class IsmaPersister
         try{
             if (sessionFactory == null)
             {
-                setSessionFactory(new HSessionFactory());
+            	File file = IsmaPersister.getHibernatConfigFile();
+            	
+            	setSessionFactory(new HSessionFactory(file));
                 return sessionFactory;
             }
         }
@@ -718,6 +722,15 @@ public class IsmaPersister
 	}
 	public static void setUsehibernate(boolean usehibernate) {
 		IsmaPersister.usehibernate = usehibernate;
+	}
+	public static File getHibernatConfigFile() {
+		
+		File conFile = new File(IsmaPersister.MAINROOT +"/"+ hibernatConfigFile) ;
+		
+		return conFile;
+	}
+	public static void setHibernatConfigFile(String hibernatConfigFile) {
+		IsmaPersister.hibernatConfigFile = hibernatConfigFile;
 	}
 
 }

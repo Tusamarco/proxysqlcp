@@ -286,106 +286,106 @@ public class Loader
 		return cpds;
 	}
 
-        public Map loadModules(boolean reload)
-        {
-            try
-            {
-                Map moduleMap = null;
-                moduleMap = (SynchronizedMap)IsmaPersister.getModulesMap();
+//        public Map loadModules(boolean reload)
+//        {
+//            try
+//            {
+//                Map moduleMap = null;
+//                moduleMap = (SynchronizedMap)IsmaPersister.getModulesMap();
+//
+//                IsmaPersister.getLogSystem().info("**** Initializing Modules [Start]");
+//                if (moduleMap != null && !reload)
+//                {
+//                    return moduleMap;
+//                }
+//                moduleMap = new SynchronizedMap();
+//                try
+//                {
+//                    HSession ds = IsmaPersister.getSessionFactory().openSession();
+//                    Transaction tr = ds.beginTransaction();
+//                    String hSql = "select mod from net.tc.isma.data.objects.Module as mod where mod.active='Y' order by mod.moduleNamep";
+//                    List l = ds.findDirect(hSql);
+//                    ListIterator it = l.listIterator();
+//                    while (it.hasNext())
+//                    {
+//                        Module cMod = (Module) it.next();
+//                        cMod.setGroup(getGroups(cMod, ds));
+//
+//                        moduleMap.put(cMod.getModuleName() + "_" + cMod.getApplication(), cMod);
+//
+//                        IsmaPersister.getLogSystem().info("**** Initializing Module [" + cMod.getModuleName() + "] " + cMod.getTgroup());
+//                    }
+//                    IsmaPersister.getLogSystem().info("**** Initializing Modules [End]");
+//                    tr.commit();
+//                    IsmaPersister.getSessionFactory().closeSession(ds);
+//
+//
+//                    return moduleMap;
+//
+//                }
+//                catch (Throwable ex)
+//                {
+//                    IsmaPersister.getLogDataAccess().error(ex);
+//                    ex.printStackTrace();
+//                }
+//                finally
+//                {
+//                    return moduleMap;
+//                }
+//            }
+//            catch (Throwable ex)
+//            {
+//                IsmaPersister.getLogDataAccess().error(ex);
+//                return null;
+//            }
+//
+//        }
 
-                IsmaPersister.getLogSystem().info("**** Initializing Modules [Start]");
-                if (moduleMap != null && !reload)
-                {
-                    return moduleMap;
-                }
-                moduleMap = new SynchronizedMap();
-                try
-                {
-                    HSession ds = IsmaPersister.getSessionFactory().openSession();
-                    Transaction tr = ds.beginTransaction();
-                    String hSql = "select mod from net.tc.isma.data.objects.Module as mod where mod.active='Y' order by mod.moduleNamep";
-                    List l = ds.findDirect(hSql);
-                    ListIterator it = l.listIterator();
-                    while (it.hasNext())
-                    {
-                        Module cMod = (Module) it.next();
-                        cMod.setGroup(getGroups(cMod, ds));
-
-                        moduleMap.put(cMod.getModuleName() + "_" + cMod.getApplication(), cMod);
-
-                        IsmaPersister.getLogSystem().info("**** Initializing Module [" + cMod.getModuleName() + "] " + cMod.getTgroup());
-                    }
-                    IsmaPersister.getLogSystem().info("**** Initializing Modules [End]");
-                    tr.commit();
-                    IsmaPersister.getSessionFactory().closeSession(ds);
-
-
-                    return moduleMap;
-
-                }
-                catch (Throwable ex)
-                {
-                    IsmaPersister.getLogDataAccess().error(ex);
-                    ex.printStackTrace();
-                }
-                finally
-                {
-                    return moduleMap;
-                }
-            }
-            catch (Throwable ex)
-            {
-                IsmaPersister.getLogDataAccess().error(ex);
-                return null;
-            }
-
-        }
-
-        private Set getGroups(Module mod,HSession ds)throws IsmaException
-        {
-            try
-            {
-                IsmaPersister.getLogSystem().info("**** Initializing Groups [Start]");
-                Set groups = new HashSet();
-//                Session ds = null;
-                try
-                {
-//                  ds = FaostatPersister.getSessionFactory().openSession();
-                  Group gp = null;
-                  gp = (Group) ds.load(Group.class, "inputer");
-                  groups.add(gp);
-                  gp = (Group) ds.load(Group.class, "editor");
-                  groups.add(gp);
-                  gp = (Group) ds.load(Group.class, "approver");
-                  groups.add(gp);
-
-                  List l = ds.findDirect("select GXM from net.tc.isma.auth.security.GrpXMod as GXM where GXM.applicationp ='"+ mod.getApplication() +
-                                "' and GXM.modulep = '" + mod.getModuleName() + "' order by GXM.groupnp");
-                   Iterator it = l.listIterator();
-                    while (it.hasNext())
-                    {
-                        GrpXMod groupX2 = (GrpXMod) it.next();
-                        Group grp = (Group)ds.load(Group.class,groupX2.getGroupnp());
-                        groups.add(grp);
-                        IsmaPersister.getLogSystem().info("**** Initializing Modules " + mod.getModuleName() + " adding group: " + grp.getId());
-                    }
-//                    FaostatPersister.getSessionFactory().closeSession();
-                    IsmaPersister.getLogSystem().info("**** Initializing Modules [End]");
-
-                    return groups;
-
-                }
-                catch (Exception ex)
-                {
-                    IsmaPersister.getLogDataAccess().error(ex);
-                }
-            }
-            catch (Exception ex)
-            {
-                IsmaPersister.getLogDataAccess().error(ex);
-                return null;
-            }
-            return null;
-        }
+//        private Set getGroups(Module mod,HSession ds)throws IsmaException
+//        {
+//            try
+//            {
+//                IsmaPersister.getLogSystem().info("**** Initializing Groups [Start]");
+//                Set groups = new HashSet();
+////                Session ds = null;
+//                try
+//                {
+////                  ds = FaostatPersister.getSessionFactory().openSession();
+//                  Group gp = null;
+//                  gp = (Group) ds.load(Group.class, "inputer");
+//                  groups.add(gp);
+//                  gp = (Group) ds.load(Group.class, "editor");
+//                  groups.add(gp);
+//                  gp = (Group) ds.load(Group.class, "approver");
+//                  groups.add(gp);
+//
+//                  List l = ds.findDirect("select GXM from net.tc.isma.auth.security.GrpXMod as GXM where GXM.applicationp ='"+ mod.getApplication() +
+//                                "' and GXM.modulep = '" + mod.getModuleName() + "' order by GXM.groupnp");
+//                   Iterator it = l.listIterator();
+//                    while (it.hasNext())
+//                    {
+//                        GrpXMod groupX2 = (GrpXMod) it.next();
+//                        Group grp = (Group)ds.load(Group.class,groupX2.getGroupnp());
+//                        groups.add(grp);
+//                        IsmaPersister.getLogSystem().info("**** Initializing Modules " + mod.getModuleName() + " adding group: " + grp.getId());
+//                    }
+////                    FaostatPersister.getSessionFactory().closeSession();
+//                    IsmaPersister.getLogSystem().info("**** Initializing Modules [End]");
+//
+//                    return groups;
+//
+//                }
+//                catch (Exception ex)
+//                {
+//                    IsmaPersister.getLogDataAccess().error(ex);
+//                }
+//            }
+//            catch (Exception ex)
+//            {
+//                IsmaPersister.getLogDataAccess().error(ex);
+//                return null;
+//            }
+//            return null;
+//        }
 
 }

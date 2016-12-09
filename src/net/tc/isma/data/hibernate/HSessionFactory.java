@@ -23,6 +23,8 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.engine.jdbc.connections.spi.ConnectionProvider;
 import org.hibernate.metadata.ClassMetadata;
 import org.hibernate.metadata.CollectionMetadata;
+
+import java.io.File;
 import java.io.Serializable;
 import org.hibernate.exception.spi.SQLExceptionConverter;
 
@@ -59,7 +61,21 @@ public class HSessionFactory
 
     }
 
-//    public Databinder openDatabinder()
+    public HSessionFactory(File conf)
+    {
+        configuration = new Configuration();
+        configuration.addCacheableFile(conf);
+        try {
+            sf = configuration.configure().buildSessionFactory();
+        } catch (HibernateException ex)
+        {
+            ex.printStackTrace();
+        }
+
+    }
+
+    
+    //    public Databinder openDatabinder()
 //    {
 //        try
 //        {
@@ -73,8 +89,8 @@ public class HSessionFactory
 
     public HSession openSession()
     {
-//        if(session != null && session.isOpen())
-//            return session;
+        if(session != null && session.isOpen())
+            return session;
         try
         {
         
@@ -93,12 +109,13 @@ public class HSessionFactory
         {
             try
             {
-                if(session.isOpen() && session.connection() != null && !session.connection().isClosed())
+                if(session.isOpen() 
+                		&& session.connection() != null 
+                		&& !session.connection().isClosed())
                   {
                       session.connection().commit();
-                      session.connection().close();
+                      session.close();
                   }
-                session.close();
                 session = null;
             }
             catch (Exception ex)

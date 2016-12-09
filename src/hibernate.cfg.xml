@@ -1,62 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="show_sql">true</property>
-        <property name="use_outer_join">true</property>
-        <!--property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
-        <property name="dialect">cirrus.hibernate.sql.HSQLDialect</property>
-        <property name="connection.url">jdbc:hsqldb:hsql://localhost:9001</property>
-        <property name="connection.pool_size">2</property>
-        <property name="statement_cache.size">200</property-->
-
-        <!-- properties for this SessionFactory only -->
-		<property name="dialect">org.hibernate.dialect.SQLiteDialect</property>
-        <!-- property name="dialect">org.hibernate.dialect.MySQLInnoDBDialect</property -->
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.username">admin</property>
-        <property name="connection.password">admin</property>
-
-        <property name="connection.url">jdbc:mysql://192.168.0.12:3310/main</property>
-
-        <!--property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
-        <property name="dialect">cirrus.hibernate.sql.OracleDialect</property>
-        <property name="connection.username">admin</property>
-        <property name="connection.password">NCP_ADMIN</property>
-
-        <property name="connection.url">jdbc:oracle:thin:@168.202.2.10:1626:FI10T</property-->
-
-        <!--property name="connection.url">jdbc:oracle:thin:@10.0.0.7:1521:home2</property-->
-        <!--property name="connection.pool_size">2</property-->
-        <!--property name="statement_cache.size">200</property-->
-
-        <property name="c3p0.max_size">2</property>
-        <property name="c3p0.min_size">1</property>
-        <property name="c3p0.timeout">160</property>
-        <property name="c3p0.max_statements">200</property>
-
-        <!--property name="hibernate.connection.username">ncp_admin</property>
-        <property name="hibernate.connection.password">ncp_admin</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.Oracle9Dialect</property>
-        <property name="hibernate.connection.url">jdbc:oracle:thin:@168.202.2.11:1521:afidev</property>
-        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property-->
-<!--
-        <mapping resource="net/tc/isma/data/objects/Module.hbm.xml"/>
-        <mapping resource="net/tc/isma/auth/security/User.hbm.xml"/>
-        <mapping resource="net/tc/isma/auth/security/Role.hbm.xml"/>
-        <mapping resource="net/tc/isma/auth/security/RoleV.hbm.xml"/>
-        <mapping resource="net/tc/isma/auth/security/Group.hbm.xml"/>
-        <mapping resource="net/tc/isma/auth/security/GrpXMod.hbm.xml"/>
-        <mapping resource="net/tc/isma/auth/security/Action.hbm.xml"/>
-        <mapping resource="net/tc/isma/workflows/workflow.hbm.xml"/>
-        <mapping resource="net/tc/isma/workflows/Step.hbm.xml"/>
-        <mapping resource="net/tc/isma/workflows/stepXObj.hbm.xml"/>
-        <mapping resource="net/tc/isma/workflows/stepXObjInput.hbm.xml"/>
-
-        <mapping resource="net/tc/isma/utils/Autocount.hbm.xml"/>
-        <mapping resource="net/tc/isma/utils/Autocountx.hbm.xml"/>
--->
- 
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">test</property>
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.0.5:3306/proxy_main</property>
+        <property name="hibernate.connection.username">stress</property>
+        <property name="hibernate.default_schema"></property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        <mapping resource="net/tc/proxysql/MysqlUsers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlQueryRules.hbm.xml" />
+        <mapping resource="net/tc/proxysql/DebugLevels.hbm.xml" />
+        <mapping resource="net/tc/proxysql/Scheduler.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeGlobalVariables.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlReplicationHostgroups.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlReplicationHostgroups.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeScheduler.hbm.xml" />
+        <mapping resource="net/tc/proxysql/GlobalVariables.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlServers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlUsers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlQueryRules.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlServers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlCollations.hbm.xml" />
     </session-factory>
 </hibernate-configuration>

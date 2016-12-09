@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 8-Dec-2016 2:36:44 PM by Hibernate Tools 5.2.0.CR1 -->
+<hibernate-mapping>
+    <class name="net.tc.proxysql.MysqlCollations" table="mysql_collations" catalog="" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="Id" />
+            <generator class="assigned" />
+        </id>
+        <property name="collation" type="string">
+            <column name="Collation" length="100" not-null="true" />
+        </property>
+        <property name="charset" type="string">
+            <column name="Charset" length="100" not-null="true" />
+        </property>
+        <property name="default_" type="string">
+            <column name="Default" length="100" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

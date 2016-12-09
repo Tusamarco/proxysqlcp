@@ -34,11 +34,4 @@
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>org.hibernate.eclipse.console.hibernateNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>server.xml</name>
-			<type>1</type>
-			<location>D:/work/tomcat/apache-tomcat-8.5.8/conf/server.xml</location>
-		</link>
-	</linkedResources>
 </projectDescription>

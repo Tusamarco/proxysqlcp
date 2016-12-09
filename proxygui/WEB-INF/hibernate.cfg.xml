@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <!-- property name="hibernate.connection.url">jdbc:mysql://192.168.0.5:3306/proxy_main</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.username">stress</property>
+		<property name="hibernate.connection.password">test</property -->
+
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.0.12:3310/</property>
+        <property name="hibernate.connection.username">admin</property>
+		<property name="hibernate.connection.password">admin</property>
+        <!-- property name="hibernate.dialect">org.hibernate.dialect.SQLiteDialect</property -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        <property name="hibernate.default_schema"></property>
+
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+		<mapping resource="net/tc/proxysql/MysqlServers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlUsers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlQueryRules.hbm.xml" />
+        <mapping resource="net/tc/proxysql/DebugLevels.hbm.xml" />
+        <mapping resource="net/tc/proxysql/Scheduler.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeGlobalVariables.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlReplicationHostgroups.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlReplicationHostgroups.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeScheduler.hbm.xml" />
+        <mapping resource="net/tc/proxysql/GlobalVariables.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlUsers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlQueryRules.hbm.xml" />
+        <mapping resource="net/tc/proxysql/RuntimeMysqlServers.hbm.xml" />
+        <mapping resource="net/tc/proxysql/MysqlCollations.hbm.xml" />
+        
+    </session-factory>
+</hibernate-configuration>

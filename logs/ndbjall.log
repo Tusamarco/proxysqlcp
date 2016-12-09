@@ -1,0 +1,9 @@
+
+[DATAACCESS - ERROR]  09 Dec 2016 12:41:12,930:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : null : origin(null)
+[DATAACCESS - ERROR]  09 Dec 2016 12:47:42,070:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : hibernate.cfg.xml : origin(hibernate.cfg.xml)
+[DATAACCESS - ERROR]  09 Dec 2016 12:48:05,762:DATAACCESS = org.hibernate.boot.MappingNotFoundException: Mapping (FILE) not found : hibernate.cfg.xml : origin(hibernate.cfg.xml)
+[DATAACCESS - ERROR]  09 Dec 2016 12:48:05,762:DATAACCESS = java.lang.NullPointerException
+[DATAACCESS - ERROR]  09 Dec 2016 13:03:14,277:DATAACCESS = java.lang.NoClassDefFoundError: antlr/RecognitionException
+[DATAACCESS - ERROR]  09 Dec 2016 14:01:53,201:DATAACCESS = java.lang.NullPointerException
+[DATAACCESS - ERROR]  09 Dec 2016 14:04:21,830:DATAACCESS = java.lang.NullPointerException
+[DATAACCESS - ERROR]  09 Dec 2016 14:05:39,952:DATAACCESS = java.lang.NullPointerException

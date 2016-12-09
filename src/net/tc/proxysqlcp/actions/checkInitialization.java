@@ -22,16 +22,22 @@ import java.sql.Statement;
 
 import javax.servlet.http.*;
 
+import org.hibernate.Transaction;
+
 import com.mysql.jdbc.Connection;
 
 import net.tc.isma.actions.*;
 import net.tc.isma.actions.generic.*;
+import net.tc.isma.data.hibernate.HSession;
 import net.tc.isma.persister.*;
 import net.tc.isma.resources.*;
 
+import java.util.List;
+import java.util.ListIterator;
 import java.util.Map;
 import net.tc.isma.utils.SynchronizedMap;
 import net.tc.mysql.cluster.cp.CpInizializer;
+import net.tc.proxysql.MysqlServers;
 import net.tc.isma.request.generic.requestImpl;
 
 public class checkInitialization extends actionImpl {
@@ -111,9 +117,12 @@ public class checkInitialization extends actionImpl {
         if (req.getParameter("reinit") != null && !req.getParameter("reinit").equals("") && Integer.parseInt(req.getParameter("reinit")) > 0)
            reInit = true;
 
+        
+        loadProxyServers(true);
+        
 //       if(mgm != null && listnerHandlers != null && !reInit)
 //       {
-           resultLocal.put("inizilized", Boolean.valueOf(true));
+// TO BE REMOVED FOR RELOAD           resultLocal.put("inizilized", Boolean.valueOf(true));
 //           resultLocal.put("NDBMGMListeners", listnerHandlers);
            return (Results) resultLocal;
 //       }
@@ -232,5 +241,60 @@ public class checkInitialization extends actionImpl {
         return null;
 
     }
+  public Map loadProxyServers(boolean reload)
+  {
+      try
+      {
+          Map serverMap = null;
+          serverMap = (SynchronizedMap)IsmaPersister.getModulesMap();
+
+          IsmaPersister.getLogByName("PROXYSYSTEM").info("**** Initializing Servers [Start]");
+          if (serverMap != null && !reload)
+          {
+              return serverMap;
+          }
+          serverMap = new SynchronizedMap();
+          try
+          {
+              HSession ds = IsmaPersister.getSessionFactory().openSession();
+              Transaction tr = ds.beginTransaction();
+              String hSql = "select mod from net.tc.proxysql.MysqlServers as mod where mod.id.hostgroupId=500 order by mod.id.hostname";
+              List l = ds.findDirect(hSql);
+              ListIterator it = l.listIterator();
+              while (it.hasNext())
+              {
+                  MysqlServers cMod = (MysqlServers) it.next();
+//                  cMod.setGroup(getGroups(cMod, ds));
+                  String id =cMod.getId().getHostgroupId() + "_" + cMod.getId().getHostname()+"_"+cMod.getId().getPort();
+                  serverMap.put(id, cMod);
+
+                  IsmaPersister.getLogByName("PROXYSYSTEM").info("**** Initializing Servers [" + id + "] " + cMod.toString());
+              }
+              IsmaPersister.getLogByName("PROXYSYSTEM").info("**** Initializing Servers [End]");
+              tr.commit();
+              IsmaPersister.getSessionFactory().closeSession(ds);
+
+
+              return serverMap;
+
+          }
+          catch (Throwable ex)
+          {
+              IsmaPersister.getLogDataAccess().error(ex);
+              ex.printStackTrace();
+          }
+          finally
+          {
+              return serverMap;
+          }
+      }
+      catch (Throwable ex)
+      {
+          IsmaPersister.getLogDataAccess().error(ex);
+          return null;
+      }
+
+  }
+
 }
 

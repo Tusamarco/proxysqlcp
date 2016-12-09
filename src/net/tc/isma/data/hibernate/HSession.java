@@ -49,7 +49,11 @@ import org.hibernate.criterion.Example;
  */
 public class HSession  extends JdbcDatastoreSession implements Session
 {
-    Session ses;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	Session ses;
     Connection conn;
 
     HSessionFactory dsf;
@@ -74,8 +78,8 @@ public class HSession  extends JdbcDatastoreSession implements Session
         {
             if(ses.isConnected())
             {
-                ((HSession)ses).connection().close();
-                ses.disconnect();
+//                ((SessionImpl)ses).connection().close();
+//                ses.disconnect();
                 ses.close();
             }
         }
@@ -344,7 +348,7 @@ public class HSession  extends JdbcDatastoreSession implements Session
    {
        try
        {
-           return ((HSession)ses).connection();
+           return ((SessionImpl)ses).connection();
        }
        catch (Exception ex)
        {
